@@ -387,8 +387,8 @@ element = wait.until(EC.presence_of_element_located((By.ID, "search")))
 #### 4.3.7. Tancar el navegador
 Quan hagis acabat, és important tancar el navegador:
 
+```python
 driver.quit()
-Aquests són alguns dels mètodes més comuns que pots utilitzar amb Selenium. Si tens alguna pregunta específica o necessites més detalls sobre algun mètode, no dubtis a dir-m'ho!
+```
 
 
-Espero que aquest document et sigui útil! Si necessites més informació o tens alguna altra pregunta, estic aquí per ajudar-te.
