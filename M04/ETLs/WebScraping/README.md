@@ -180,6 +180,36 @@ dades = extractor.extract(html)
 print(dades)
 ```
 
+### 2.5 Descarregar el contingut d'una pàgina web amb la llibreria REQUESTS
+
+Per descarregar el contingut d'una pàgina web amb la llibreria requests de Python, pots seguir aquests passos:
+
+Instal·lar la llibreria requests:
+```python
+pip install requests
+```
+
+Utilitzar requests per descarregar el contingut:
+```python 
+import requests
+
+# URL de la pàgina web que vols descarregar
+url = 'https://www.example.com'
+
+# Fer una petició GET a la pàgina web
+response = requests.get(url)
+
+# Comprovar si la petició ha estat exitosa
+if response.status_code == 200:
+    # Obtenir el contingut de la pàgina
+    content = response.text
+    print(content)
+else:
+    print(f'Error: {response.status_code}')
+```
+
+Aquest codi fa una petició GET a la URL especificada i, si la petició és exitosa (codi de resposta 200), imprimeix el contingut de la pàgina web.
+
 ## 3 Eines per la creació dels YAML files de manera fàcil i ràpida
 
 Utilitzar el plugin de Chrome de selectorlib és una manera molt pràctica de generar fitxers YAML per extreure dades de pàgines web. Aquest plugin facilita la selecció d'elements directament des del navegador i genera automàticament el YAML necessari. Aquí tens una guia pas a pas per utilitzar-lo:
@@ -244,4 +274,41 @@ html = """
 dades = extractor.extract(html)
 print(dades)
 ```
+# Llibreria Selenium de Python
 
+## Què és Selenium?
+
+Selenium és una llibreria de codi obert que permet automatitzar navegadors web. És molt utilitzada per a proves automàtiques de llocs web, scraping de dades i altres tasques que requereixen la interacció amb un navegador.
+
+## Instal·lació
+
+Per instal·lar Selenium, pots utilitzar pip:
+
+```bash
+pip install selenium
+```
+
+## Utilitzant el driver de Chrome
+Per utilitzar Selenium amb el navegador Chrome, necessitaràs el ChromeDriver. Pots descarregar-lo des del [lloc oficial](https://googlechromelabs.github.io/chrome-for-testing/) i assegurar-te que està en el teu PATH.
+
+Exemple de codi
+A continuació, es mostra un exemple de com utilitzar Selenium amb el driver de Chrome:
+
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+# Inicialitzar el driver de Chrome
+driver = webdriver.Chrome()
+
+# Obrir una pàgina web
+driver.get("https://www.example.com")
+
+# Trobar un element per ID i enviar text
+element = driver.find_element(By.ID, "search")
+element.send_keys("Selenium" + Keys.RETURN)
+
+# Tancar el navegador
+driver.quit()
+```
