@@ -274,13 +274,13 @@ html = """
 dades = extractor.extract(html)
 print(dades)
 ```
-# Llibreria Selenium de Python
 
-## Què és Selenium?
+
+## 4 Llibreria Selenium de Python. Què és Selenium?
 
 Selenium és una llibreria de codi obert que permet automatitzar navegadors web. És molt utilitzada per a proves automàtiques de llocs web, scraping de dades i altres tasques que requereixen la interacció amb un navegador.
 
-## Instal·lació
+### 4.1 Instal·lació
 
 Per instal·lar Selenium, pots utilitzar pip:
 
@@ -288,7 +288,7 @@ Per instal·lar Selenium, pots utilitzar pip:
 pip install selenium
 ```
 
-## Utilitzant el driver de Chrome
+### 4.2 Utilitzant el driver de Chrome
 Per utilitzar Selenium amb el navegador Chrome, necessitaràs el ChromeDriver. Pots descarregar-lo des del [lloc oficial](https://googlechromelabs.github.io/chrome-for-testing/) i assegurar-te que està en el teu PATH.
 
 Exemple de codi
@@ -312,3 +312,83 @@ element.send_keys("Selenium" + Keys.RETURN)
 # Tancar el navegador
 driver.quit()
 ```
+### 4.3 Principals Mètodes de la Llibreria Selenium amb Python
+
+#### 4.3.1. Inicialització del WebDriver
+Per començar, necessites inicialitzar el WebDriver per al navegador que vulguis utilitzar (per exemple, Chrome):
+
+```python
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+```
+
+#### 4.3.2. Obrir una pàgina web
+Per navegar a una URL específica:
+```python
+driver.get("https://www.example.com")
+```
+
+#### 4.3.3. Trobar elements
+
+Selenium proporciona diversos mètodes per trobar elements a la pàgina:
+
+- find_element(By.ID, "id"): Troba un element pel seu ID.
+- find_element(By.NAME, "name"): Troba un element pel seu nom.
+- find_element(By.XPATH, "xpath"): Troba un element pel seu XPath.
+- find_element(By.CSS_SELECTOR, "css_selector"): Troba un element pel seu selector CSS.
+
+Exemple:
+
+```python
+from selenium.webdriver.common.by import By
+
+element = driver.find_element(By.ID, "search")
+```
+
+#### 4.3.4. Interactuar amb elements
+Un cop has trobat un element, pots interactuar amb ell:
+
+- send_keys("text"): Envia text a un camp d'entrada.
+- click(): Fa clic en un botó o enllaç.
+- clear(): Neteja el contingut d'un camp d'entrada.
+
+Exemple:
+```python
+element.send_keys("Selenium")
+element.submit()  # Envia el formulari
+```
+
+#### 4.3.5. Obtenir informació dels elements
+Pots obtenir informació dels elements, com ara el text o els atributs:
+
+- text: Obté el text visible d'un element.
+- get_attribute("attribute_name"): Obté el valor d'un atribut.
+
+Exemple:
+
+```python
+text = element.text
+href = element.get_attribute("href")
+```
+
+#### 4.3.6. Esperes
+Per assegurar-te que els elements estan disponibles abans d'interactuar amb ells, pots utilitzar esperes explícites:
+
+```python
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+wait = WebDriverWait(driver, 10)
+element = wait.until(EC.presence_of_element_located((By.ID, "search")))
+```
+
+#### 4.3.7. Tancar el navegador
+Quan hagis acabat, és important tancar el navegador:
+
+driver.quit()
+Aquests són alguns dels mètodes més comuns que pots utilitzar amb Selenium. Si tens alguna pregunta específica o necessites més detalls sobre algun mètode, no dubtis a dir-m'ho!
+
+
+Espero que aquest document et sigui útil! Si necessites més informació o tens alguna altra pregunta, estic aquí per ajudar-te.
