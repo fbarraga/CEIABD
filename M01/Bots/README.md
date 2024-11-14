@@ -3,6 +3,7 @@
 - Curs: CE IA i BigData
 - Mòdul: M04 Sistemes de BigData
 - Autor: Francesc Barragán
+- Rev: 1.0 11.11.2024
 - Testejat amb Python version 3.12.3 i llibreries de Telegram-BOT v21.7
 - Creació d'un bot simple
 
