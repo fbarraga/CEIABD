@@ -1,10 +1,11 @@
 # Webscraping Python
 
-- CE IA i BigData
-- M04 Sistemes de BigData
-- Francesc Barragán Nov 2024
+- Curs: CE IA i BigData
+- Mòdul: M04 Sistemes de BigData
+- Autor: Francesc Barragán
 - Rev: 1.0 11.11.2024
 - Testejat amb Python 3.12
+- Webscraping d'una pàgina simple
 
 ## 1 Introducció
 
@@ -16,9 +17,9 @@ El DOM (Document Object Model) és una representació estructurada d'un document
 
 ### 2.1 Característiques principals del DOM
 
-Estructura en arbre: El DOM representa el document com un arbre de nodes, on cada node pot ser un element, un atribut o un text.
-Interactivitat: Permet modificar el contingut i l'estructura del document en temps real, afegint, eliminant o canviant elements.
-Accés programàtic: Els llenguatges de programació poden utilitzar el DOM per accedir i manipular els elements de la pàgina.
+- **Estructura en arbre**: El DOM representa el document com un arbre de nodes, on cada node pot ser un element, un atribut o un text.
+- **Interactivitat**: Permet modificar el contingut i l'estructura del document en temps real, afegint, eliminant o canviant elements.
+- **Accés programàtic**: Els llenguatges de programació poden utilitzar el DOM per accedir i manipular els elements de la pàgina.
 
 Exemple:
 Imagina una pàgina HTML senzilla:

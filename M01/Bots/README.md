@@ -1,10 +1,10 @@
 # Bots de Telegram
 
-* CE IABD 
-* Creació d'un bot simple
-* Actualitzat per Francesc Barragan amb noves llibreries de Telegram-BOT v21.7  llibreries a Octubre 2024
-* Testejat amb Python version 3.12.3
-
+- Curs: CE IA i BigData
+- Mòdul: M04 Sistemes de BigData
+- Autor: Francesc Barragán
+- Testejat amb Python version 3.12.3 i llibreries de Telegram-BOT v21.7
+- Creació d'un bot simple
 
 Telegram és una aplicació de missatgeria instantània gratuïta i feta amb programari lliure que permet enviar i rebre missatges a través d’Internet. Un dels seus objectius és proveir una major privadesa i seguretat en comparació amb altres aplicacions similars. Telegram permet crear grups, enviar imatges o vídeos i programar bots (robots) que atenen peticions dels usuaris.
 
@@ -177,11 +177,11 @@ Al nostre bot també podem demanar-li que faci altres opcions per defecte, com p
 
 ```python 
 async def poll(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Sends a predefined poll"""
-    questions = ["Muy Malo", "Malo", "Bueno", "Muy Bueno"]
+    """Envia una enquesta predefinida"""
+    questions = ["Molt Dolent", "Dolent", "Bo", "Molt bo"]
     message = await context.bot.send_poll(
         update.effective_chat.id,
-        "Que tipo de estudiante eres?",
+        "Quin tipus d'estudiant ets?",
         questions,
         is_anonymous=False,
         allows_multiple_answers=True,
