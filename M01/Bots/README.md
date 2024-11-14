@@ -222,7 +222,8 @@ Fixeu-vos que aquesta funció també escriu els valors d’update i de context. 
 
 Considereu que volem dotar el nostre bot d’una comanda /trad per traduir textos a l’anglès. Per exemple:
 
-Per a fer-ho, instal·leu el mòdul `googletrans` amb o el modul 'translator'
+Per a fer-ho, instal·leu el mòdul `googletrans` amb o el modul 'translator'.
+
 **Note** El modul googletrans funciona amb llibreria httpx 0.13 que es incompatible a dia d'avui amb la de Telegram per lo que millor utilitzar el modul translator (mirar el fitxer bot_trad.py
 
 ```python
