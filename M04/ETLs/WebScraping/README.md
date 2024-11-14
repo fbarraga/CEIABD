@@ -179,7 +179,7 @@ dades = extractor.extract(html)
 print(dades)
 ```
 
-### 2.5 Eines per la creació dels YAML files de manera fàcil i ràpida
+## 3 Eines per la creació dels YAML files de manera fàcil i ràpida
 
 Utilitzar el plugin de Chrome de selectorlib és una manera molt pràctica de generar fitxers YAML per extreure dades de pàgines web. Aquest plugin facilita la selecció d'elements directament des del navegador i genera automàticament el YAML necessari. Aquí tens una guia pas a pas per utilitzar-lo:
 
@@ -191,14 +191,16 @@ Ves a la Chrome Web Store i cerca "selectorlib".
 Obre la pàgina web:
 Navega fins a la pàgina web de la qual vols extreure dades.
 3. Activa el plugin:
-Fes clic a la icona del plugin de selectorlib a la barra d'eines del navegador per activar-lo.
+Fes clic a la icona del plugin de selectorlib a la barra d'eines del navegador per activar-lo o selecciona'l des de les eines de desenvolupador.
 4. Selecciona els elements:
 Utilitza el cursor per seleccionar els elements de la pàgina que vols extreure. Quan seleccionis un element, el plugin et permetrà definir el tipus de dada (Text, Link, etc.) i afegir-lo a la configuració YAML.
 5. Genera el YAML:
 Un cop hagis seleccionat tots els elements desitjats, el plugin generarà automàticament el fitxer YAML amb els selectores CSS o XPath corresponents.
 6. Desa el YAML:
 Desa el fitxer YAML generat al teu ordinador. Aquest fitxer es pot utilitzar directament amb la llibreria selectorlib en Python.
-7. Exemple pràctic:
+
+
+Exemple pràctic:
 Suposem que has seleccionat un títol i alguns paràgrafs d'una pàgina web. El plugin generarà un fitxer YAML semblant a aquest:
 
 ```yaml
