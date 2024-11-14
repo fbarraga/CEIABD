@@ -3,7 +3,7 @@
 - CE IA i BigData
 - M04 Sistemes de BigData
 - Francesc Barragán Nov 2024
-- Rev: 1.0
+- Rev: 1.0 11.11.2024
 - Testejat amb Python 3.12
 
 ## 1 Introducció
@@ -148,7 +148,7 @@ for p in paragraphs:
 
 ### 2.4 SELECTORLIB
 
-La llibreria [`selectorlib`](https://selectorlib.com/) a Python s'utilitza per extreure dades de pàgines HTML. Aquesta llibreria llegeix un fitxer YAML que conté selectores CSS o Xpath i, a partir d'aquests, extreu les dades en un diccionari.
+La llibreria [`selectorlib`](https://selectorlib.com/) a Python s'utilitza per extreure dades de pàgines HTML. Aquesta llibreria llegeix un fitxer YAML que conté selectors CSS o Xpath i, a partir d'aquests, extreu les dades en un diccionari.
 
 Com funciona:
 
