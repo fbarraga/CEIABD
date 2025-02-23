@@ -180,6 +180,36 @@ dades = extractor.extract(html)
 print(dades)
 ```
 
+### 2.5 Descarregar el contingut d'una pàgina web amb la llibreria REQUESTS
+
+Per descarregar el contingut d'una pàgina web amb la llibreria requests de Python, pots seguir aquests passos:
+
+Instal·lar la llibreria requests:
+```python
+pip install requests
+```
+
+Utilitzar requests per descarregar el contingut:
+```python 
+import requests
+
+# URL de la pàgina web que vols descarregar
+url = 'https://www.example.com'
+
+# Fer una petició GET a la pàgina web
+response = requests.get(url)
+
+# Comprovar si la petició ha estat exitosa
+if response.status_code == 200:
+    # Obtenir el contingut de la pàgina
+    content = response.text
+    print(content)
+else:
+    print(f'Error: {response.status_code}')
+```
+
+Aquest codi fa una petició GET a la URL especificada i, si la petició és exitosa (codi de resposta 200), imprimeix el contingut de la pàgina web.
+
 ## 3 Eines per la creació dels YAML files de manera fàcil i ràpida
 
 Utilitzar el plugin de Chrome de selectorlib és una manera molt pràctica de generar fitxers YAML per extreure dades de pàgines web. Aquest plugin facilita la selecció d'elements directament des del navegador i genera automàticament el YAML necessari. Aquí tens una guia pas a pas per utilitzar-lo:
@@ -244,4 +274,121 @@ html = """
 dades = extractor.extract(html)
 print(dades)
 ```
+
+
+## 4 Llibreria Selenium de Python. Què és Selenium?
+
+Selenium és una llibreria de codi obert que permet automatitzar navegadors web. És molt utilitzada per a proves automàtiques de llocs web, scraping de dades i altres tasques que requereixen la interacció amb un navegador.
+
+### 4.1 Instal·lació
+
+Per instal·lar Selenium, pots utilitzar pip:
+
+```bash
+pip install selenium
+```
+
+### 4.2 Utilitzant el driver de Chrome
+Per utilitzar Selenium amb el navegador Chrome, necessitaràs el ChromeDriver. Pots descarregar-lo des del [lloc oficial](https://googlechromelabs.github.io/chrome-for-testing/) i assegurar-te que està en el teu PATH.
+
+Exemple de codi
+A continuació, es mostra un exemple de com utilitzar Selenium amb el driver de Chrome:
+
+```python
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
+# Inicialitzar el driver de Chrome
+driver = webdriver.Chrome()
+
+# Obrir una pàgina web
+driver.get("https://www.example.com")
+
+# Trobar un element per ID i enviar text
+element = driver.find_element(By.ID, "search")
+element.send_keys("Selenium" + Keys.RETURN)
+
+# Tancar el navegador
+driver.quit()
+```
+### 4.3 Principals Mètodes de la Llibreria Selenium amb Python
+
+#### 4.3.1. Inicialització del WebDriver
+Per començar, necessites inicialitzar el WebDriver per al navegador que vulguis utilitzar (per exemple, Chrome):
+
+```python
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+```
+
+#### 4.3.2. Obrir una pàgina web
+Per navegar a una URL específica:
+```python
+driver.get("https://www.example.com")
+```
+
+#### 4.3.3. Trobar elements
+
+Selenium proporciona diversos mètodes per trobar elements a la pàgina:
+
+- find_element(By.ID, "id"): Troba un element pel seu ID.
+- find_element(By.NAME, "name"): Troba un element pel seu nom.
+- find_element(By.XPATH, "xpath"): Troba un element pel seu XPath.
+- find_element(By.CSS_SELECTOR, "css_selector"): Troba un element pel seu selector CSS.
+
+Exemple:
+
+```python
+from selenium.webdriver.common.by import By
+
+element = driver.find_element(By.ID, "search")
+```
+
+#### 4.3.4. Interactuar amb elements
+Un cop has trobat un element, pots interactuar amb ell:
+
+- send_keys("text"): Envia text a un camp d'entrada.
+- click(): Fa clic en un botó o enllaç.
+- clear(): Neteja el contingut d'un camp d'entrada.
+
+Exemple:
+```python
+element.send_keys("Selenium")
+element.submit()  # Envia el formulari
+```
+
+#### 4.3.5. Obtenir informació dels elements
+Pots obtenir informació dels elements, com ara el text o els atributs:
+
+- text: Obté el text visible d'un element.
+- get_attribute("attribute_name"): Obté el valor d'un atribut.
+
+Exemple:
+
+```python
+text = element.text
+href = element.get_attribute("href")
+```
+
+#### 4.3.6. Esperes
+Per assegurar-te que els elements estan disponibles abans d'interactuar amb ells, pots utilitzar esperes explícites:
+
+```python
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+wait = WebDriverWait(driver, 10)
+element = wait.until(EC.presence_of_element_located((By.ID, "search")))
+```
+
+#### 4.3.7. Tancar el navegador
+Quan hagis acabat, és important tancar el navegador:
+
+```python
+driver.quit()
+```
+
 
