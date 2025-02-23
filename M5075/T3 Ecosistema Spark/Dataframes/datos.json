@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ana",
+        "edad": 25,
+        "ciudad": "Madrid"
+    },
+    {
+        "id": 2,
+        "nombre": "Luis",
+        "edad": 30,
+        "ciudad": "Barcelona"
+    },
+    {
+        "id": 3,
+        "nombre": "Marta",
+        "edad": 22,
+        "ciudad": "Sevilla"
+    },
+    {
+        "id": 4,
+        "nombre": "Javier",
+        "edad": 28,
+        "ciudad": "Bilbao"
+    },
+    {
+        "id": 5,
+        "nombre": "Elena",
+        "edad": 35,
+        "ciudad": "Valencia"
+    },
+    {
+        "id": 6,
+        "nombre": "Carlos",
+        "edad": 40,
+        "ciudad": "Zaragoza"
+    },
+    {
+        "id": 7,
+        "nombre": "Sara",
+        "edad": 27,
+        "ciudad": "Granada"
+    },
+    {
+        "id": 8,
+        "nombre": "Pablo",
+        "edad": 33,
+        "ciudad": "Málaga"
+    },
+    {
+        "id": 9,
+        "nombre": "Carmen",
+        "edad": 29,
+        "ciudad": "Santander"
+    },
+    {
+        "id": 10,
+        "nombre": "Diego",
+        "edad": 31,
+        "ciudad": "Alicante"
+    }
+]
