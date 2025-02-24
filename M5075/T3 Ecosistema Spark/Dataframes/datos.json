@@ -1,62 +1,500 @@
-[
-    {
-        "id": 1,
-        "nombre": "Ana",
-        "edad": 25,
-        "ciudad": "Madrid"
-    },
-    {
-        "id": 2,
-        "nombre": "Luis",
-        "edad": 30,
-        "ciudad": "Barcelona"
-    },
-    {
-        "id": 3,
-        "nombre": "Marta",
-        "edad": 22,
-        "ciudad": "Sevilla"
-    },
-    {
-        "id": 4,
-        "nombre": "Javier",
-        "edad": 28,
-        "ciudad": "Bilbao"
-    },
-    {
-        "id": 5,
-        "nombre": "Elena",
-        "edad": 35,
-        "ciudad": "Valencia"
-    },
-    {
-        "id": 6,
-        "nombre": "Carlos",
-        "edad": 40,
-        "ciudad": "Zaragoza"
-    },
-    {
-        "id": 7,
-        "nombre": "Sara",
-        "edad": 27,
-        "ciudad": "Granada"
-    },
-    {
-        "id": 8,
-        "nombre": "Pablo",
-        "edad": 33,
-        "ciudad": "Málaga"
-    },
-    {
-        "id": 9,
-        "nombre": "Carmen",
-        "edad": 29,
-        "ciudad": "Santander"
-    },
-    {
-        "id": 10,
-        "nombre": "Diego",
-        "edad": 31,
-        "ciudad": "Alicante"
-    }
-]
+{"nombre":"María Ángeles Alegria Manrique","apellido":"Novoa","ciudad":"Murcia","sueldo":1253}
+{"nombre":"Cándido Mosquera Tormo","apellido":"Coello","ciudad":"La Coruña","sueldo":4484}
+{"nombre":"Edmundo Hurtado Castelló","apellido":"Rey","ciudad":"Guipúzcoa","sueldo":2775}
+{"nombre":"Gabriela Tamayo","apellido":"Nuñez","ciudad":"Melilla","sueldo":3311}
+{"nombre":"Clementina Garcia Sánchez","apellido":"Segarra","ciudad":"Albacete","sueldo":3298}
+{"nombre":"Milagros Crespi Hernández","apellido":"Cuevas","ciudad":"Barcelona","sueldo":4885}
+{"nombre":"Jacinta Osuna Pardo","apellido":"Soto","ciudad":"Lleida","sueldo":5996}
+{"nombre":"Alba del Arenas","apellido":"Alvarado","ciudad":"Zaragoza","sueldo":2374}
+{"nombre":"Eva María Aragonés Ayuso","apellido":"Calzada","ciudad":"La Rioja","sueldo":3537}
+{"nombre":"Ascensión Blasco Murillo","apellido":"Guzmán","ciudad":"León","sueldo":5506}
+{"nombre":"Herberto del Casares","apellido":"Tormo","ciudad":"Guipúzcoa","sueldo":2379}
+{"nombre":"Nereida Bas","apellido":"Rocha","ciudad":"Ourense","sueldo":5899}
+{"nombre":"Artemio Linares","apellido":"Alcaraz","ciudad":"Santa Cruz de Tenerife","sueldo":4653}
+{"nombre":"Cebrián Cañizares Valcárcel","apellido":"Río","ciudad":"Toledo","sueldo":5600}
+{"nombre":"Florentina de Valenzuela","apellido":"Arnau","ciudad":"Guipúzcoa","sueldo":3409}
+{"nombre":"Delfina del Medina","apellido":"Vallejo","ciudad":"Jaén","sueldo":1623}
+{"nombre":"María José Machado Adán","apellido":"Tur","ciudad":"Guadalajara","sueldo":2016}
+{"nombre":"Gerardo Ropero-Serna","apellido":"Parejo","ciudad":"Ciudad","sueldo":1608}
+{"nombre":"Luís Linares-Viana","apellido":"Rivas","ciudad":"Cáceres","sueldo":4566}
+{"nombre":"Calixto Clavero-Delgado","apellido":"Díez","ciudad":"Lugo","sueldo":2508}
+{"nombre":"Jordán Marcos Montserrat","apellido":"Iriarte","ciudad":"Melilla","sueldo":1994}
+{"nombre":"Griselda de Vilar","apellido":"Rojas","ciudad":"Ávila","sueldo":1374}
+{"nombre":"Inmaculada Chaparro Santamaría","apellido":"Canet","ciudad":"La Coruña","sueldo":2258}
+{"nombre":"Nicodemo Albero Otero","apellido":"Lucena","ciudad":"Cantabria","sueldo":4146}
+{"nombre":"Loida Miralles-Silva","apellido":"Belda","ciudad":"Segovia","sueldo":3924}
+{"nombre":"Corona Cisneros-Nogués","apellido":"Barriga","ciudad":"Alicante","sueldo":5014}
+{"nombre":"Loreto del Galan","apellido":"Amorós","ciudad":"Ceuta","sueldo":4996}
+{"nombre":"Mateo Sureda","apellido":"Matas","ciudad":"Madrid","sueldo":1179}
+{"nombre":"Hugo Hipólito Gallart Muñoz","apellido":"Serra","ciudad":"Guipúzcoa","sueldo":1845}
+{"nombre":"Almudena Calzada Samper","apellido":"Julián","ciudad":"Castellón","sueldo":5680}
+{"nombre":"Regina Cózar Perea","apellido":"Pol","ciudad":"Toledo","sueldo":1880}
+{"nombre":"Máxima Romero-Moll","apellido":"Cobo","ciudad":"Jaén","sueldo":2703}
+{"nombre":"Octavio Angulo","apellido":"Pinilla","ciudad":"Navarra","sueldo":2822}
+{"nombre":"Carlos Zaragoza Linares","apellido":"Giménez","ciudad":"Huesca","sueldo":5529}
+{"nombre":"Blas Andres Rueda","apellido":"Castilla","ciudad":"La Rioja","sueldo":3806}
+{"nombre":"Nando Orozco","apellido":"Donoso","ciudad":"Teruel","sueldo":3934}
+{"nombre":"Tecla de Gonzalo","apellido":"Murillo","ciudad":"León","sueldo":3779}
+{"nombre":"Felipe Alcalá Tamarit","apellido":"Quintana","ciudad":"Las Palmas","sueldo":1968}
+{"nombre":"Pastora Soriano Frutos","apellido":"Ballester","ciudad":"Cantabria","sueldo":5267}
+{"nombre":"Azahar de Figueroa","apellido":"Bolaños","ciudad":"La Coruña","sueldo":2727}
+{"nombre":"Aurelia Hierro Saura","apellido":"Comas","ciudad":"Vizcaya","sueldo":4055}
+{"nombre":"Almudena Palomar Salinas","apellido":"Guerrero","ciudad":"Burgos","sueldo":3758}
+{"nombre":"Carmina Ferrándiz Piquer","apellido":"Zapata","ciudad":"Burgos","sueldo":1454}
+{"nombre":"Raquel Cardona Peralta","apellido":"Esteve","ciudad":"Zaragoza","sueldo":4883}
+{"nombre":"Priscila Manuel Blasco","apellido":"Matas","ciudad":"Vizcaya","sueldo":1179}
+{"nombre":"Ester Cuevas Tirado","apellido":"Fernandez","ciudad":"Pontevedra","sueldo":4601}
+{"nombre":"Anastasia Galvez","apellido":"Murillo","ciudad":"Álava","sueldo":5064}
+{"nombre":"Haydée Cardona Castillo","apellido":"Bellido","ciudad":"Almería","sueldo":4719}
+{"nombre":"Samuel Tudela Montaña","apellido":"Andres","ciudad":"Zamora","sueldo":3354}
+{"nombre":"Vicenta Taboada Madrid","apellido":"Alarcón","ciudad":"Álava","sueldo":1690}
+{"nombre":"Emelina Ferrán Sáenz","apellido":"Águila","ciudad":"Castellón","sueldo":1664}
+{"nombre":"Encarnacion Ferrer","apellido":"Galán","ciudad":"Ávila","sueldo":3322}
+{"nombre":"Eloísa Lastra-Franch","apellido":"Marquez","ciudad":"Ceuta","sueldo":2118}
+{"nombre":"Pepita Mate-Prado","apellido":"Gibert","ciudad":"Cuenca","sueldo":3978}
+{"nombre":"Amarilis Chita Pinto Pastor","apellido":"Ledesma","ciudad":"Sevilla","sueldo":2715}
+{"nombre":"Isabel Exposito Aller","apellido":"Vila","ciudad":"Cuenca","sueldo":5997}
+{"nombre":"Paz Gascón-Molins","apellido":"Ripoll","ciudad":"Teruel","sueldo":5251}
+{"nombre":"Vicenta de Ayala","apellido":"Cabo","ciudad":"Lugo","sueldo":1890}
+{"nombre":"Nilda Giner Cano","apellido":"Aroca","ciudad":"Soria","sueldo":1553}
+{"nombre":"Jenaro Aragón Abellán","apellido":"Luís","ciudad":"Melilla","sueldo":2330}
+{"nombre":"Maristela Talavera Carlos","apellido":"Benavides","ciudad":"Guadalajara","sueldo":1585}
+{"nombre":"Lucía Bernad Alcalá","apellido":"Bartolomé","ciudad":"Lleida","sueldo":4037}
+{"nombre":"Manuelita de Roig","apellido":"Soria","ciudad":"Burgos","sueldo":4248}
+{"nombre":"Fermín Nogueira Calleja","apellido":"Peña","ciudad":"Murcia","sueldo":4119}
+{"nombre":"Florinda Valverde","apellido":"Infante","ciudad":"Barcelona","sueldo":3478}
+{"nombre":"Lara Uría Donoso","apellido":"Lobato","ciudad":"La Coruña","sueldo":4037}
+{"nombre":"Esmeralda Montalbán Torrens","apellido":"Tudela","ciudad":"León","sueldo":3720}
+{"nombre":"Amada Bonilla Lillo","apellido":"Neira","ciudad":"Navarra","sueldo":3439}
+{"nombre":"Felicia Briones Águila","apellido":"Calatayud","ciudad":"Segovia","sueldo":1816}
+{"nombre":"Efraín Montenegro","apellido":"Pagès","ciudad":"Córdoba","sueldo":1266}
+{"nombre":"Carina Rebollo Cano","apellido":"Morales","ciudad":"Burgos","sueldo":5742}
+{"nombre":"Cayetana Criado Montaña","apellido":"Barreda","ciudad":"Teruel","sueldo":5876}
+{"nombre":"Daniela Agudo Soria","apellido":"Sotelo","ciudad":"Barcelona","sueldo":3217}
+{"nombre":"Sebastián Berrocal","apellido":"Acuña","ciudad":"Salamanca","sueldo":2809}
+{"nombre":"Guiomar Mónica Galiano Barco","apellido":"Chaves","ciudad":"La Rioja","sueldo":2068}
+{"nombre":"Nilo Cantero-Mas","apellido":"Sastre","ciudad":"Madrid","sueldo":2847}
+{"nombre":"Danilo Dávila Albero","apellido":"Exposito","ciudad":"Cuenca","sueldo":3115}
+{"nombre":"Isabel Aragón Rivas","apellido":"Jordá","ciudad":"Ávila","sueldo":4808}
+{"nombre":"Dafne Alemany Escobar","apellido":"Espinosa","ciudad":"La Coruña","sueldo":3057}
+{"nombre":"Íñigo Bueno Miró","apellido":"Bellido","ciudad":"Las Palmas","sueldo":4393}
+{"nombre":"Valero Vives Alberto","apellido":"Arregui","ciudad":"Almería","sueldo":3789}
+{"nombre":"Cebrián Fernandez Perelló","apellido":"Briones","ciudad":"Huelva","sueldo":1975}
+{"nombre":"Amparo del Bonilla","apellido":"Daza","ciudad":"Santa Cruz de Tenerife","sueldo":5531}
+{"nombre":"Paula Pina Muñoz","apellido":"Losa","ciudad":"Soria","sueldo":4052}
+{"nombre":"Isidora Sanabria Mínguez","apellido":"Zurita","ciudad":"Madrid","sueldo":4034}
+{"nombre":"Antonia Lobo","apellido":"Rivas","ciudad":"Valencia","sueldo":4579}
+{"nombre":"Laura Vidal Alemán","apellido":"Toro","ciudad":"Zamora","sueldo":5841}
+{"nombre":"Jordán Néstor Bayo Guijarro","apellido":"Ramírez","ciudad":"La Rioja","sueldo":4431}
+{"nombre":"Celia Palau Narváez","apellido":"Hoyos","ciudad":"Málaga","sueldo":5614}
+{"nombre":"Rosalinda Aramburu Zurita","apellido":"Manuel","ciudad":"Almería","sueldo":3263}
+{"nombre":"Balduino Germán Díez Río","apellido":"Cornejo","ciudad":"Vizcaya","sueldo":2662}
+{"nombre":"Jessica Galván Guzmán","apellido":"Torrents","ciudad":"Albacete","sueldo":3383}
+{"nombre":"Lucas de Santana","apellido":"Millán","ciudad":"Guadalajara","sueldo":1519}
+{"nombre":"Silvio Lucena Simó","apellido":"Blazquez","ciudad":"Barcelona","sueldo":4793}
+{"nombre":"Urbano Escalona Bayón","apellido":"Fajardo","ciudad":"Alicante","sueldo":3721}
+{"nombre":"Rosario Susana Santamaria Tomas","apellido":"Amo","ciudad":"Alicante","sueldo":5755}
+{"nombre":"Noa Piña Montoya","apellido":"Batalla","ciudad":"Barcelona","sueldo":5320}
+{"nombre":"Pastora Anguita-Fabra","apellido":"Pineda","ciudad":"Baleares","sueldo":3257}
+{"nombre":"Tamara Riera Viña","apellido":"Gisbert","ciudad":"Teruel","sueldo":2101}
+{"nombre":"Noelia Griselda Iriarte Buendía","apellido":"Puerta","ciudad":"Valladolid","sueldo":2448}
+{"nombre":"Cecilia Pagès Chico","apellido":"Codina","ciudad":"Castellón","sueldo":3923}
+{"nombre":"Conrado Hurtado Donoso","apellido":"Mariscal","ciudad":"Guadalajara","sueldo":3433}
+{"nombre":"Rómulo Poncio Blanco Novoa","apellido":"Merino","ciudad":"Zamora","sueldo":3833}
+{"nombre":"Tomás Yáñez Gimenez","apellido":"Bárcena","ciudad":"Ciudad","sueldo":3807}
+{"nombre":"María Ángeles Arcos Gelabert","apellido":"Reguera","ciudad":"Lugo","sueldo":5956}
+{"nombre":"Sofía Blanch Valentín","apellido":"Donaire","ciudad":"Pontevedra","sueldo":5471}
+{"nombre":"Martín Arnaiz-Leon","apellido":"Ayllón","ciudad":"Madrid","sueldo":4561}
+{"nombre":"Elodia Gonzalo Iñiguez","apellido":"Flores","ciudad":"Valencia","sueldo":3398}
+{"nombre":"Lorena Salas Fabregat","apellido":"Cortés","ciudad":"Cantabria","sueldo":2587}
+{"nombre":"Edelmiro Corral Cisneros","apellido":"Blanca","ciudad":"Murcia","sueldo":3731}
+{"nombre":"Matías Pi Aroca","apellido":"Tejero","ciudad":"Ávila","sueldo":5364}
+{"nombre":"Noemí Macías Rosselló","apellido":"Lorenzo","ciudad":"Madrid","sueldo":2588}
+{"nombre":"Nando Fabregat-Salvà","apellido":"Briones","ciudad":"Cádiz","sueldo":4179}
+{"nombre":"Azucena Iglesias-Suarez","apellido":"Perea","ciudad":"Álava","sueldo":4230}
+{"nombre":"Pepita María Dolores Manuel Clemente","apellido":"Gascón","ciudad":"Albacete","sueldo":3317}
+{"nombre":"Demetrio Solsona","apellido":"Garcés","ciudad":"Segovia","sueldo":3326}
+{"nombre":"Hermenegildo Agustín Durán","apellido":"Belda","ciudad":"Cádiz","sueldo":1114}
+{"nombre":"Remedios Izaguirre Oliver","apellido":"Lozano","ciudad":"Toledo","sueldo":4177}
+{"nombre":"Guadalupe Madrid-Cabañas","apellido":"Bilbao","ciudad":"Ciudad","sueldo":1459}
+{"nombre":"Amancio Albert Benito Sans","apellido":"Tejada","ciudad":"Segovia","sueldo":1286}
+{"nombre":"Quirino Maestre Bas","apellido":"Alegre","ciudad":"Guipúzcoa","sueldo":4879}
+{"nombre":"Noemí Urrutia Rivera","apellido":"Izquierdo","ciudad":"Granada","sueldo":2701}
+{"nombre":"Zacarías Novoa-Sancho","apellido":"Pozuelo","ciudad":"Valladolid","sueldo":5279}
+{"nombre":"Venceslás de Expósito","apellido":"Ramis","ciudad":"Murcia","sueldo":4997}
+{"nombre":"Arsenio Bayón Frías","apellido":"Prieto","ciudad":"Barcelona","sueldo":5099}
+{"nombre":"Sigfrido Larrañaga Téllez","apellido":"Cánovas","ciudad":"Badajoz","sueldo":5548}
+{"nombre":"Esmeralda de Bou","apellido":"Donoso","ciudad":"Murcia","sueldo":2303}
+{"nombre":"Albina Vallés","apellido":"Alegre","ciudad":"Álava","sueldo":5153}
+{"nombre":"Aureliano Garriga Vilaplana","apellido":"Escamilla","ciudad":"Teruel","sueldo":1555}
+{"nombre":"Esteban Prieto Garriga","apellido":"Solsona","ciudad":"Lugo","sueldo":3924}
+{"nombre":"Isaura Escolano","apellido":"Pastor","ciudad":"Melilla","sueldo":4547}
+{"nombre":"Paz Mateo Cabañas","apellido":"Daza","ciudad":"La Coruña","sueldo":5259}
+{"nombre":"Mohamed de Nevado","apellido":"Carlos","ciudad":"Cuenca","sueldo":4826}
+{"nombre":"Florentino Adán Paz Cortina","apellido":"Guillen","ciudad":"Murcia","sueldo":1887}
+{"nombre":"Catalina de Rubio","apellido":"Marí","ciudad":"Vizcaya","sueldo":3606}
+{"nombre":"Laura de Asensio","apellido":"Folch","ciudad":"La Coruña","sueldo":5914}
+{"nombre":"Jose Carlos Valentín Perales","apellido":"Cruz","ciudad":"Vizcaya","sueldo":5722}
+{"nombre":"Constanza Pina Fernández","apellido":"Cervantes","ciudad":"Baleares","sueldo":5092}
+{"nombre":"Seve Peralta Menéndez","apellido":"Elías","ciudad":"Ourense","sueldo":2940}
+{"nombre":"Ángel Ledesma Terrón","apellido":"Escrivá","ciudad":"Murcia","sueldo":1119}
+{"nombre":"Febe Bejarano-Osorio","apellido":"Sierra","ciudad":"Pontevedra","sueldo":5729}
+{"nombre":"Melchor Alba","apellido":"Pinedo","ciudad":"Navarra","sueldo":4713}
+{"nombre":"Julia Salgado Vallejo","apellido":"Álamo","ciudad":"Sevilla","sueldo":4474}
+{"nombre":"Ceferino de Conesa","apellido":"Pomares","ciudad":"Zamora","sueldo":5082}
+{"nombre":"Gonzalo Pozuelo Quiroga","apellido":"Fiol","ciudad":"Baleares","sueldo":2557}
+{"nombre":"Lucho Hierro Villalobos","apellido":"Jaume","ciudad":"Guadalajara","sueldo":3203}
+{"nombre":"Calixta Orozco Madrigal","apellido":"Martínez","ciudad":"Santa Cruz de Tenerife","sueldo":3531}
+{"nombre":"Américo Adrián Ramón Barceló","apellido":"Espejo","ciudad":"Girona","sueldo":1663}
+{"nombre":"Damián Mariño Castellanos","apellido":"Boix","ciudad":"Burgos","sueldo":5563}
+{"nombre":"Flora Eulalia Calvo Seguí","apellido":"Agustín","ciudad":"Cantabria","sueldo":5946}
+{"nombre":"Seve Melero-Vazquez","apellido":"Barco","ciudad":"Ávila","sueldo":5783}
+{"nombre":"Griselda Machado Infante","apellido":"Franco","ciudad":"Burgos","sueldo":5160}
+{"nombre":"Hernando Aguilar Carreras","apellido":"Huguet","ciudad":"Huesca","sueldo":5838}
+{"nombre":"Cipriano Marcos-Tello","apellido":"Fuster","ciudad":"Zamora","sueldo":2983}
+{"nombre":"Jesusa Crespi-Plana","apellido":"Batlle","ciudad":"Huelva","sueldo":3781}
+{"nombre":"Consuelo Tenorio Gonzalez","apellido":"Zamorano","ciudad":"Granada","sueldo":5454}
+{"nombre":"Joel del Pino","apellido":"Jaén","ciudad":"Huesca","sueldo":4267}
+{"nombre":"Claudia del Llanos","apellido":"Roig","ciudad":"Ciudad","sueldo":3555}
+{"nombre":"Teófila Toledo Río","apellido":"Luz","ciudad":"Granada","sueldo":1043}
+{"nombre":"Camila García-Viñas","apellido":"Antón","ciudad":"Zaragoza","sueldo":2093}
+{"nombre":"Pacífica Aguiló Sureda","apellido":"Piquer","ciudad":"Asturias","sueldo":1691}
+{"nombre":"Brunilda Valenzuela Bautista","apellido":"Salvador","ciudad":"La Rioja","sueldo":3923}
+{"nombre":"Adoración de Perea","apellido":"Coca","ciudad":"Burgos","sueldo":5619}
+{"nombre":"Armida Mas Ferrera","apellido":"Murcia","ciudad":"Vizcaya","sueldo":5626}
+{"nombre":"Miguel Ángel de Ríos","apellido":"Barroso","ciudad":"Barcelona","sueldo":1339}
+{"nombre":"Javiera Baró Revilla","apellido":"Amigó","ciudad":"Valladolid","sueldo":1997}
+{"nombre":"Susanita Azcona Sáez","apellido":"Baquero","ciudad":"Guadalajara","sueldo":1158}
+{"nombre":"Jenaro Ferrando Juan","apellido":"Cuenca","ciudad":"Salamanca","sueldo":1448}
+{"nombre":"Domingo Luís Borrego","apellido":"Ferrández","ciudad":"Málaga","sueldo":5220}
+{"nombre":"Olivia Uriarte-Avilés","apellido":"Barros","ciudad":"Albacete","sueldo":3705}
+{"nombre":"Alonso Porras Lopez","apellido":"Alba","ciudad":"Castellón","sueldo":2248}
+{"nombre":"Juan Bautista Ayllón Fuertes","apellido":"Menéndez","ciudad":"Soria","sueldo":3117}
+{"nombre":"Quique Sotelo Porcel","apellido":"Adán","ciudad":"Huesca","sueldo":1901}
+{"nombre":"Sonia Fernandez-Lobo","apellido":"Corral","ciudad":"Lleida","sueldo":2958}
+{"nombre":"Rosalía Agudo Infante","apellido":"Cabanillas","ciudad":"Melilla","sueldo":5530}
+{"nombre":"Jenaro Gisbert","apellido":"Alberto","ciudad":"Madrid","sueldo":5590}
+{"nombre":"Ismael Falcó","apellido":"Cerro","ciudad":"Girona","sueldo":1457}
+{"nombre":"Plácido Navarrete Román","apellido":"Muñoz","ciudad":"Baleares","sueldo":3427}
+{"nombre":"Lope Leal Acevedo","apellido":"Escrivá","ciudad":"Asturias","sueldo":3985}
+{"nombre":"Jennifer Anaya Cuenca","apellido":"Silva","ciudad":"Melilla","sueldo":5517}
+{"nombre":"Roberta Roda Amorós","apellido":"Torrijos","ciudad":"Cuenca","sueldo":3983}
+{"nombre":"Florentina Martorell Roca","apellido":"Villanueva","ciudad":"Alicante","sueldo":4384}
+{"nombre":"Almudena Dueñas Murcia","apellido":"Landa","ciudad":"Santa Cruz de Tenerife","sueldo":2992}
+{"nombre":"Mamen Mascaró","apellido":"Vera","ciudad":"Melilla","sueldo":3821}
+{"nombre":"Samanta Agudo-Ribas","apellido":"Reig","ciudad":"Badajoz","sueldo":4778}
+{"nombre":"Nicolasa Lilia Zorrilla Uribe","apellido":"Buendía","ciudad":"Castellón","sueldo":5843}
+{"nombre":"Eliseo Salamanca Gimenez","apellido":"Echeverría","ciudad":"Tarragona","sueldo":1757}
+{"nombre":"Inmaculada de Lobato","apellido":"Torrijos","ciudad":"Sevilla","sueldo":3445}
+{"nombre":"Fortunato Samper Pedrero","apellido":"Patiño","ciudad":"Álava","sueldo":4605}
+{"nombre":"Adolfo Echeverría","apellido":"Lobato","ciudad":"Murcia","sueldo":5912}
+{"nombre":"René Rosado Carbajo","apellido":"Morillo","ciudad":"Cuenca","sueldo":4857}
+{"nombre":"Luisina Ramón Amor","apellido":"Roca","ciudad":"Sevilla","sueldo":3376}
+{"nombre":"Fátima Pía Amores Román","apellido":"Requena","ciudad":"Ciudad","sueldo":1718}
+{"nombre":"Amor Vázquez Sevilla","apellido":"Esparza","ciudad":"Ceuta","sueldo":4053}
+{"nombre":"Ceferino Cornejo Ramón","apellido":"Anaya","ciudad":"Vizcaya","sueldo":5634}
+{"nombre":"Sosimo Pujadas Albero","apellido":"Exposito","ciudad":"Almería","sueldo":4195}
+{"nombre":"Jenaro Moreno Cañizares","apellido":"Villegas","ciudad":"Granada","sueldo":3252}
+{"nombre":"Aitor Cornelio Bárcena Carpio","apellido":"Pablo","ciudad":"Valladolid","sueldo":1755}
+{"nombre":"Lucho Tovar Hoz","apellido":"Mármol","ciudad":"Madrid","sueldo":1644}
+{"nombre":"Manuela Cepeda-Fabregat","apellido":"Criado","ciudad":"Navarra","sueldo":4611}
+{"nombre":"Enrique Seguí Adán","apellido":"Rivero","ciudad":"Cáceres","sueldo":1912}
+{"nombre":"Antonio del Aragonés","apellido":"Sáenz","ciudad":"León","sueldo":3588}
+{"nombre":"Calisto Romeu Nogueira","apellido":"Juárez","ciudad":"Toledo","sueldo":4250}
+{"nombre":"Olga Antúnez Oliva","apellido":"Vargas","ciudad":"Girona","sueldo":5880}
+{"nombre":"Maite Etelvina Andrade Dominguez","apellido":"Noriega","ciudad":"Ávila","sueldo":1399}
+{"nombre":"Eufemia Baena Madrid","apellido":"Ortega","ciudad":"Navarra","sueldo":3765}
+{"nombre":"Guadalupe Juárez Ribera","apellido":"Sedano","ciudad":"Salamanca","sueldo":4506}
+{"nombre":"María Cristina Cuéllar Guillen","apellido":"Dalmau","ciudad":"La Coruña","sueldo":5778}
+{"nombre":"Jonatan Ibañez Carranza","apellido":"Cantero","ciudad":"Cáceres","sueldo":3470}
+{"nombre":"Vidal Villalobos Carnero","apellido":"Rodrigo","ciudad":"Murcia","sueldo":5293}
+{"nombre":"Isidora Emiliana Saavedra Andrade","apellido":"Cerezo","ciudad":"Ourense","sueldo":4388}
+{"nombre":"Adrián Falcón Cañellas","apellido":"Echeverría","ciudad":"Zamora","sueldo":1545}
+{"nombre":"Esther Guardiola-Acevedo","apellido":"Nogueira","ciudad":"Guadalajara","sueldo":3451}
+{"nombre":"Gaspar Arévalo","apellido":"Bustamante","ciudad":"Sevilla","sueldo":4032}
+{"nombre":"Pepito Guerra Sandoval","apellido":"Conde","ciudad":"Huelva","sueldo":4056}
+{"nombre":"Anna del Grau","apellido":"Izaguirre","ciudad":"Cáceres","sueldo":2520}
+{"nombre":"Pepita Martí Avilés","apellido":"Gallart","ciudad":"Ourense","sueldo":3220}
+{"nombre":"Micaela Tenorio-Paz","apellido":"Rosales","ciudad":"Barcelona","sueldo":5116}
+{"nombre":"Cruz Julián Valentín","apellido":"Colomer","ciudad":"León","sueldo":4937}
+{"nombre":"Lucía del Canals","apellido":"Arteaga","ciudad":"Alicante","sueldo":5451}
+{"nombre":"Heliodoro Martinez Bravo","apellido":"Grande","ciudad":"Vizcaya","sueldo":3560}
+{"nombre":"Máxima Chus Jove Bolaños","apellido":"Iniesta","ciudad":"Badajoz","sueldo":4830}
+{"nombre":"Hilario Viñas Llobet","apellido":"Huertas","ciudad":"Teruel","sueldo":4580}
+{"nombre":"Ainoa Arteaga","apellido":"Ramis","ciudad":"Guipúzcoa","sueldo":3640}
+{"nombre":"Juana Carnero-Lladó","apellido":"Hidalgo","ciudad":"Girona","sueldo":1351}
+{"nombre":"Lourdes Tejera","apellido":"Garcia","ciudad":"Girona","sueldo":4085}
+{"nombre":"Lucio Ramiro Pérez Prado","apellido":"Ortiz","ciudad":"Ourense","sueldo":5225}
+{"nombre":"Isaías Menendez Quintanilla","apellido":"Camps","ciudad":"Almería","sueldo":1129}
+{"nombre":"Poncio Andreu Arroyo","apellido":"Sandoval","ciudad":"Santa Cruz de Tenerife","sueldo":3273}
+{"nombre":"Iker del Marin","apellido":"Campillo","ciudad":"Guipúzcoa","sueldo":2586}
+{"nombre":"Paulina Sedano Vilar","apellido":"Porta","ciudad":"La Rioja","sueldo":3409}
+{"nombre":"Cintia Alberto Ribes","apellido":"Mendoza","ciudad":"Las Palmas","sueldo":4803}
+{"nombre":"Anacleto Planas Sans","apellido":"Morante","ciudad":"Cáceres","sueldo":2921}
+{"nombre":"Nadia Roman Villanueva","apellido":"Carreño","ciudad":"La Coruña","sueldo":5831}
+{"nombre":"Hilario del Ferrández","apellido":"Carrillo","ciudad":"Santa Cruz de Tenerife","sueldo":4580}
+{"nombre":"Gilberto Andrés","apellido":"Galiano","ciudad":"Palencia","sueldo":5281}
+{"nombre":"Hortensia Redondo Lillo","apellido":"Guitart","ciudad":"Asturias","sueldo":3751}
+{"nombre":"Luis Miguel Rosado","apellido":"Torres","ciudad":"Sevilla","sueldo":1979}
+{"nombre":"Claudio Tamayo-Gil","apellido":"Flor","ciudad":"Zaragoza","sueldo":2022}
+{"nombre":"Salomón Ibañez Castelló","apellido":"Berenguer","ciudad":"Albacete","sueldo":2297}
+{"nombre":"Marcia Guillén Gárate","apellido":"Águila","ciudad":"Córdoba","sueldo":3812}
+{"nombre":"África Zabala Recio","apellido":"Ferrero","ciudad":"Segovia","sueldo":5508}
+{"nombre":"Herminio Camps-Juárez","apellido":"Rozas","ciudad":"Madrid","sueldo":1423}
+{"nombre":"Jacobo Alsina-Espada","apellido":"Vilalta","ciudad":"Castellón","sueldo":1624}
+{"nombre":"Cintia Encarnita Hernando Ramos","apellido":"Osorio","ciudad":"Toledo","sueldo":3534}
+{"nombre":"Adolfo Estévez","apellido":"Valls","ciudad":"Valencia","sueldo":5930}
+{"nombre":"Baudelio Amor Avilés Cabezas","apellido":"Ordóñez","ciudad":"Cuenca","sueldo":5351}
+{"nombre":"Trinidad Escolano Uribe","apellido":"Duarte","ciudad":"Álava","sueldo":5049}
+{"nombre":"Nicolasa de Rebollo","apellido":"Zabala","ciudad":"Burgos","sueldo":4925}
+{"nombre":"Araceli Puente-Verdugo","apellido":"Vizcaíno","ciudad":"Lleida","sueldo":5414}
+{"nombre":"Rosa Portero Carvajal","apellido":"Escudero","ciudad":"Sevilla","sueldo":4904}
+{"nombre":"Eusebia Tejero Pina","apellido":"Llamas","ciudad":"La Rioja","sueldo":1849}
+{"nombre":"Alondra Suárez Paniagua","apellido":"Salvà","ciudad":"Sevilla","sueldo":3963}
+{"nombre":"Luciano Roda Alfonso","apellido":"Hervás","ciudad":"Guipúzcoa","sueldo":5422}
+{"nombre":"Marino Valls Fonseca","apellido":"Ochoa","ciudad":"Alicante","sueldo":4567}
+{"nombre":"Albano Blázquez Vélez","apellido":"Cabo","ciudad":"Salamanca","sueldo":3721}
+{"nombre":"Nazario Saura Avilés","apellido":"Maza","ciudad":"Badajoz","sueldo":4290}
+{"nombre":"Esther de Santos","apellido":"Vilanova","ciudad":"Cantabria","sueldo":2474}
+{"nombre":"Sebastián Carmona Valderrama","apellido":"Amores","ciudad":"Alicante","sueldo":3770}
+{"nombre":"Prudencia Ortega Barreda","apellido":"Saavedra","ciudad":"Toledo","sueldo":2187}
+{"nombre":"Victoriano Pedraza Lamas","apellido":"Llopis","ciudad":"Albacete","sueldo":4894}
+{"nombre":"Juan Antonio Reguera Meléndez","apellido":"Pedrosa","ciudad":"Córdoba","sueldo":2974}
+{"nombre":"Carmelo Casal-Carretero","apellido":"Méndez","ciudad":"Cuenca","sueldo":1695}
+{"nombre":"Toño Bartolomé Tomas Bustos","apellido":"Codina","ciudad":"Huelva","sueldo":2545}
+{"nombre":"Maristela Colom-Giner","apellido":"Lobato","ciudad":"Girona","sueldo":1579}
+{"nombre":"Jimena Criado Morillo","apellido":"Núñez","ciudad":"Baleares","sueldo":1176}
+{"nombre":"Hernando Carro Sales","apellido":"Aller","ciudad":"Cáceres","sueldo":4949}
+{"nombre":"Fabricio Parejo Reguera","apellido":"Ureña","ciudad":"Almería","sueldo":3003}
+{"nombre":"Benigna del Téllez","apellido":"Orozco","ciudad":"Baleares","sueldo":1052}
+{"nombre":"Samuel Zurita Diego","apellido":"Lastra","ciudad":"Lleida","sueldo":3771}
+{"nombre":"Reyes Duque","apellido":"Girona","ciudad":"Albacete","sueldo":5511}
+{"nombre":"Desiderio de Barreda","apellido":"Barrio","ciudad":"Huesca","sueldo":5851}
+{"nombre":"Evita Aitana Reina Diez","apellido":"Plana","ciudad":"Sevilla","sueldo":4333}
+{"nombre":"Enrique Losada Perales","apellido":"Sanz","ciudad":"Guadalajara","sueldo":3870}
+{"nombre":"Hortensia Tudela-Aguilera","apellido":"Contreras","ciudad":"La Coruña","sueldo":1078}
+{"nombre":"Isidora Arévalo Talavera","apellido":"Arnau","ciudad":"Zamora","sueldo":4597}
+{"nombre":"Lalo de Prats","apellido":"Riera","ciudad":"Jaén","sueldo":3962}
+{"nombre":"Angélica Cobo Llobet","apellido":"Cuadrado","ciudad":"Alicante","sueldo":4931}
+{"nombre":"Ezequiel del Ariza","apellido":"Jerez","ciudad":"Lleida","sueldo":5143}
+{"nombre":"Alexandra Osorio Lladó","apellido":"Pastor","ciudad":"La Rioja","sueldo":4453}
+{"nombre":"Yolanda Natalia Carrillo Fernandez","apellido":"Gallardo","ciudad":"Girona","sueldo":2752}
+{"nombre":"Duilio Menéndez Guerrero","apellido":"Gordillo","ciudad":"Ceuta","sueldo":2612}
+{"nombre":"Elba Caro Alvarez","apellido":"Bernat","ciudad":"Zamora","sueldo":4085}
+{"nombre":"Noé Tamayo Pedraza","apellido":"Estrada","ciudad":"La Rioja","sueldo":3174}
+{"nombre":"Jesusa Uriarte Pino","apellido":"Torre","ciudad":"Alicante","sueldo":3712}
+{"nombre":"Rafa Rico Sancho","apellido":"Villegas","ciudad":"Melilla","sueldo":1099}
+{"nombre":"Borja Pacheco-Seco","apellido":"Barceló","ciudad":"Pontevedra","sueldo":1172}
+{"nombre":"Jose Ignacio Lobo Blanch","apellido":"Blanca","ciudad":"Almería","sueldo":4971}
+{"nombre":"Salomón del Olivé","apellido":"Boix","ciudad":"Guipúzcoa","sueldo":5359}
+{"nombre":"Olivia Pereira Barbero","apellido":"Rius","ciudad":"Álava","sueldo":4306}
+{"nombre":"Ester Herminia Montes Valentín","apellido":"Aramburu","ciudad":"Asturias","sueldo":3050}
+{"nombre":"Manu Quero Amores","apellido":"Zapata","ciudad":"Ceuta","sueldo":4459}
+{"nombre":"Eliseo Casado Mariño","apellido":"Gutierrez","ciudad":"Cádiz","sueldo":4779}
+{"nombre":"Martina Salvador Porcel","apellido":"Corbacho","ciudad":"Huesca","sueldo":2236}
+{"nombre":"Otilia Catalá Ramón","apellido":"Solano","ciudad":"Palencia","sueldo":1696}
+{"nombre":"Amor Iniesta","apellido":"Maestre","ciudad":"Navarra","sueldo":3511}
+{"nombre":"Ulises Buenaventura Barrios Roman","apellido":"Bosch","ciudad":"Guadalajara","sueldo":4123}
+{"nombre":"Natividad Melisa Pellicer Vega","apellido":"Guerra","ciudad":"Tarragona","sueldo":4205}
+{"nombre":"Lucía Canet Poza","apellido":"Iñiguez","ciudad":"Ourense","sueldo":4950}
+{"nombre":"Felisa Cazorla Ferrán","apellido":"Ropero","ciudad":"Tarragona","sueldo":4869}
+{"nombre":"Leandra Lledó Leon","apellido":"Pedraza","ciudad":"Lugo","sueldo":4041}
+{"nombre":"Manuelita Falcó Serrano","apellido":"Mariño","ciudad":"Cáceres","sueldo":2090}
+{"nombre":"Antonia Florencia Guerra Vizcaíno","apellido":"Manzanares","ciudad":"Zaragoza","sueldo":4258}
+{"nombre":"Virginia Domínguez Arias","apellido":"Salmerón","ciudad":"Cáceres","sueldo":3385}
+{"nombre":"Constanza Bermejo","apellido":"Capdevila","ciudad":"Melilla","sueldo":5491}
+{"nombre":"Angelina Aránzazu Pujol Hervás","apellido":"Castelló","ciudad":"Castellón","sueldo":5556}
+{"nombre":"Evangelina Quintana Cabeza","apellido":"Aramburu","ciudad":"Soria","sueldo":4193}
+{"nombre":"Bartolomé Hoz","apellido":"Villegas","ciudad":"Zamora","sueldo":1828}
+{"nombre":"Toribio Llobet Amigó","apellido":"Sarabia","ciudad":"Palencia","sueldo":4655}
+{"nombre":"Marcos Lerma Cases","apellido":"Rojas","ciudad":"Cádiz","sueldo":1023}
+{"nombre":"Cándida Agustí Villaverde","apellido":"Salamanca","ciudad":"Ciudad","sueldo":1009}
+{"nombre":"Natalio Arnal Peñas","apellido":"Castrillo","ciudad":"Barcelona","sueldo":1829}
+{"nombre":"Apolonia Ocaña Cardona","apellido":"Valle","ciudad":"Segovia","sueldo":2859}
+{"nombre":"Ceferino Navas Borja","apellido":"Criado","ciudad":"Melilla","sueldo":2963}
+{"nombre":"Graciana de Rodrigo","apellido":"Nogueira","ciudad":"Ceuta","sueldo":3634}
+{"nombre":"Azucena Mate Zurita","apellido":"Múgica","ciudad":"Córdoba","sueldo":2063}
+{"nombre":"Juan Luis Cánovas Company","apellido":"Sanjuan","ciudad":"Guipúzcoa","sueldo":2873}
+{"nombre":"Trinidad Verdú Aller","apellido":"Alfonso","ciudad":"La Rioja","sueldo":5910}
+{"nombre":"Rufino Sergio Llabrés Carreras","apellido":"Cerezo","ciudad":"Albacete","sueldo":3416}
+{"nombre":"Amparo Alba-Martorell","apellido":"Barreda","ciudad":"Castellón","sueldo":5357}
+{"nombre":"Rodolfo Solé Guerrero","apellido":"Amat","ciudad":"Jaén","sueldo":2257}
+{"nombre":"Azahar Sotelo","apellido":"Martí","ciudad":"Toledo","sueldo":1202}
+{"nombre":"Luna Beltran Quesada","apellido":"Donaire","ciudad":"Ceuta","sueldo":5925}
+{"nombre":"Ricardo Diéguez Collado","apellido":"Torrent","ciudad":"Badajoz","sueldo":4166}
+{"nombre":"Fátima Zurita Plaza","apellido":"Vergara","ciudad":"Almería","sueldo":4402}
+{"nombre":"Leonor Perea Ros","apellido":"Iriarte","ciudad":"Albacete","sueldo":4969}
+{"nombre":"Aurelio Fabricio Sanchez Valle","apellido":"Arcos","ciudad":"Badajoz","sueldo":4896}
+{"nombre":"Georgina Ferrero Bustos","apellido":"Mendoza","ciudad":"Asturias","sueldo":1865}
+{"nombre":"Cayetana de Arregui","apellido":"Zaragoza","ciudad":"Ourense","sueldo":4992}
+{"nombre":"Fulgencio Arranz Carranza","apellido":"Salmerón","ciudad":"Ourense","sueldo":4108}
+{"nombre":"Geraldo Carmona Porras","apellido":"Gisbert","ciudad":"Segovia","sueldo":3123}
+{"nombre":"Severo Garcés Grande","apellido":"Tirado","ciudad":"Barcelona","sueldo":3234}
+{"nombre":"Anselmo Adán Leiva","apellido":"Pozuelo","ciudad":"Segovia","sueldo":3031}
+{"nombre":"Sol Murillo Machado","apellido":"Barrio","ciudad":"Huelva","sueldo":4854}
+{"nombre":"Eustaquio Manzanares Nicolau","apellido":"Simó","ciudad":"Cáceres","sueldo":3415}
+{"nombre":"Juana Rincón","apellido":"Marcos","ciudad":"Asturias","sueldo":4484}
+{"nombre":"Trini Llano","apellido":"Báez","ciudad":"Castellón","sueldo":1158}
+{"nombre":"Calixto Vara Quevedo","apellido":"Gallo","ciudad":"La Rioja","sueldo":5526}
+{"nombre":"Adoración Rosaura Sierra Vall","apellido":"Hurtado","ciudad":"Ávila","sueldo":4016}
+{"nombre":"Gloria Batalla-Meléndez","apellido":"Daza","ciudad":"Zaragoza","sueldo":4588}
+{"nombre":"Miguela Gil Sanz","apellido":"Pons","ciudad":"Tarragona","sueldo":1553}
+{"nombre":"Haroldo Villalobos Bertrán","apellido":"Pardo","ciudad":"Valladolid","sueldo":2036}
+{"nombre":"Alondra Palmer Barrios","apellido":"Ros","ciudad":"Huelva","sueldo":2643}
+{"nombre":"Simón Hurtado","apellido":"Solís","ciudad":"Ciudad","sueldo":1058}
+{"nombre":"Godofredo Chema Hernando Amores","apellido":"Boada","ciudad":"Huesca","sueldo":1920}
+{"nombre":"Carmela de Corbacho","apellido":"Sainz","ciudad":"Guipúzcoa","sueldo":3553}
+{"nombre":"Ximena Valentín Benet","apellido":"Soler","ciudad":"Salamanca","sueldo":2208}
+{"nombre":"Ildefonso Carpio Nieto","apellido":"Bernad","ciudad":"Castellón","sueldo":1695}
+{"nombre":"Mayte Consuela Llopis Ocaña","apellido":"Calvo","ciudad":"Jaén","sueldo":2726}
+{"nombre":"Mauricio Montesinos Patiño","apellido":"Falcón","ciudad":"Castellón","sueldo":4120}
+{"nombre":"Mercedes del Feliu","apellido":"Cueto","ciudad":"Jaén","sueldo":2720}
+{"nombre":"Marianela Fuster Crespi","apellido":"Cervera","ciudad":"Las Palmas","sueldo":1897}
+{"nombre":"Marcos Díez","apellido":"Benavente","ciudad":"Ceuta","sueldo":1063}
+{"nombre":"Josep Montalbán Sanjuan","apellido":"Llorens","ciudad":"Ceuta","sueldo":2314}
+{"nombre":"Elena Jordá","apellido":"Cabo","ciudad":"Navarra","sueldo":5795}
+{"nombre":"Basilio Gilberto Rodriguez Castells","apellido":"Valentín","ciudad":"La Rioja","sueldo":3542}
+{"nombre":"Luis Ángel Campo Falcó","apellido":"Vall","ciudad":"Soria","sueldo":3901}
+{"nombre":"Marcelino Marin Escolano","apellido":"Ayala","ciudad":"Ourense","sueldo":4376}
+{"nombre":"María Luisa Barberá Arenas","apellido":"Álamo","ciudad":"Guipúzcoa","sueldo":5030}
+{"nombre":"Florentino Escobar Salamanca","apellido":"Monreal","ciudad":"Córdoba","sueldo":5729}
+{"nombre":"Eliana Ferreras Coloma","apellido":"Martí","ciudad":"Teruel","sueldo":4385}
+{"nombre":"Rufino del Castell","apellido":"Ferrán","ciudad":"Cádiz","sueldo":3869}
+{"nombre":"Nélida del Araujo","apellido":"Esteve","ciudad":"La Rioja","sueldo":3546}
+{"nombre":"Nicolasa Prudencia Luís Nicolau","apellido":"Heredia","ciudad":"Málaga","sueldo":2754}
+{"nombre":"Nuria Bravo Martínez","apellido":"Menendez","ciudad":"Madrid","sueldo":1956}
+{"nombre":"Felix Marquez Lucena","apellido":"Agustí","ciudad":"La Rioja","sueldo":4767}
+{"nombre":"Teófilo Carreras","apellido":"Solsona","ciudad":"Huesca","sueldo":4547}
+{"nombre":"Eleuterio Díez","apellido":"Clemente","ciudad":"Asturias","sueldo":5469}
+{"nombre":"Graciano Verdejo Otero","apellido":"Reig","ciudad":"Zaragoza","sueldo":1043}
+{"nombre":"Felicidad Adadia Aznar","apellido":"Figuerola","ciudad":"Albacete","sueldo":5847}
+{"nombre":"Graciano Bosch Gisbert","apellido":"Marcos","ciudad":"Tarragona","sueldo":2971}
+{"nombre":"Paola Gordillo Hernando","apellido":"Tejera","ciudad":"La Coruña","sueldo":3122}
+{"nombre":"Manuelita Ramirez Bermudez","apellido":"Llorente","ciudad":"Girona","sueldo":4193}
+{"nombre":"Pelayo Mariño Badía","apellido":"Abad","ciudad":"Guipúzcoa","sueldo":1291}
+{"nombre":"Ruth María Manuela Aranda Acedo","apellido":"Pedraza","ciudad":"Vizcaya","sueldo":5173}
+{"nombre":"Dora del Alvarez","apellido":"Amores","ciudad":"Ávila","sueldo":5396}
+{"nombre":"Santos Gálvez Quirós","apellido":"Aller","ciudad":"Madrid","sueldo":1856}
+{"nombre":"Apolonia Fonseca Arce","apellido":"Araujo","ciudad":"Granada","sueldo":1965}
+{"nombre":"Coral Benavent Barroso","apellido":"Isern","ciudad":"Murcia","sueldo":1673}
+{"nombre":"Lorenzo Paulino Cabeza Tamayo","apellido":"Noriega","ciudad":"Huesca","sueldo":3298}
+{"nombre":"Violeta Susana Villa Navarrete","apellido":"Ferrándiz","ciudad":"Lugo","sueldo":3027}
+{"nombre":"Horacio Aller Montes","apellido":"Espinosa","ciudad":"La Coruña","sueldo":5472}
+{"nombre":"Noa Sales-Hoz","apellido":"Infante","ciudad":"Guadalajara","sueldo":5518}
+{"nombre":"Clímaco Riba-González","apellido":"Torrecilla","ciudad":"Albacete","sueldo":5149}
+{"nombre":"Visitación Piña Matas","apellido":"Pavón","ciudad":"Asturias","sueldo":4710}
+{"nombre":"Adoración Arellano Perelló","apellido":"Lluch","ciudad":"Salamanca","sueldo":5363}
+{"nombre":"Encarnita Matas Castejón","apellido":"Galán","ciudad":"Valladolid","sueldo":3987}
+{"nombre":"Raúl Jurado-Oliva","apellido":"Mayo","ciudad":"Soria","sueldo":5163}
+{"nombre":"Bienvenida Giner Manjón","apellido":"Borrego","ciudad":"Barcelona","sueldo":4266}
+{"nombre":"Néstor Verdugo Bellido","apellido":"Vara","ciudad":"Lugo","sueldo":3902}
+{"nombre":"Rita Javiera Calderón Barco","apellido":"Menendez","ciudad":"Baleares","sueldo":2524}
+{"nombre":"Alcides Cabanillas Leal","apellido":"Cervera","ciudad":"Cuenca","sueldo":2603}
+{"nombre":"Martin Vera Narváez","apellido":"Carro","ciudad":"Ceuta","sueldo":2626}
+{"nombre":"Gertrudis Serra Nevado","apellido":"Naranjo","ciudad":"Cantabria","sueldo":1141}
+{"nombre":"Aurelia Gomis","apellido":"Campo","ciudad":"Vizcaya","sueldo":4131}
+{"nombre":"Anselmo Verdugo Bellido","apellido":"Niño","ciudad":"Las Palmas","sueldo":3252}
+{"nombre":"Rico Guardia Artigas","apellido":"Oliva","ciudad":"Teruel","sueldo":5413}
+{"nombre":"Patricia Pablo Bayo","apellido":"Martí","ciudad":"Sevilla","sueldo":4957}
+{"nombre":"Ascensión Casal-Avilés","apellido":"Bru","ciudad":"Soria","sueldo":1507}
+{"nombre":"Azahar Sebastián Boix","apellido":"Huertas","ciudad":"Zamora","sueldo":3255}
+{"nombre":"Esther Mayol-Pujadas","apellido":"Acuña","ciudad":"Ourense","sueldo":2626}
+{"nombre":"Toño Rocamora Tormo","apellido":"Barba","ciudad":"Cádiz","sueldo":2837}
+{"nombre":"Candelario Acosta","apellido":"Guillen","ciudad":"Granada","sueldo":3842}
+{"nombre":"Godofredo Murcia Pereira","apellido":"Quesada","ciudad":"Navarra","sueldo":5950}
+{"nombre":"Herminio Tolosa Alcalá","apellido":"Linares","ciudad":"Zamora","sueldo":5680}
+{"nombre":"Ainoa de Lastra","apellido":"Valbuena","ciudad":"Girona","sueldo":5839}
+{"nombre":"Maximiliano Checa Batalla","apellido":"Cánovas","ciudad":"Álava","sueldo":1681}
+{"nombre":"Ainoa Tejero Garmendia","apellido":"Sala","ciudad":"Cuenca","sueldo":2217}
+{"nombre":"Flor Sevillano Dalmau","apellido":"Pallarès","ciudad":"Teruel","sueldo":3870}
+{"nombre":"Carmelo Iriarte Gutierrez","apellido":"Busquets","ciudad":"Málaga","sueldo":4187}
+{"nombre":"Jacobo de Sanz","apellido":"Reina","ciudad":"Toledo","sueldo":2499}
+{"nombre":"Cristina Pazos Morcillo","apellido":"Pérez","ciudad":"Ourense","sueldo":2252}
+{"nombre":"Fabiola Riquelme","apellido":"Villalba","ciudad":"Ávila","sueldo":1987}
+{"nombre":"Esperanza Catalán Cabo","apellido":"Ferreras","ciudad":"Las Palmas","sueldo":5145}
+{"nombre":"Anna Gloria Manzano Moreno","apellido":"Rosell","ciudad":"Baleares","sueldo":3084}
+{"nombre":"Yago Calvo Moll","apellido":"Giner","ciudad":"Jaén","sueldo":4400}
+{"nombre":"Gabino Calatayud Colom","apellido":"Llorente","ciudad":"Badajoz","sueldo":5415}
+{"nombre":"Teresa Fernandez Perea","apellido":"Cervantes","ciudad":"Valladolid","sueldo":3164}
+{"nombre":"Alicia Naranjo","apellido":"Vilaplana","ciudad":"Ourense","sueldo":4685}
+{"nombre":"Augusto Catalán Montaña","apellido":"Amorós","ciudad":"Palencia","sueldo":3384}
+{"nombre":"Fabio Cifuentes Leal","apellido":"Menéndez","ciudad":"La Coruña","sueldo":5267}
+{"nombre":"Azahara del Exposito","apellido":"Montenegro","ciudad":"Ceuta","sueldo":1781}
+{"nombre":"Alba Matilde Gimenez Figueras","apellido":"Sabater","ciudad":"Madrid","sueldo":1786}
+{"nombre":"Sebastián Flor Navas","apellido":"Giner","ciudad":"Salamanca","sueldo":2661}
+{"nombre":"Lilia Iniesta Arranz","apellido":"Anguita","ciudad":"Madrid","sueldo":3120}
+{"nombre":"José del Sevilla","apellido":"Gaya","ciudad":"Badajoz","sueldo":5380}
+{"nombre":"Marcio Vilanova Batalla","apellido":"Saez","ciudad":"Guadalajara","sueldo":2060}
+{"nombre":"Noemí Benito Anaya","apellido":"Pavón","ciudad":"Jaén","sueldo":1551}
+{"nombre":"Carina Morán Costa","apellido":"Cerdá","ciudad":"Lleida","sueldo":1789}
+{"nombre":"Aura Álvaro Soriano","apellido":"Torrent","ciudad":"Santa Cruz de Tenerife","sueldo":4810}
+{"nombre":"Cosme Wilfredo Cañas Ariza","apellido":"Cabello","ciudad":"Zamora","sueldo":2244}
+{"nombre":"Dionisio Falcón Alemán","apellido":"Mariscal","ciudad":"Castellón","sueldo":3094}
+{"nombre":"Marina Alemany Romero","apellido":"Abril","ciudad":"Melilla","sueldo":3894}
+{"nombre":"Gregorio Sevilla","apellido":"Clavero","ciudad":"León","sueldo":2179}
+{"nombre":"Julio Cantero Clavero","apellido":"Gimenez","ciudad":"Badajoz","sueldo":5510}
+{"nombre":"Urbano Almazán Blanco","apellido":"Giralt","ciudad":"Guipúzcoa","sueldo":5517}
+{"nombre":"Eligio Gutierrez Bayo","apellido":"Pérez","ciudad":"Soria","sueldo":1365}
+{"nombre":"Federico del Cabeza","apellido":"Cortés","ciudad":"Murcia","sueldo":4974}
+{"nombre":"Débora de Salazar","apellido":"Fábregas","ciudad":"Salamanca","sueldo":4881}
+{"nombre":"Florina Zabala Guzman","apellido":"Verdú","ciudad":"Huelva","sueldo":4785}
+{"nombre":"Demetrio Estévez","apellido":"Cortés","ciudad":"Badajoz","sueldo":3724}
+{"nombre":"Maricruz de Ribas","apellido":"Palomar","ciudad":"Badajoz","sueldo":1054}
+{"nombre":"Pepe Prats Pintor","apellido":"Quintero","ciudad":"Cuenca","sueldo":1211}
+{"nombre":"Dionisia Guijarro Herrero","apellido":"Marco","ciudad":"Burgos","sueldo":5593}
+{"nombre":"Marciano Palacio Benitez","apellido":"Carreras","ciudad":"La Rioja","sueldo":2188}
+{"nombre":"Catalina Nogueira Serra","apellido":"Reig","ciudad":"Alicante","sueldo":1331}
+{"nombre":"Filomena Diego Palomo","apellido":"Tena","ciudad":"Cantabria","sueldo":1317}
+{"nombre":"Jenny de Palma","apellido":"Rebollo","ciudad":"Málaga","sueldo":2907}
+{"nombre":"Balduino Baudelio Rodrigo Tovar","apellido":"Bas","ciudad":"Granada","sueldo":4667}
+{"nombre":"Rosaura Tirado Camps","apellido":"Chaparro","ciudad":"Cáceres","sueldo":5820}
+{"nombre":"Ligia Juan Arrieta","apellido":"Tenorio","ciudad":"Cádiz","sueldo":1895}
+{"nombre":"Josué Cabello Cantero","apellido":"Garrido","ciudad":"Valladolid","sueldo":2651}
+{"nombre":"Juana Grau-Sanmiguel","apellido":"Granados","ciudad":"Jaén","sueldo":1090}
+{"nombre":"Nuria Cal Llobet","apellido":"Rivero","ciudad":"Zamora","sueldo":5121}
+{"nombre":"Benjamín del Morán","apellido":"Camacho","ciudad":"Almería","sueldo":3519}
+{"nombre":"Iván del Ramírez","apellido":"Ayllón","ciudad":"León","sueldo":5107}
+{"nombre":"Geraldo Olmo Botella","apellido":"Priego","ciudad":"Ceuta","sueldo":3967}
+{"nombre":"Claudio Sarabia Pedrero","apellido":"Zaragoza","ciudad":"Huelva","sueldo":1718}
+{"nombre":"Mariana Hierro Noriega","apellido":"Carrión","ciudad":"Santa Cruz de Tenerife","sueldo":3883}
+{"nombre":"Macaria Ballesteros Oliva","apellido":"Galindo","ciudad":"Cantabria","sueldo":1514}
+{"nombre":"Alcides Prieto Castrillo","apellido":"Cisneros","ciudad":"Melilla","sueldo":3454}
+{"nombre":"Fermín Aarón Gelabert Lozano","apellido":"Tena","ciudad":"La Coruña","sueldo":2667}
+{"nombre":"Georgina Luís Maza","apellido":"Carpio","ciudad":"Baleares","sueldo":3795}
+{"nombre":"Buenaventura Cabeza Puerta","apellido":"Madrid","ciudad":"Ávila","sueldo":3525}
+{"nombre":"Ramón Pozo-Pinto","apellido":"Cantero","ciudad":"Soria","sueldo":3981}
+{"nombre":"Encarnacion Cuevas-Varela","apellido":"Lara","ciudad":"Burgos","sueldo":4840}
+{"nombre":"Francisco Javier Lucio Luz Hurtado","apellido":"Paniagua","ciudad":"Albacete","sueldo":1215}
+{"nombre":"Humberto Abellán Carbó","apellido":"Marí","ciudad":"Teruel","sueldo":1799}
+{"nombre":"Donato Giménez","apellido":"Teruel","ciudad":"Almería","sueldo":1694}
+{"nombre":"Marcela Tejero","apellido":"Rojas","ciudad":"Lleida","sueldo":3809}
+{"nombre":"Gisela Alsina Aroca","apellido":"Santana","ciudad":"Teruel","sueldo":2509}
+{"nombre":"Maxi Rodrigo Amor","apellido":"Uría","ciudad":"Navarra","sueldo":3106}
+{"nombre":"Genoveva Sotelo Gascón","apellido":"Valdés","ciudad":"Córdoba","sueldo":1230}
+{"nombre":"Margarita Barranco Heredia","apellido":"Linares","ciudad":"La Coruña","sueldo":4814}
+{"nombre":"Amaro Otero Bas","apellido":"Doménech","ciudad":"Palencia","sueldo":5582}
+{"nombre":"Dafne Niño Simó","apellido":"Marquez","ciudad":"La Coruña","sueldo":2488}
+{"nombre":"Áurea Nicolau Casas","apellido":"Soria","ciudad":"Jaén","sueldo":4895}
+{"nombre":"Inmaculada Lucas","apellido":"Sanmartín","ciudad":"Badajoz","sueldo":2130}
+{"nombre":"Plácido Báez","apellido":"Cifuentes","ciudad":"Huelva","sueldo":5645}
+{"nombre":"Rosario Carpio Mate","apellido":"Jara","ciudad":"Salamanca","sueldo":4166}
+{"nombre":"Pío García","apellido":"Noguera","ciudad":"Zaragoza","sueldo":3084}
+{"nombre":"Lorenza Naranjo Abril","apellido":"Soto","ciudad":"Asturias","sueldo":3515}
+{"nombre":"Luis Asensio Oliver","apellido":"Guillen","ciudad":"Las Palmas","sueldo":3296}
+{"nombre":"Primitivo Toni Codina Peinado","apellido":"Parra","ciudad":"Cáceres","sueldo":3847}
+{"nombre":"Delia Aránzazu Serna Álvaro","apellido":"Vicens","ciudad":"Girona","sueldo":4265}
+{"nombre":"Jose Ignacio Hernando-Miró","apellido":"Machado","ciudad":"Santa Cruz de Tenerife","sueldo":4388}
+{"nombre":"Ariel Marcos","apellido":"Marco","ciudad":"Melilla","sueldo":4530}
+{"nombre":"Guadalupe Ferreras Riera","apellido":"Catalá","ciudad":"Asturias","sueldo":5475}
+{"nombre":"Lucía del Flor","apellido":"Saez","ciudad":"Castellón","sueldo":3092}
+{"nombre":"Pánfilo Olivera Sanmiguel","apellido":"Clemente","ciudad":"Las Palmas","sueldo":3203}
+{"nombre":"Armando Castilla Villegas","apellido":"Diéguez","ciudad":"Tarragona","sueldo":1993}
+{"nombre":"Tito Horacio Vives Valcárcel","apellido":"Verdugo","ciudad":"Ávila","sueldo":3014}
+{"nombre":"Eduardo Vallejo-Salinas","apellido":"Angulo","ciudad":"Teruel","sueldo":1802}
+{"nombre":"Sandalio Ibarra Hidalgo","apellido":"Paredes","ciudad":"Almería","sueldo":3113}
+{"nombre":"Ainara Palomino Agullo","apellido":"Ramirez","ciudad":"Burgos","sueldo":2423}
+{"nombre":"Renato Arenas Toledo","apellido":"Puerta","ciudad":"León","sueldo":4133}
+{"nombre":"Matilde Pineda Morera","apellido":"Torres","ciudad":"Cuenca","sueldo":1491}
+{"nombre":"Elodia Bellido","apellido":"Vigil","ciudad":"Valladolid","sueldo":4413}
+{"nombre":"Teodoro Baquero","apellido":"Arco","ciudad":"Cádiz","sueldo":3287}
+{"nombre":"Emelina Jordá Lasa","apellido":"Goñi","ciudad":"Madrid","sueldo":1477}
