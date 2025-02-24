@@ -15,8 +15,8 @@ filename_parquet ="datos.parquet"
 # Generar archivo CSV con strings entre comillas
 with open(filename_txt, "w",encoding="UTF8") as ft:
     with open(filename_csv, "w",encoding="UTF8") as fc:
-        ft.write("nombre\tapellido\tciudad\tsueldo\n")  # Cabecera del TXT
-        fc.write("nombre,apellido,ciudad,sueldo\n")  # Cabecera del CSV
+        ft.write("nombre\tapellidos\tciudad\tsueldo\n")  # Cabecera del TXT
+        fc.write("nombre,apellidos,ciudad,sueldo\n")  # Cabecera del CSV
         for i in range(1, num_users + 1):
                 nombre = f"\"{fake.name()}\""
                 apellido = f"\"{fake.last_name()}\""
