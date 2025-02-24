@@ -1,501 +1,501 @@
-nombre	apellido	ciudad	sueldo
-"María Ángeles Alegria Manrique"	"Novoa"	"Murcia"	1253
-"Cándido Mosquera Tormo"	"Coello"	"La Coruña"	4484
-"Edmundo Hurtado Castelló"	"Rey"	"Guipúzcoa"	2775
-"Gabriela Tamayo"	"Nuñez"	"Melilla"	3311
-"Clementina Garcia Sánchez"	"Segarra"	"Albacete"	3298
-"Milagros Crespi Hernández"	"Cuevas"	"Barcelona"	4885
-"Jacinta Osuna Pardo"	"Soto"	"Lleida"	5996
-"Alba del Arenas"	"Alvarado"	"Zaragoza"	2374
-"Eva María Aragonés Ayuso"	"Calzada"	"La Rioja"	3537
-"Ascensión Blasco Murillo"	"Guzmán"	"León"	5506
-"Herberto del Casares"	"Tormo"	"Guipúzcoa"	2379
-"Nereida Bas"	"Rocha"	"Ourense"	5899
-"Artemio Linares"	"Alcaraz"	"Santa Cruz de Tenerife"	4653
-"Cebrián Cañizares Valcárcel"	"Río"	"Toledo"	5600
-"Florentina de Valenzuela"	"Arnau"	"Guipúzcoa"	3409
-"Delfina del Medina"	"Vallejo"	"Jaén"	1623
-"María José Machado Adán"	"Tur"	"Guadalajara"	2016
-"Gerardo Ropero-Serna"	"Parejo"	"Ciudad"	1608
-"Luís Linares-Viana"	"Rivas"	"Cáceres"	4566
-"Calixto Clavero-Delgado"	"Díez"	"Lugo"	2508
-"Jordán Marcos Montserrat"	"Iriarte"	"Melilla"	1994
-"Griselda de Vilar"	"Rojas"	"Ávila"	1374
-"Inmaculada Chaparro Santamaría"	"Canet"	"La Coruña"	2258
-"Nicodemo Albero Otero"	"Lucena"	"Cantabria"	4146
-"Loida Miralles-Silva"	"Belda"	"Segovia"	3924
-"Corona Cisneros-Nogués"	"Barriga"	"Alicante"	5014
-"Loreto del Galan"	"Amorós"	"Ceuta"	4996
-"Mateo Sureda"	"Matas"	"Madrid"	1179
-"Hugo Hipólito Gallart Muñoz"	"Serra"	"Guipúzcoa"	1845
-"Almudena Calzada Samper"	"Julián"	"Castellón"	5680
-"Regina Cózar Perea"	"Pol"	"Toledo"	1880
-"Máxima Romero-Moll"	"Cobo"	"Jaén"	2703
-"Octavio Angulo"	"Pinilla"	"Navarra"	2822
-"Carlos Zaragoza Linares"	"Giménez"	"Huesca"	5529
-"Blas Andres Rueda"	"Castilla"	"La Rioja"	3806
-"Nando Orozco"	"Donoso"	"Teruel"	3934
-"Tecla de Gonzalo"	"Murillo"	"León"	3779
-"Felipe Alcalá Tamarit"	"Quintana"	"Las Palmas"	1968
-"Pastora Soriano Frutos"	"Ballester"	"Cantabria"	5267
-"Azahar de Figueroa"	"Bolaños"	"La Coruña"	2727
-"Aurelia Hierro Saura"	"Comas"	"Vizcaya"	4055
-"Almudena Palomar Salinas"	"Guerrero"	"Burgos"	3758
-"Carmina Ferrándiz Piquer"	"Zapata"	"Burgos"	1454
-"Raquel Cardona Peralta"	"Esteve"	"Zaragoza"	4883
-"Priscila Manuel Blasco"	"Matas"	"Vizcaya"	1179
-"Ester Cuevas Tirado"	"Fernandez"	"Pontevedra"	4601
-"Anastasia Galvez"	"Murillo"	"Álava"	5064
-"Haydée Cardona Castillo"	"Bellido"	"Almería"	4719
-"Samuel Tudela Montaña"	"Andres"	"Zamora"	3354
-"Vicenta Taboada Madrid"	"Alarcón"	"Álava"	1690
-"Emelina Ferrán Sáenz"	"Águila"	"Castellón"	1664
-"Encarnacion Ferrer"	"Galán"	"Ávila"	3322
-"Eloísa Lastra-Franch"	"Marquez"	"Ceuta"	2118
-"Pepita Mate-Prado"	"Gibert"	"Cuenca"	3978
-"Amarilis Chita Pinto Pastor"	"Ledesma"	"Sevilla"	2715
-"Isabel Exposito Aller"	"Vila"	"Cuenca"	5997
-"Paz Gascón-Molins"	"Ripoll"	"Teruel"	5251
-"Vicenta de Ayala"	"Cabo"	"Lugo"	1890
-"Nilda Giner Cano"	"Aroca"	"Soria"	1553
-"Jenaro Aragón Abellán"	"Luís"	"Melilla"	2330
-"Maristela Talavera Carlos"	"Benavides"	"Guadalajara"	1585
-"Lucía Bernad Alcalá"	"Bartolomé"	"Lleida"	4037
-"Manuelita de Roig"	"Soria"	"Burgos"	4248
-"Fermín Nogueira Calleja"	"Peña"	"Murcia"	4119
-"Florinda Valverde"	"Infante"	"Barcelona"	3478
-"Lara Uría Donoso"	"Lobato"	"La Coruña"	4037
-"Esmeralda Montalbán Torrens"	"Tudela"	"León"	3720
-"Amada Bonilla Lillo"	"Neira"	"Navarra"	3439
-"Felicia Briones Águila"	"Calatayud"	"Segovia"	1816
-"Efraín Montenegro"	"Pagès"	"Córdoba"	1266
-"Carina Rebollo Cano"	"Morales"	"Burgos"	5742
-"Cayetana Criado Montaña"	"Barreda"	"Teruel"	5876
-"Daniela Agudo Soria"	"Sotelo"	"Barcelona"	3217
-"Sebastián Berrocal"	"Acuña"	"Salamanca"	2809
-"Guiomar Mónica Galiano Barco"	"Chaves"	"La Rioja"	2068
-"Nilo Cantero-Mas"	"Sastre"	"Madrid"	2847
-"Danilo Dávila Albero"	"Exposito"	"Cuenca"	3115
-"Isabel Aragón Rivas"	"Jordá"	"Ávila"	4808
-"Dafne Alemany Escobar"	"Espinosa"	"La Coruña"	3057
-"Íñigo Bueno Miró"	"Bellido"	"Las Palmas"	4393
-"Valero Vives Alberto"	"Arregui"	"Almería"	3789
-"Cebrián Fernandez Perelló"	"Briones"	"Huelva"	1975
-"Amparo del Bonilla"	"Daza"	"Santa Cruz de Tenerife"	5531
-"Paula Pina Muñoz"	"Losa"	"Soria"	4052
-"Isidora Sanabria Mínguez"	"Zurita"	"Madrid"	4034
-"Antonia Lobo"	"Rivas"	"Valencia"	4579
-"Laura Vidal Alemán"	"Toro"	"Zamora"	5841
-"Jordán Néstor Bayo Guijarro"	"Ramírez"	"La Rioja"	4431
-"Celia Palau Narváez"	"Hoyos"	"Málaga"	5614
-"Rosalinda Aramburu Zurita"	"Manuel"	"Almería"	3263
-"Balduino Germán Díez Río"	"Cornejo"	"Vizcaya"	2662
-"Jessica Galván Guzmán"	"Torrents"	"Albacete"	3383
-"Lucas de Santana"	"Millán"	"Guadalajara"	1519
-"Silvio Lucena Simó"	"Blazquez"	"Barcelona"	4793
-"Urbano Escalona Bayón"	"Fajardo"	"Alicante"	3721
-"Rosario Susana Santamaria Tomas"	"Amo"	"Alicante"	5755
-"Noa Piña Montoya"	"Batalla"	"Barcelona"	5320
-"Pastora Anguita-Fabra"	"Pineda"	"Baleares"	3257
-"Tamara Riera Viña"	"Gisbert"	"Teruel"	2101
-"Noelia Griselda Iriarte Buendía"	"Puerta"	"Valladolid"	2448
-"Cecilia Pagès Chico"	"Codina"	"Castellón"	3923
-"Conrado Hurtado Donoso"	"Mariscal"	"Guadalajara"	3433
-"Rómulo Poncio Blanco Novoa"	"Merino"	"Zamora"	3833
-"Tomás Yáñez Gimenez"	"Bárcena"	"Ciudad"	3807
-"María Ángeles Arcos Gelabert"	"Reguera"	"Lugo"	5956
-"Sofía Blanch Valentín"	"Donaire"	"Pontevedra"	5471
-"Martín Arnaiz-Leon"	"Ayllón"	"Madrid"	4561
-"Elodia Gonzalo Iñiguez"	"Flores"	"Valencia"	3398
-"Lorena Salas Fabregat"	"Cortés"	"Cantabria"	2587
-"Edelmiro Corral Cisneros"	"Blanca"	"Murcia"	3731
-"Matías Pi Aroca"	"Tejero"	"Ávila"	5364
-"Noemí Macías Rosselló"	"Lorenzo"	"Madrid"	2588
-"Nando Fabregat-Salvà"	"Briones"	"Cádiz"	4179
-"Azucena Iglesias-Suarez"	"Perea"	"Álava"	4230
-"Pepita María Dolores Manuel Clemente"	"Gascón"	"Albacete"	3317
-"Demetrio Solsona"	"Garcés"	"Segovia"	3326
-"Hermenegildo Agustín Durán"	"Belda"	"Cádiz"	1114
-"Remedios Izaguirre Oliver"	"Lozano"	"Toledo"	4177
-"Guadalupe Madrid-Cabañas"	"Bilbao"	"Ciudad"	1459
-"Amancio Albert Benito Sans"	"Tejada"	"Segovia"	1286
-"Quirino Maestre Bas"	"Alegre"	"Guipúzcoa"	4879
-"Noemí Urrutia Rivera"	"Izquierdo"	"Granada"	2701
-"Zacarías Novoa-Sancho"	"Pozuelo"	"Valladolid"	5279
-"Venceslás de Expósito"	"Ramis"	"Murcia"	4997
-"Arsenio Bayón Frías"	"Prieto"	"Barcelona"	5099
-"Sigfrido Larrañaga Téllez"	"Cánovas"	"Badajoz"	5548
-"Esmeralda de Bou"	"Donoso"	"Murcia"	2303
-"Albina Vallés"	"Alegre"	"Álava"	5153
-"Aureliano Garriga Vilaplana"	"Escamilla"	"Teruel"	1555
-"Esteban Prieto Garriga"	"Solsona"	"Lugo"	3924
-"Isaura Escolano"	"Pastor"	"Melilla"	4547
-"Paz Mateo Cabañas"	"Daza"	"La Coruña"	5259
-"Mohamed de Nevado"	"Carlos"	"Cuenca"	4826
-"Florentino Adán Paz Cortina"	"Guillen"	"Murcia"	1887
-"Catalina de Rubio"	"Marí"	"Vizcaya"	3606
-"Laura de Asensio"	"Folch"	"La Coruña"	5914
-"Jose Carlos Valentín Perales"	"Cruz"	"Vizcaya"	5722
-"Constanza Pina Fernández"	"Cervantes"	"Baleares"	5092
-"Seve Peralta Menéndez"	"Elías"	"Ourense"	2940
-"Ángel Ledesma Terrón"	"Escrivá"	"Murcia"	1119
-"Febe Bejarano-Osorio"	"Sierra"	"Pontevedra"	5729
-"Melchor Alba"	"Pinedo"	"Navarra"	4713
-"Julia Salgado Vallejo"	"Álamo"	"Sevilla"	4474
-"Ceferino de Conesa"	"Pomares"	"Zamora"	5082
-"Gonzalo Pozuelo Quiroga"	"Fiol"	"Baleares"	2557
-"Lucho Hierro Villalobos"	"Jaume"	"Guadalajara"	3203
-"Calixta Orozco Madrigal"	"Martínez"	"Santa Cruz de Tenerife"	3531
-"Américo Adrián Ramón Barceló"	"Espejo"	"Girona"	1663
-"Damián Mariño Castellanos"	"Boix"	"Burgos"	5563
-"Flora Eulalia Calvo Seguí"	"Agustín"	"Cantabria"	5946
-"Seve Melero-Vazquez"	"Barco"	"Ávila"	5783
-"Griselda Machado Infante"	"Franco"	"Burgos"	5160
-"Hernando Aguilar Carreras"	"Huguet"	"Huesca"	5838
-"Cipriano Marcos-Tello"	"Fuster"	"Zamora"	2983
-"Jesusa Crespi-Plana"	"Batlle"	"Huelva"	3781
-"Consuelo Tenorio Gonzalez"	"Zamorano"	"Granada"	5454
-"Joel del Pino"	"Jaén"	"Huesca"	4267
-"Claudia del Llanos"	"Roig"	"Ciudad"	3555
-"Teófila Toledo Río"	"Luz"	"Granada"	1043
-"Camila García-Viñas"	"Antón"	"Zaragoza"	2093
-"Pacífica Aguiló Sureda"	"Piquer"	"Asturias"	1691
-"Brunilda Valenzuela Bautista"	"Salvador"	"La Rioja"	3923
-"Adoración de Perea"	"Coca"	"Burgos"	5619
-"Armida Mas Ferrera"	"Murcia"	"Vizcaya"	5626
-"Miguel Ángel de Ríos"	"Barroso"	"Barcelona"	1339
-"Javiera Baró Revilla"	"Amigó"	"Valladolid"	1997
-"Susanita Azcona Sáez"	"Baquero"	"Guadalajara"	1158
-"Jenaro Ferrando Juan"	"Cuenca"	"Salamanca"	1448
-"Domingo Luís Borrego"	"Ferrández"	"Málaga"	5220
-"Olivia Uriarte-Avilés"	"Barros"	"Albacete"	3705
-"Alonso Porras Lopez"	"Alba"	"Castellón"	2248
-"Juan Bautista Ayllón Fuertes"	"Menéndez"	"Soria"	3117
-"Quique Sotelo Porcel"	"Adán"	"Huesca"	1901
-"Sonia Fernandez-Lobo"	"Corral"	"Lleida"	2958
-"Rosalía Agudo Infante"	"Cabanillas"	"Melilla"	5530
-"Jenaro Gisbert"	"Alberto"	"Madrid"	5590
-"Ismael Falcó"	"Cerro"	"Girona"	1457
-"Plácido Navarrete Román"	"Muñoz"	"Baleares"	3427
-"Lope Leal Acevedo"	"Escrivá"	"Asturias"	3985
-"Jennifer Anaya Cuenca"	"Silva"	"Melilla"	5517
-"Roberta Roda Amorós"	"Torrijos"	"Cuenca"	3983
-"Florentina Martorell Roca"	"Villanueva"	"Alicante"	4384
-"Almudena Dueñas Murcia"	"Landa"	"Santa Cruz de Tenerife"	2992
-"Mamen Mascaró"	"Vera"	"Melilla"	3821
-"Samanta Agudo-Ribas"	"Reig"	"Badajoz"	4778
-"Nicolasa Lilia Zorrilla Uribe"	"Buendía"	"Castellón"	5843
-"Eliseo Salamanca Gimenez"	"Echeverría"	"Tarragona"	1757
-"Inmaculada de Lobato"	"Torrijos"	"Sevilla"	3445
-"Fortunato Samper Pedrero"	"Patiño"	"Álava"	4605
-"Adolfo Echeverría"	"Lobato"	"Murcia"	5912
-"René Rosado Carbajo"	"Morillo"	"Cuenca"	4857
-"Luisina Ramón Amor"	"Roca"	"Sevilla"	3376
-"Fátima Pía Amores Román"	"Requena"	"Ciudad"	1718
-"Amor Vázquez Sevilla"	"Esparza"	"Ceuta"	4053
-"Ceferino Cornejo Ramón"	"Anaya"	"Vizcaya"	5634
-"Sosimo Pujadas Albero"	"Exposito"	"Almería"	4195
-"Jenaro Moreno Cañizares"	"Villegas"	"Granada"	3252
-"Aitor Cornelio Bárcena Carpio"	"Pablo"	"Valladolid"	1755
-"Lucho Tovar Hoz"	"Mármol"	"Madrid"	1644
-"Manuela Cepeda-Fabregat"	"Criado"	"Navarra"	4611
-"Enrique Seguí Adán"	"Rivero"	"Cáceres"	1912
-"Antonio del Aragonés"	"Sáenz"	"León"	3588
-"Calisto Romeu Nogueira"	"Juárez"	"Toledo"	4250
-"Olga Antúnez Oliva"	"Vargas"	"Girona"	5880
-"Maite Etelvina Andrade Dominguez"	"Noriega"	"Ávila"	1399
-"Eufemia Baena Madrid"	"Ortega"	"Navarra"	3765
-"Guadalupe Juárez Ribera"	"Sedano"	"Salamanca"	4506
-"María Cristina Cuéllar Guillen"	"Dalmau"	"La Coruña"	5778
-"Jonatan Ibañez Carranza"	"Cantero"	"Cáceres"	3470
-"Vidal Villalobos Carnero"	"Rodrigo"	"Murcia"	5293
-"Isidora Emiliana Saavedra Andrade"	"Cerezo"	"Ourense"	4388
-"Adrián Falcón Cañellas"	"Echeverría"	"Zamora"	1545
-"Esther Guardiola-Acevedo"	"Nogueira"	"Guadalajara"	3451
-"Gaspar Arévalo"	"Bustamante"	"Sevilla"	4032
-"Pepito Guerra Sandoval"	"Conde"	"Huelva"	4056
-"Anna del Grau"	"Izaguirre"	"Cáceres"	2520
-"Pepita Martí Avilés"	"Gallart"	"Ourense"	3220
-"Micaela Tenorio-Paz"	"Rosales"	"Barcelona"	5116
-"Cruz Julián Valentín"	"Colomer"	"León"	4937
-"Lucía del Canals"	"Arteaga"	"Alicante"	5451
-"Heliodoro Martinez Bravo"	"Grande"	"Vizcaya"	3560
-"Máxima Chus Jove Bolaños"	"Iniesta"	"Badajoz"	4830
-"Hilario Viñas Llobet"	"Huertas"	"Teruel"	4580
-"Ainoa Arteaga"	"Ramis"	"Guipúzcoa"	3640
-"Juana Carnero-Lladó"	"Hidalgo"	"Girona"	1351
-"Lourdes Tejera"	"Garcia"	"Girona"	4085
-"Lucio Ramiro Pérez Prado"	"Ortiz"	"Ourense"	5225
-"Isaías Menendez Quintanilla"	"Camps"	"Almería"	1129
-"Poncio Andreu Arroyo"	"Sandoval"	"Santa Cruz de Tenerife"	3273
-"Iker del Marin"	"Campillo"	"Guipúzcoa"	2586
-"Paulina Sedano Vilar"	"Porta"	"La Rioja"	3409
-"Cintia Alberto Ribes"	"Mendoza"	"Las Palmas"	4803
-"Anacleto Planas Sans"	"Morante"	"Cáceres"	2921
-"Nadia Roman Villanueva"	"Carreño"	"La Coruña"	5831
-"Hilario del Ferrández"	"Carrillo"	"Santa Cruz de Tenerife"	4580
-"Gilberto Andrés"	"Galiano"	"Palencia"	5281
-"Hortensia Redondo Lillo"	"Guitart"	"Asturias"	3751
-"Luis Miguel Rosado"	"Torres"	"Sevilla"	1979
-"Claudio Tamayo-Gil"	"Flor"	"Zaragoza"	2022
-"Salomón Ibañez Castelló"	"Berenguer"	"Albacete"	2297
-"Marcia Guillén Gárate"	"Águila"	"Córdoba"	3812
-"África Zabala Recio"	"Ferrero"	"Segovia"	5508
-"Herminio Camps-Juárez"	"Rozas"	"Madrid"	1423
-"Jacobo Alsina-Espada"	"Vilalta"	"Castellón"	1624
-"Cintia Encarnita Hernando Ramos"	"Osorio"	"Toledo"	3534
-"Adolfo Estévez"	"Valls"	"Valencia"	5930
-"Baudelio Amor Avilés Cabezas"	"Ordóñez"	"Cuenca"	5351
-"Trinidad Escolano Uribe"	"Duarte"	"Álava"	5049
-"Nicolasa de Rebollo"	"Zabala"	"Burgos"	4925
-"Araceli Puente-Verdugo"	"Vizcaíno"	"Lleida"	5414
-"Rosa Portero Carvajal"	"Escudero"	"Sevilla"	4904
-"Eusebia Tejero Pina"	"Llamas"	"La Rioja"	1849
-"Alondra Suárez Paniagua"	"Salvà"	"Sevilla"	3963
-"Luciano Roda Alfonso"	"Hervás"	"Guipúzcoa"	5422
-"Marino Valls Fonseca"	"Ochoa"	"Alicante"	4567
-"Albano Blázquez Vélez"	"Cabo"	"Salamanca"	3721
-"Nazario Saura Avilés"	"Maza"	"Badajoz"	4290
-"Esther de Santos"	"Vilanova"	"Cantabria"	2474
-"Sebastián Carmona Valderrama"	"Amores"	"Alicante"	3770
-"Prudencia Ortega Barreda"	"Saavedra"	"Toledo"	2187
-"Victoriano Pedraza Lamas"	"Llopis"	"Albacete"	4894
-"Juan Antonio Reguera Meléndez"	"Pedrosa"	"Córdoba"	2974
-"Carmelo Casal-Carretero"	"Méndez"	"Cuenca"	1695
-"Toño Bartolomé Tomas Bustos"	"Codina"	"Huelva"	2545
-"Maristela Colom-Giner"	"Lobato"	"Girona"	1579
-"Jimena Criado Morillo"	"Núñez"	"Baleares"	1176
-"Hernando Carro Sales"	"Aller"	"Cáceres"	4949
-"Fabricio Parejo Reguera"	"Ureña"	"Almería"	3003
-"Benigna del Téllez"	"Orozco"	"Baleares"	1052
-"Samuel Zurita Diego"	"Lastra"	"Lleida"	3771
-"Reyes Duque"	"Girona"	"Albacete"	5511
-"Desiderio de Barreda"	"Barrio"	"Huesca"	5851
-"Evita Aitana Reina Diez"	"Plana"	"Sevilla"	4333
-"Enrique Losada Perales"	"Sanz"	"Guadalajara"	3870
-"Hortensia Tudela-Aguilera"	"Contreras"	"La Coruña"	1078
-"Isidora Arévalo Talavera"	"Arnau"	"Zamora"	4597
-"Lalo de Prats"	"Riera"	"Jaén"	3962
-"Angélica Cobo Llobet"	"Cuadrado"	"Alicante"	4931
-"Ezequiel del Ariza"	"Jerez"	"Lleida"	5143
-"Alexandra Osorio Lladó"	"Pastor"	"La Rioja"	4453
-"Yolanda Natalia Carrillo Fernandez"	"Gallardo"	"Girona"	2752
-"Duilio Menéndez Guerrero"	"Gordillo"	"Ceuta"	2612
-"Elba Caro Alvarez"	"Bernat"	"Zamora"	4085
-"Noé Tamayo Pedraza"	"Estrada"	"La Rioja"	3174
-"Jesusa Uriarte Pino"	"Torre"	"Alicante"	3712
-"Rafa Rico Sancho"	"Villegas"	"Melilla"	1099
-"Borja Pacheco-Seco"	"Barceló"	"Pontevedra"	1172
-"Jose Ignacio Lobo Blanch"	"Blanca"	"Almería"	4971
-"Salomón del Olivé"	"Boix"	"Guipúzcoa"	5359
-"Olivia Pereira Barbero"	"Rius"	"Álava"	4306
-"Ester Herminia Montes Valentín"	"Aramburu"	"Asturias"	3050
-"Manu Quero Amores"	"Zapata"	"Ceuta"	4459
-"Eliseo Casado Mariño"	"Gutierrez"	"Cádiz"	4779
-"Martina Salvador Porcel"	"Corbacho"	"Huesca"	2236
-"Otilia Catalá Ramón"	"Solano"	"Palencia"	1696
-"Amor Iniesta"	"Maestre"	"Navarra"	3511
-"Ulises Buenaventura Barrios Roman"	"Bosch"	"Guadalajara"	4123
-"Natividad Melisa Pellicer Vega"	"Guerra"	"Tarragona"	4205
-"Lucía Canet Poza"	"Iñiguez"	"Ourense"	4950
-"Felisa Cazorla Ferrán"	"Ropero"	"Tarragona"	4869
-"Leandra Lledó Leon"	"Pedraza"	"Lugo"	4041
-"Manuelita Falcó Serrano"	"Mariño"	"Cáceres"	2090
-"Antonia Florencia Guerra Vizcaíno"	"Manzanares"	"Zaragoza"	4258
-"Virginia Domínguez Arias"	"Salmerón"	"Cáceres"	3385
-"Constanza Bermejo"	"Capdevila"	"Melilla"	5491
-"Angelina Aránzazu Pujol Hervás"	"Castelló"	"Castellón"	5556
-"Evangelina Quintana Cabeza"	"Aramburu"	"Soria"	4193
-"Bartolomé Hoz"	"Villegas"	"Zamora"	1828
-"Toribio Llobet Amigó"	"Sarabia"	"Palencia"	4655
-"Marcos Lerma Cases"	"Rojas"	"Cádiz"	1023
-"Cándida Agustí Villaverde"	"Salamanca"	"Ciudad"	1009
-"Natalio Arnal Peñas"	"Castrillo"	"Barcelona"	1829
-"Apolonia Ocaña Cardona"	"Valle"	"Segovia"	2859
-"Ceferino Navas Borja"	"Criado"	"Melilla"	2963
-"Graciana de Rodrigo"	"Nogueira"	"Ceuta"	3634
-"Azucena Mate Zurita"	"Múgica"	"Córdoba"	2063
-"Juan Luis Cánovas Company"	"Sanjuan"	"Guipúzcoa"	2873
-"Trinidad Verdú Aller"	"Alfonso"	"La Rioja"	5910
-"Rufino Sergio Llabrés Carreras"	"Cerezo"	"Albacete"	3416
-"Amparo Alba-Martorell"	"Barreda"	"Castellón"	5357
-"Rodolfo Solé Guerrero"	"Amat"	"Jaén"	2257
-"Azahar Sotelo"	"Martí"	"Toledo"	1202
-"Luna Beltran Quesada"	"Donaire"	"Ceuta"	5925
-"Ricardo Diéguez Collado"	"Torrent"	"Badajoz"	4166
-"Fátima Zurita Plaza"	"Vergara"	"Almería"	4402
-"Leonor Perea Ros"	"Iriarte"	"Albacete"	4969
-"Aurelio Fabricio Sanchez Valle"	"Arcos"	"Badajoz"	4896
-"Georgina Ferrero Bustos"	"Mendoza"	"Asturias"	1865
-"Cayetana de Arregui"	"Zaragoza"	"Ourense"	4992
-"Fulgencio Arranz Carranza"	"Salmerón"	"Ourense"	4108
-"Geraldo Carmona Porras"	"Gisbert"	"Segovia"	3123
-"Severo Garcés Grande"	"Tirado"	"Barcelona"	3234
-"Anselmo Adán Leiva"	"Pozuelo"	"Segovia"	3031
-"Sol Murillo Machado"	"Barrio"	"Huelva"	4854
-"Eustaquio Manzanares Nicolau"	"Simó"	"Cáceres"	3415
-"Juana Rincón"	"Marcos"	"Asturias"	4484
-"Trini Llano"	"Báez"	"Castellón"	1158
-"Calixto Vara Quevedo"	"Gallo"	"La Rioja"	5526
-"Adoración Rosaura Sierra Vall"	"Hurtado"	"Ávila"	4016
-"Gloria Batalla-Meléndez"	"Daza"	"Zaragoza"	4588
-"Miguela Gil Sanz"	"Pons"	"Tarragona"	1553
-"Haroldo Villalobos Bertrán"	"Pardo"	"Valladolid"	2036
-"Alondra Palmer Barrios"	"Ros"	"Huelva"	2643
-"Simón Hurtado"	"Solís"	"Ciudad"	1058
-"Godofredo Chema Hernando Amores"	"Boada"	"Huesca"	1920
-"Carmela de Corbacho"	"Sainz"	"Guipúzcoa"	3553
-"Ximena Valentín Benet"	"Soler"	"Salamanca"	2208
-"Ildefonso Carpio Nieto"	"Bernad"	"Castellón"	1695
-"Mayte Consuela Llopis Ocaña"	"Calvo"	"Jaén"	2726
-"Mauricio Montesinos Patiño"	"Falcón"	"Castellón"	4120
-"Mercedes del Feliu"	"Cueto"	"Jaén"	2720
-"Marianela Fuster Crespi"	"Cervera"	"Las Palmas"	1897
-"Marcos Díez"	"Benavente"	"Ceuta"	1063
-"Josep Montalbán Sanjuan"	"Llorens"	"Ceuta"	2314
-"Elena Jordá"	"Cabo"	"Navarra"	5795
-"Basilio Gilberto Rodriguez Castells"	"Valentín"	"La Rioja"	3542
-"Luis Ángel Campo Falcó"	"Vall"	"Soria"	3901
-"Marcelino Marin Escolano"	"Ayala"	"Ourense"	4376
-"María Luisa Barberá Arenas"	"Álamo"	"Guipúzcoa"	5030
-"Florentino Escobar Salamanca"	"Monreal"	"Córdoba"	5729
-"Eliana Ferreras Coloma"	"Martí"	"Teruel"	4385
-"Rufino del Castell"	"Ferrán"	"Cádiz"	3869
-"Nélida del Araujo"	"Esteve"	"La Rioja"	3546
-"Nicolasa Prudencia Luís Nicolau"	"Heredia"	"Málaga"	2754
-"Nuria Bravo Martínez"	"Menendez"	"Madrid"	1956
-"Felix Marquez Lucena"	"Agustí"	"La Rioja"	4767
-"Teófilo Carreras"	"Solsona"	"Huesca"	4547
-"Eleuterio Díez"	"Clemente"	"Asturias"	5469
-"Graciano Verdejo Otero"	"Reig"	"Zaragoza"	1043
-"Felicidad Adadia Aznar"	"Figuerola"	"Albacete"	5847
-"Graciano Bosch Gisbert"	"Marcos"	"Tarragona"	2971
-"Paola Gordillo Hernando"	"Tejera"	"La Coruña"	3122
-"Manuelita Ramirez Bermudez"	"Llorente"	"Girona"	4193
-"Pelayo Mariño Badía"	"Abad"	"Guipúzcoa"	1291
-"Ruth María Manuela Aranda Acedo"	"Pedraza"	"Vizcaya"	5173
-"Dora del Alvarez"	"Amores"	"Ávila"	5396
-"Santos Gálvez Quirós"	"Aller"	"Madrid"	1856
-"Apolonia Fonseca Arce"	"Araujo"	"Granada"	1965
-"Coral Benavent Barroso"	"Isern"	"Murcia"	1673
-"Lorenzo Paulino Cabeza Tamayo"	"Noriega"	"Huesca"	3298
-"Violeta Susana Villa Navarrete"	"Ferrándiz"	"Lugo"	3027
-"Horacio Aller Montes"	"Espinosa"	"La Coruña"	5472
-"Noa Sales-Hoz"	"Infante"	"Guadalajara"	5518
-"Clímaco Riba-González"	"Torrecilla"	"Albacete"	5149
-"Visitación Piña Matas"	"Pavón"	"Asturias"	4710
-"Adoración Arellano Perelló"	"Lluch"	"Salamanca"	5363
-"Encarnita Matas Castejón"	"Galán"	"Valladolid"	3987
-"Raúl Jurado-Oliva"	"Mayo"	"Soria"	5163
-"Bienvenida Giner Manjón"	"Borrego"	"Barcelona"	4266
-"Néstor Verdugo Bellido"	"Vara"	"Lugo"	3902
-"Rita Javiera Calderón Barco"	"Menendez"	"Baleares"	2524
-"Alcides Cabanillas Leal"	"Cervera"	"Cuenca"	2603
-"Martin Vera Narváez"	"Carro"	"Ceuta"	2626
-"Gertrudis Serra Nevado"	"Naranjo"	"Cantabria"	1141
-"Aurelia Gomis"	"Campo"	"Vizcaya"	4131
-"Anselmo Verdugo Bellido"	"Niño"	"Las Palmas"	3252
-"Rico Guardia Artigas"	"Oliva"	"Teruel"	5413
-"Patricia Pablo Bayo"	"Martí"	"Sevilla"	4957
-"Ascensión Casal-Avilés"	"Bru"	"Soria"	1507
-"Azahar Sebastián Boix"	"Huertas"	"Zamora"	3255
-"Esther Mayol-Pujadas"	"Acuña"	"Ourense"	2626
-"Toño Rocamora Tormo"	"Barba"	"Cádiz"	2837
-"Candelario Acosta"	"Guillen"	"Granada"	3842
-"Godofredo Murcia Pereira"	"Quesada"	"Navarra"	5950
-"Herminio Tolosa Alcalá"	"Linares"	"Zamora"	5680
-"Ainoa de Lastra"	"Valbuena"	"Girona"	5839
-"Maximiliano Checa Batalla"	"Cánovas"	"Álava"	1681
-"Ainoa Tejero Garmendia"	"Sala"	"Cuenca"	2217
-"Flor Sevillano Dalmau"	"Pallarès"	"Teruel"	3870
-"Carmelo Iriarte Gutierrez"	"Busquets"	"Málaga"	4187
-"Jacobo de Sanz"	"Reina"	"Toledo"	2499
-"Cristina Pazos Morcillo"	"Pérez"	"Ourense"	2252
-"Fabiola Riquelme"	"Villalba"	"Ávila"	1987
-"Esperanza Catalán Cabo"	"Ferreras"	"Las Palmas"	5145
-"Anna Gloria Manzano Moreno"	"Rosell"	"Baleares"	3084
-"Yago Calvo Moll"	"Giner"	"Jaén"	4400
-"Gabino Calatayud Colom"	"Llorente"	"Badajoz"	5415
-"Teresa Fernandez Perea"	"Cervantes"	"Valladolid"	3164
-"Alicia Naranjo"	"Vilaplana"	"Ourense"	4685
-"Augusto Catalán Montaña"	"Amorós"	"Palencia"	3384
-"Fabio Cifuentes Leal"	"Menéndez"	"La Coruña"	5267
-"Azahara del Exposito"	"Montenegro"	"Ceuta"	1781
-"Alba Matilde Gimenez Figueras"	"Sabater"	"Madrid"	1786
-"Sebastián Flor Navas"	"Giner"	"Salamanca"	2661
-"Lilia Iniesta Arranz"	"Anguita"	"Madrid"	3120
-"José del Sevilla"	"Gaya"	"Badajoz"	5380
-"Marcio Vilanova Batalla"	"Saez"	"Guadalajara"	2060
-"Noemí Benito Anaya"	"Pavón"	"Jaén"	1551
-"Carina Morán Costa"	"Cerdá"	"Lleida"	1789
-"Aura Álvaro Soriano"	"Torrent"	"Santa Cruz de Tenerife"	4810
-"Cosme Wilfredo Cañas Ariza"	"Cabello"	"Zamora"	2244
-"Dionisio Falcón Alemán"	"Mariscal"	"Castellón"	3094
-"Marina Alemany Romero"	"Abril"	"Melilla"	3894
-"Gregorio Sevilla"	"Clavero"	"León"	2179
-"Julio Cantero Clavero"	"Gimenez"	"Badajoz"	5510
-"Urbano Almazán Blanco"	"Giralt"	"Guipúzcoa"	5517
-"Eligio Gutierrez Bayo"	"Pérez"	"Soria"	1365
-"Federico del Cabeza"	"Cortés"	"Murcia"	4974
-"Débora de Salazar"	"Fábregas"	"Salamanca"	4881
-"Florina Zabala Guzman"	"Verdú"	"Huelva"	4785
-"Demetrio Estévez"	"Cortés"	"Badajoz"	3724
-"Maricruz de Ribas"	"Palomar"	"Badajoz"	1054
-"Pepe Prats Pintor"	"Quintero"	"Cuenca"	1211
-"Dionisia Guijarro Herrero"	"Marco"	"Burgos"	5593
-"Marciano Palacio Benitez"	"Carreras"	"La Rioja"	2188
-"Catalina Nogueira Serra"	"Reig"	"Alicante"	1331
-"Filomena Diego Palomo"	"Tena"	"Cantabria"	1317
-"Jenny de Palma"	"Rebollo"	"Málaga"	2907
-"Balduino Baudelio Rodrigo Tovar"	"Bas"	"Granada"	4667
-"Rosaura Tirado Camps"	"Chaparro"	"Cáceres"	5820
-"Ligia Juan Arrieta"	"Tenorio"	"Cádiz"	1895
-"Josué Cabello Cantero"	"Garrido"	"Valladolid"	2651
-"Juana Grau-Sanmiguel"	"Granados"	"Jaén"	1090
-"Nuria Cal Llobet"	"Rivero"	"Zamora"	5121
-"Benjamín del Morán"	"Camacho"	"Almería"	3519
-"Iván del Ramírez"	"Ayllón"	"León"	5107
-"Geraldo Olmo Botella"	"Priego"	"Ceuta"	3967
-"Claudio Sarabia Pedrero"	"Zaragoza"	"Huelva"	1718
-"Mariana Hierro Noriega"	"Carrión"	"Santa Cruz de Tenerife"	3883
-"Macaria Ballesteros Oliva"	"Galindo"	"Cantabria"	1514
-"Alcides Prieto Castrillo"	"Cisneros"	"Melilla"	3454
-"Fermín Aarón Gelabert Lozano"	"Tena"	"La Coruña"	2667
-"Georgina Luís Maza"	"Carpio"	"Baleares"	3795
-"Buenaventura Cabeza Puerta"	"Madrid"	"Ávila"	3525
-"Ramón Pozo-Pinto"	"Cantero"	"Soria"	3981
-"Encarnacion Cuevas-Varela"	"Lara"	"Burgos"	4840
-"Francisco Javier Lucio Luz Hurtado"	"Paniagua"	"Albacete"	1215
-"Humberto Abellán Carbó"	"Marí"	"Teruel"	1799
-"Donato Giménez"	"Teruel"	"Almería"	1694
-"Marcela Tejero"	"Rojas"	"Lleida"	3809
-"Gisela Alsina Aroca"	"Santana"	"Teruel"	2509
-"Maxi Rodrigo Amor"	"Uría"	"Navarra"	3106
-"Genoveva Sotelo Gascón"	"Valdés"	"Córdoba"	1230
-"Margarita Barranco Heredia"	"Linares"	"La Coruña"	4814
-"Amaro Otero Bas"	"Doménech"	"Palencia"	5582
-"Dafne Niño Simó"	"Marquez"	"La Coruña"	2488
-"Áurea Nicolau Casas"	"Soria"	"Jaén"	4895
-"Inmaculada Lucas"	"Sanmartín"	"Badajoz"	2130
-"Plácido Báez"	"Cifuentes"	"Huelva"	5645
-"Rosario Carpio Mate"	"Jara"	"Salamanca"	4166
-"Pío García"	"Noguera"	"Zaragoza"	3084
-"Lorenza Naranjo Abril"	"Soto"	"Asturias"	3515
-"Luis Asensio Oliver"	"Guillen"	"Las Palmas"	3296
-"Primitivo Toni Codina Peinado"	"Parra"	"Cáceres"	3847
-"Delia Aránzazu Serna Álvaro"	"Vicens"	"Girona"	4265
-"Jose Ignacio Hernando-Miró"	"Machado"	"Santa Cruz de Tenerife"	4388
-"Ariel Marcos"	"Marco"	"Melilla"	4530
-"Guadalupe Ferreras Riera"	"Catalá"	"Asturias"	5475
-"Lucía del Flor"	"Saez"	"Castellón"	3092
-"Pánfilo Olivera Sanmiguel"	"Clemente"	"Las Palmas"	3203
-"Armando Castilla Villegas"	"Diéguez"	"Tarragona"	1993
-"Tito Horacio Vives Valcárcel"	"Verdugo"	"Ávila"	3014
-"Eduardo Vallejo-Salinas"	"Angulo"	"Teruel"	1802
-"Sandalio Ibarra Hidalgo"	"Paredes"	"Almería"	3113
-"Ainara Palomino Agullo"	"Ramirez"	"Burgos"	2423
-"Renato Arenas Toledo"	"Puerta"	"León"	4133
-"Matilde Pineda Morera"	"Torres"	"Cuenca"	1491
-"Elodia Bellido"	"Vigil"	"Valladolid"	4413
-"Teodoro Baquero"	"Arco"	"Cádiz"	3287
-"Emelina Jordá Lasa"	"Goñi"	"Madrid"	1477
+nombre	apellidos	ciudad	sueldo
+"Basilio Frías"	"Bejarano"	"Soria"	1954
+"Zaida Valenzuela Real"	"Barral"	"Lleida"	2013
+"Esmeralda Máxima Marquez Roldán"	"Español"	"Ávila"	1608
+"Amarilis Querol Riera"	"Coronado"	"Ciudad"	3673
+"Jose Manuel Figuerola"	"Maldonado"	"Las Palmas"	1100
+"Viviana Gárate Alberola"	"Tejedor"	"Toledo"	1903
+"Abraham del Lago"	"Benavente"	"Huesca"	2959
+"Teófilo Cabeza-Alcalá"	"Pereira"	"Valladolid"	2929
+"Rosa Jara"	"Sureda"	"Tarragona"	4038
+"Maribel Barberá Rodriguez"	"Jáuregui"	"Cádiz"	5829
+"Ale Arnaiz Bermudez"	"Frutos"	"Huesca"	3544
+"Augusto de Barrena"	"Huerta"	"Girona"	2016
+"Gabriel de López"	"Gracia"	"Tarragona"	2536
+"Miriam Sobrino Conesa"	"Aller"	"León"	3522
+"Baldomero Fortuny Cid"	"Feliu"	"Melilla"	1508
+"José Mari Montalbán Riera"	"Álvaro"	"Sevilla"	4485
+"Salvador Campos Gallego"	"Lobato"	"Guipúzcoa"	2136
+"Priscila del Arco"	"Campoy"	"Santa Cruz de Tenerife"	1268
+"Aura Godoy Alfaro"	"Ibañez"	"Lugo"	1058
+"Francisco Javier Espada-Vazquez"	"Peinado"	"Teruel"	4824
+"José María Almagro-Segarra"	"Valera"	"Ávila"	3449
+"Trini Garcés Tormo"	"Pazos"	"Zamora"	5032
+"Cleto Sureda Chico"	"Puerta"	"Zamora"	2845
+"Loreto Mascaró Cuadrado"	"Gimenez"	"Ciudad"	1709
+"Angélica Castilla Cuesta"	"Bernad"	"Granada"	2271
+"Bernabé Sevilla Olivera"	"Mayoral"	"Tarragona"	3193
+"Zoraida Amada Lopez Requena"	"López"	"Barcelona"	3822
+"Francisco Jose Fito Monreal Pellicer"	"Bellido"	"Santa Cruz de Tenerife"	2206
+"Diego Sarabia Priego"	"Sanz"	"La Coruña"	2824
+"Tatiana Almansa Carreras"	"Paniagua"	"Segovia"	3523
+"Domingo Alcolea Báez"	"Leon"	"La Rioja"	1120
+"Gervasio Nebot"	"Nogueira"	"Jaén"	2989
+"Isidora Jaume Miralles"	"Ferrero"	"Asturias"	4997
+"Julián Carlos-Escobar"	"Valls"	"Barcelona"	4263
+"Rodolfo Pineda"	"Malo"	"Álava"	5418
+"Espiridión Amat Cobos"	"Pujol"	"Córdoba"	1269
+"Graciela Gras Pazos"	"Gargallo"	"Guipúzcoa"	2683
+"Jafet Mas Berenguer"	"Pareja"	"Granada"	1404
+"María Ángeles Giménez Ibañez"	"Pascual"	"Lugo"	4952
+"María Luisa Rivas Manzano"	"Segovia"	"Asturias"	2078
+"Ildefonso Boada Robles"	"Prado"	"Salamanca"	4239
+"Prudencio Martin Mínguez"	"Francisco"	"Teruel"	4161
+"Rogelio Almeida"	"Martinez"	"Cádiz"	1835
+"Marco Coronado Barriga"	"Rosales"	"Cantabria"	5352
+"Rómulo Girón Barranco"	"Valera"	"Huelva"	1499
+"Jose Ramón Hoz Nogueira"	"Calleja"	"Cádiz"	5896
+"Primitivo Zamora Abad"	"Calleja"	"Barcelona"	4700
+"Maxi Pinilla Gras"	"Baena"	"Ciudad"	5959
+"Gilberto Porcel Nicolás"	"Nicolás"	"Ávila"	2542
+"Marco Arribas Zaragoza"	"Miranda"	"Baleares"	3826
+"Adelina Susana Tamarit Ayala"	"Pombo"	"León"	5310
+"Águeda Jove-Salazar"	"Manjón"	"Navarra"	5719
+"Felicidad Gutierrez Roselló"	"Expósito"	"Cádiz"	1242
+"Reynaldo Madrid Casas"	"Morcillo"	"Palencia"	3361
+"Patricio Llano Verdejo"	"Valderrama"	"Córdoba"	3850
+"Febe Chaves Arévalo"	"Lillo"	"Barcelona"	3283
+"Quirino Medina Azcona"	"Marquez"	"Lleida"	1878
+"Saturnina Gisela Giralt Ayala"	"Sanabria"	"Segovia"	5915
+"Manola Etelvina Canals Crespo"	"Medina"	"Asturias"	1372
+"Amando Conesa"	"Posada"	"Vizcaya"	3742
+"Carla Amo Cañizares"	"Velázquez"	"Baleares"	1939
+"Rosa Bravo Mesa"	"Castelló"	"Barcelona"	4408
+"Josep Pavón Guillen"	"Montero"	"Zamora"	3757
+"Luciana del Francisco"	"Taboada"	"Guipúzcoa"	3526
+"Luciana Bilbao Godoy"	"Olmedo"	"Cádiz"	3380
+"Florentina Ramos Mir"	"Echevarría"	"Huelva"	4583
+"Evelia de Cabañas"	"Madrid"	"Cádiz"	2517
+"Ana Belén Ramos Larrea"	"Arellano"	"Ciudad"	5700
+"Imelda Cárdenas Serrano"	"Parra"	"Burgos"	4120
+"Juan José Blasco Bas"	"Huerta"	"Murcia"	2742
+"Dafne Lara-Guzman"	"Millán"	"Valencia"	1493
+"Josefina Aliaga Esparza"	"Alegre"	"Segovia"	3284
+"Delia Villalba"	"Salom"	"Cuenca"	3497
+"Cecilio Tomé Goicoechea"	"Font"	"Pontevedra"	5967
+"Valeria Begoña Gutierrez Franch"	"Busquets"	"Lugo"	4215
+"Cirino Uribe Casado"	"Lillo"	"Baleares"	1897
+"Mercedes Cordero Gimeno"	"Hoz"	"Valencia"	1466
+"Silvio Salas Coello"	"Peñas"	"Salamanca"	1650
+"Alejandro Villegas Cárdenas"	"Vergara"	"Barcelona"	2808
+"Juan Frutos-Poza"	"Sanmiguel"	"Baleares"	1860
+"Raimundo Avilés Tello"	"Redondo"	"Zaragoza"	2980
+"Catalina Flores Taboada"	"Chaves"	"Huesca"	3377
+"Alcides Quintero Rovira"	"Sobrino"	"Cuenca"	4377
+"Bernarda Vendrell Tirado"	"Dávila"	"Girona"	1809
+"Albano Ureña Cabrera"	"Fernández"	"Ávila"	3605
+"María José de Saldaña"	"Portero"	"Palencia"	4057
+"Eusebia Lucena Alegria"	"Martinez"	"Melilla"	1993
+"Rosa María Arnau-Codina"	"Leiva"	"Ciudad"	4208
+"Cristóbal Amador Peral"	"Rivera"	"Baleares"	2903
+"Febe Barberá Torrijos"	"Girona"	"Navarra"	1073
+"Jose Miguel Alcántara-Bertrán"	"Pareja"	"Granada"	5530
+"Luz Pol Guerra"	"Pellicer"	"Ávila"	4063
+"Celso Roura Calvet"	"Meléndez"	"Huelva"	5583
+"Blas Gámez Escamilla"	"Cerdá"	"Guipúzcoa"	4096
+"Dionisia Reyna Sabater Carpio"	"Canales"	"Salamanca"	2548
+"Leocadio Fabra Manzano"	"Villalonga"	"Badajoz"	5731
+"Eva María Pagès Grande"	"Quintanilla"	"Cádiz"	5975
+"Fausto Cruz Vicens"	"Estevez"	"Ceuta"	4354
+"Arsenio Pla Nadal"	"Pascual"	"Salamanca"	1400
+"Irma Cueto Romero"	"Nebot"	"Baleares"	4946
+"Daniel Barral-Saavedra"	"Rozas"	"Navarra"	4208
+"Bernardino Sans Codina"	"Alegria"	"Madrid"	3463
+"Lupita Borrás Tejada"	"Sanmartín"	"Málaga"	3284
+"Yéssica Marcos-Rius"	"Pizarro"	"Salamanca"	2066
+"Lázaro Pareja Blázquez"	"Miralles"	"Cáceres"	3813
+"Trinidad Eliana Pinto Cañizares"	"Sebastián"	"La Rioja"	3170
+"Calisto Ferrándiz"	"Solana"	"Lleida"	4078
+"Jose Antonio Barral Doménech"	"Ferrero"	"Ourense"	1243
+"Adán Ribera Escudero"	"Francisco"	"La Coruña"	2884
+"Germán Alba Garriga"	"Ortuño"	"Huesca"	4122
+"Luz Noriega Prado"	"Polo"	"Salamanca"	1665
+"Delia de Gimenez"	"Amat"	"La Coruña"	3332
+"Ruben Marcos Giralt Salcedo"	"Bernat"	"Asturias"	2372
+"Ariel del Ferrándiz"	"Gual"	"Albacete"	2734
+"Ana Belén Maricruz Cobo Ortuño"	"Mancebo"	"Ourense"	4264
+"Bernardita Comas Taboada"	"Manrique"	"Badajoz"	3595
+"Rebeca Grau Cáceres"	"Bellido"	"Santa Cruz de Tenerife"	1478
+"Ruperta Lluch Aguiló"	"Bolaños"	"Guadalajara"	3147
+"Eusebio Gutierrez Gras"	"Ortega"	"León"	3888
+"Joaquina Albero Rueda"	"Osorio"	"Tarragona"	4353
+"Eutimio Esparza-Morillo"	"Ríos"	"Ourense"	5184
+"Teo Landa Miró"	"Royo"	"Ávila"	3860
+"Mariana Prieto"	"Cabañas"	"Castellón"	4345
+"Evangelina Noa Castelló Osorio"	"Morera"	"Asturias"	4868
+"Clímaco Rivas-Abella"	"Revilla"	"Málaga"	3448
+"José Ángel Izquierdo"	"Calatayud"	"Ourense"	5826
+"Manuelita Cabezas"	"Abella"	"Almería"	5882
+"Agapito Quintanilla Bravo"	"Ordóñez"	"La Coruña"	1850
+"Carmelo del Priego"	"Revilla"	"Melilla"	1557
+"Lino Martínez Marín"	"Palau"	"Valencia"	3599
+"Remigio Marqués Vélez"	"Granados"	"Palencia"	1327
+"María Dolores Asensio Sainz"	"Cano"	"Cantabria"	2905
+"Julia Verdejo Amat"	"Rocamora"	"Baleares"	2479
+"Alexandra Fabiana Soria Tomé"	"Carrión"	"Huelva"	1217
+"Felipa Palomar Salgado"	"Frías"	"Tarragona"	1502
+"Leoncio Moya Mariño"	"Orozco"	"Baleares"	3616
+"Ariel Cabrera Mariño"	"Esteve"	"Barcelona"	4740
+"Benito Valenzuela Villegas"	"Quirós"	"Soria"	5584
+"Azahar Alcaraz Lloret"	"Olmo"	"Granada"	5723
+"Nilo Campoy Carbajo"	"Correa"	"Ceuta"	4589
+"Casandra Tovar Jaén"	"Lumbreras"	"Badajoz"	4414
+"Sonia Dávila Gámez"	"Castelló"	"Alicante"	1051
+"Josué Peiró"	"Baró"	"Sevilla"	2340
+"Victoriano Armas Pou"	"Castañeda"	"Cádiz"	1164
+"Albino Rafael Cardona Oliver"	"Ferrando"	"Lleida"	1570
+"Candelario Barba Águila"	"Torrents"	"Guipúzcoa"	3319
+"Diego Caparrós Ayllón"	"Salas"	"Córdoba"	3189
+"Victor Manuel Zurita Sebastián"	"Ochoa"	"Alicante"	1810
+"Modesta Villanueva Caparrós"	"Gálvez"	"Jaén"	1986
+"Prudencio Plaza Gual"	"Domingo"	"Huelva"	5802
+"Maxi Gimeno"	"Sanabria"	"Ceuta"	3021
+"Emma Aguiló Mármol"	"Lerma"	"Jaén"	5824
+"Heraclio Alemany"	"Jaén"	"Lugo"	2934
+"Lupe Paz Giménez"	"Carreras"	"Palencia"	4300
+"Conrado Jimenez"	"Alvarado"	"Segovia"	2837
+"Alfredo Miguel Anglada Tello"	"Benitez"	"Valencia"	3871
+"Poncio de Múgica"	"Peñalver"	"Málaga"	1043
+"Lope Cobos Padilla"	"Barranco"	"Lleida"	3070
+"Nuria Tejero Alcalá"	"Guardia"	"La Coruña"	5818
+"Eliseo Ribes Catalá"	"Piñeiro"	"Alicante"	1749
+"Bruno Rafael Adán Santana"	"Cañas"	"Sevilla"	4405
+"José Antonio Parejo Grande"	"Marcos"	"La Rioja"	3692
+"Maura Gordillo"	"Carrillo"	"Ciudad"	2141
+"Tamara Amaya Bilbao Guijarro"	"Cerdán"	"Baleares"	3919
+"Chus Pelayo Santamaría"	"Araujo"	"Guipúzcoa"	5468
+"Ximena Mancebo Pavón"	"Ayuso"	"Madrid"	3819
+"Olimpia Anna Alberto Anaya"	"Bellido"	"Ourense"	4941
+"Tristán Carro Acedo"	"Sandoval"	"Girona"	2238
+"Anselmo del Alcaraz"	"Blanes"	"Valencia"	1218
+"Daniela Solana Flor"	"Mendizábal"	"Santa Cruz de Tenerife"	3517
+"Amador Ferreras Martinez"	"Luján"	"Guipúzcoa"	3365
+"Primitiva de Tena"	"Bas"	"Ourense"	4909
+"Samu Patiño Pozuelo"	"Rojas"	"León"	2756
+"Godofredo Pi Armengol"	"Valbuena"	"Las Palmas"	4240
+"Nilda Valcárcel Figuerola"	"Arregui"	"Castellón"	3174
+"Ruperta Ros Llopis"	"Ariño"	"La Rioja"	2262
+"Leire Villar Pujol"	"Jover"	"Burgos"	2472
+"Azeneth Díez Sastre"	"Botella"	"Zaragoza"	1011
+"Águeda Emilia Murcia Calleja"	"Lopez"	"Valencia"	4592
+"Jesús del Ponce"	"Monreal"	"Segovia"	1571
+"Calixta Múñiz Corominas"	"Patiño"	"Granada"	5421
+"Luisina del Jerez"	"Vazquez"	"Castellón"	2537
+"Federico Agullo-Lerma"	"Abril"	"Asturias"	3706
+"Ulises Parejo Rodriguez"	"Rivero"	"Málaga"	1095
+"Eva María Llorente"	"Manzanares"	"Álava"	2599
+"María Ángeles Jaume Sanz"	"Bauzà"	"Almería"	1306
+"Emma Luque Meléndez"	"Terrón"	"Cádiz"	2090
+"Reyes Felipe Rocamora Almagro"	"Murcia"	"Burgos"	5028
+"Angélica Izquierdo-Real"	"Lasa"	"Granada"	4435
+"Reynaldo Cristian Sala Mateu"	"Agullo"	"Cáceres"	3411
+"Primitivo Español Aguilera"	"Iniesta"	"Alicante"	1289
+"Armando Dávila Gil"	"Dominguez"	"Córdoba"	1290
+"Juan José Torrent Romero"	"Solís"	"Cádiz"	4212
+"Tadeo Gras Acedo"	"Figueras"	"Málaga"	4327
+"Galo Casanova-Cortina"	"Torrecilla"	"Huelva"	1261
+"Marcio Checa Piña"	"Piñol"	"Guipúzcoa"	4218
+"Azucena Cuervo-Goicoechea"	"Ayllón"	"Salamanca"	1076
+"Eugenio Cañas Mayoral"	"Chaves"	"Segovia"	1266
+"Victor Manuel Coca"	"Recio"	"Valencia"	2426
+"Elvira Aragonés"	"Reyes"	"Las Palmas"	2256
+"Jaime Santamaría-Zaragoza"	"Pinto"	"Tarragona"	5750
+"Jordán Baeza Almagro"	"Almeida"	"Guadalajara"	1280
+"Paulina Alcaraz Falcón"	"Almagro"	"Badajoz"	4720
+"Evaristo Lledó Buendía"	"Priego"	"León"	1827
+"Teodora Tena Moraleda"	"Jaume"	"Huelva"	4399
+"Elba Obdulia Villalobos Benito"	"Heras"	"Huesca"	3128
+"Sandalio Sanmartín Guillen"	"Ferrero"	"Zaragoza"	5930
+"Elba de Cifuentes"	"Valencia"	"Melilla"	2772
+"Fidela Gomez Iniesta"	"Nogueira"	"Cuenca"	2813
+"Ámbar Morales Merino"	"Duran"	"Málaga"	2250
+"Esteban Sánchez Menéndez"	"Morata"	"Navarra"	3616
+"Florencio Gómez Plana"	"Quintero"	"Cádiz"	4500
+"Marisol Loida Hierro Araujo"	"Barranco"	"León"	5218
+"Marcelino Espejo Aliaga"	"Vazquez"	"Alicante"	5318
+"Ricarda Farré Sanjuan"	"Mateos"	"Salamanca"	3580
+"Marta del Morillo"	"Araujo"	"Castellón"	5361
+"Concepción del Calderón"	"Ferreras"	"Toledo"	1235
+"Edmundo Gimeno Losada"	"Elorza"	"Zaragoza"	2520
+"Cándida Ledesma Verdejo"	"Avilés"	"Granada"	1825
+"Albino Villena"	"Sacristán"	"Badajoz"	1776
+"Raimundo Murcia Carmona"	"Pellicer"	"Alicante"	1805
+"Rufino Heliodoro Iborra Heredia"	"Alegre"	"Albacete"	3720
+"Roque Cerezo Porras"	"Morales"	"Cantabria"	1940
+"Mauricio Berrocal Torre"	"Aragón"	"Salamanca"	3214
+"Oriana de Gascón"	"Acedo"	"Soria"	4205
+"Gabino Atilio Toro Álvaro"	"Lerma"	"Barcelona"	2663
+"Rubén Timoteo Juan Cervantes"	"Ruiz"	"Valladolid"	4724
+"Sosimo Francisco Jose Narváez Almazán"	"Peña"	"Ceuta"	1370
+"Etelvina Dalmau"	"Dávila"	"Baleares"	3618
+"Jose Francisco Ferrer Esteve"	"Bravo"	"Cuenca"	5609
+"Ciríaco del Company"	"Barreda"	"Cáceres"	4068
+"Lara del Iniesta"	"Seguí"	"Badajoz"	4263
+"Soledad Camino Solera"	"Peñas"	"Guipúzcoa"	3372
+"Hernán Casanovas Rivera"	"Alberdi"	"Valencia"	5688
+"Evaristo Bermudez Tamayo"	"Garcés"	"Cantabria"	3223
+"Nerea Estevez Gomis"	"Andres"	"Sevilla"	4910
+"Marita Soria Díez"	"Fuente"	"La Coruña"	4601
+"Miguel Rey Iriarte"	"Mayo"	"Ciudad"	1603
+"Tomasa Mendez-Gibert"	"Hernández"	"Salamanca"	3594
+"Abril Toro-Reyes"	"Guzmán"	"Soria"	2463
+"Silvia Duque Calvo"	"Morera"	"Palencia"	5886
+"Merche Carreño Quintero"	"Camps"	"Cádiz"	3827
+"Anunciación Pol Juan"	"Hoz"	"Albacete"	5681
+"Maite Esparza-Leal"	"Figuerola"	"Ourense"	4513
+"Eliseo Marqués Segarra"	"Gonzalez"	"Lugo"	4265
+"Felicidad Alcaraz Vendrell"	"Marcos"	"Jaén"	2122
+"Manolo Mendez Martín"	"Marti"	"Zamora"	4100
+"Desiderio Angelino Guardia Perelló"	"Carballo"	"Valladolid"	1407
+"Roldán Donoso Prats"	"Moya"	"Badajoz"	3840
+"Edmundo Gelabert Sevilla"	"Hernandez"	"Ourense"	5236
+"Anita Cortés Naranjo"	"Martinez"	"Cuenca"	2876
+"Jovita Peralta Carlos"	"Alemany"	"Cáceres"	2132
+"Elba María Del Carmen Olmedo Maldonado"	"Boada"	"Cáceres"	4231
+"Maura Doménech Barragán"	"Nogueira"	"La Coruña"	3211
+"Bárbara Gallart Rebollo"	"Diéguez"	"Baleares"	1614
+"Concha Rebollo Roca"	"Santos"	"Las Palmas"	1508
+"Ibán Baró Nebot"	"Gibert"	"Toledo"	1340
+"Primitiva de Baró"	"Rosell"	"Soria"	3995
+"Nicanor del Rubio"	"Orozco"	"Ourense"	1297
+"Néstor de Sanmiguel"	"Cabrero"	"Cáceres"	4726
+"Delfina Zaragoza-Amigó"	"Jimenez"	"Pontevedra"	2575
+"Graciano Pomares Barrio"	"Martorell"	"Ourense"	4798
+"Marcelo José Mari Gomila Almeida"	"Méndez"	"Murcia"	2596
+"Diana Riquelme Lamas"	"Prada"	"Ávila"	5511
+"Pastor Soria Huguet"	"Puerta"	"Cáceres"	5768
+"Rolando Alba"	"Delgado"	"Guadalajara"	1848
+"Feliciano del Miranda"	"Corbacho"	"Jaén"	1498
+"Samuel Perelló Carretero"	"Isern"	"Lugo"	4393
+"Iris Palomo Expósito"	"Porta"	"León"	3707
+"Francisco Jose Carbó Bustamante"	"Pazos"	"Jaén"	1076
+"Duilio Poza Alsina"	"Porta"	"Zamora"	1461
+"Pili Juana Reig Macías"	"Garriga"	"León"	3243
+"Constanza Alcaraz Velázquez"	"Comas"	"Valladolid"	1380
+"Fito Tristán Mena Jordán"	"Ávila"	"Zaragoza"	2727
+"Maximiano Torrecilla Aguilar"	"Tenorio"	"Almería"	3658
+"Narciso Tur Vergara"	"Sacristán"	"Las Palmas"	5374
+"Ambrosio Torrens Tur"	"Mendizábal"	"Jaén"	2295
+"Morena Roca Roldán"	"Arrieta"	"Salamanca"	2196
+"Lucas Ruano Díaz"	"Criado"	"Álava"	3282
+"Adolfo Alcántara Baró"	"Ugarte"	"Cáceres"	4557
+"Cesar Díaz Andres"	"Boix"	"Cuenca"	4322
+"Ruben Arco Armengol"	"Mercader"	"Pontevedra"	2162
+"Victoria Palomo Briones"	"Hernando"	"Salamanca"	2065
+"Severiano Pedraza-Mena"	"Pons"	"Cádiz"	5113
+"Ana Belén del Lumbreras"	"Hurtado"	"La Rioja"	1094
+"Rufina Estela Roura Heras"	"Heras"	"Granada"	5631
+"Perlita Múgica Sarabia"	"Pinilla"	"Barcelona"	2458
+"Ariadna Vazquez Viñas"	"Ripoll"	"León"	1285
+"Paula Cortina"	"Miranda"	"Álava"	1941
+"Juan Pablo Riquelme Verdú"	"Uriarte"	"Teruel"	1292
+"Rosalía Perelló Querol"	"Larrañaga"	"Málaga"	4568
+"Clarisa Ramos Bravo"	"Ramírez"	"Palencia"	4779
+"Martín Rueda Jurado"	"Garriga"	"Huesca"	2740
+"Teodoro Olivé"	"Cañellas"	"Girona"	1375
+"Alicia Carreras Aguiló"	"Pera"	"Vizcaya"	5586
+"Santos Nicolás Castells"	"Ponce"	"Barcelona"	1805
+"Jose Manuel Puga Sáenz"	"Salvà"	"Vizcaya"	2433
+"Mercedes Córdoba Catalán"	"Belmonte"	"Teruel"	5313
+"Ruy Colom Font"	"Collado"	"Santa Cruz de Tenerife"	2101
+"Chema Pepe Vargas Dalmau"	"Amor"	"Navarra"	3995
+"Constanza Roberta Arregui Muñoz"	"Casares"	"Melilla"	3706
+"José Mari Hurtado Villa"	"Arrieta"	"Zaragoza"	4690
+"Reyes Heredia Seco"	"Benet"	"Ciudad"	5905
+"Jose Francisco Escolano Bayo"	"Gibert"	"Ceuta"	1480
+"Damián Jose Meléndez Olivé"	"Serrano"	"Albacete"	3595
+"Marina Llobet Molins"	"Alberto"	"Córdoba"	2183
+"Noa Nuñez"	"Córdoba"	"Girona"	3069
+"Quique Doménech"	"Durán"	"Asturias"	1904
+"Plinio Poza Hidalgo"	"Heredia"	"Ávila"	3553
+"Tomasa Alarcón Tena"	"Puig"	"Valencia"	4541
+"Adelaida Blanch"	"Castro"	"Huesca"	4043
+"Nuria Ropero Verdugo"	"Bautista"	"Las Palmas"	3578
+"Anunciación Montserrat Ríos"	"Vilanova"	"Ourense"	5227
+"Maura Torrijos Osuna"	"Baena"	"Alicante"	2183
+"Isidoro Quintanilla Orozco"	"Fajardo"	"Palencia"	2448
+"Fidel Coronado Roselló"	"Cózar"	"Palencia"	3197
+"Amaya Ferrero Moya"	"Cal"	"Almería"	3174
+"Gabriel Velasco Milla"	"Barón"	"Álava"	4680
+"Marino Díez Otero"	"Cobos"	"Girona"	3777
+"Raúl Vicente Reina"	"Anguita"	"Lleida"	3695
+"Judith Serafina Ibarra Sedano"	"Bermúdez"	"Álava"	2722
+"Bernarda Nuñez Contreras"	"Cobo"	"Málaga"	1198
+"Lalo Milla Sandoval"	"Pou"	"Álava"	3314
+"Alberto Sebastián Abril Ángel"	"Estrada"	"Guipúzcoa"	4274
+"Manola Valero Salazar"	"Beltran"	"Sevilla"	1874
+"Amancio Fuster Rivero"	"Andrés"	"Valencia"	4454
+"Wilfredo del Luján"	"Calvet"	"Murcia"	4788
+"Jaime Mur Velázquez"	"Corominas"	"Zamora"	5449
+"Osvaldo Rubén Carbonell Olivé"	"Sacristán"	"Badajoz"	3611
+"Yago Tomas Carmona"	"Saavedra"	"Toledo"	2286
+"Ramona Téllez"	"Izaguirre"	"Sevilla"	4093
+"Lalo Espejo Leiva"	"Larrea"	"Las Palmas"	2520
+"Bartolomé del Pazos"	"Espejo"	"Valencia"	3553
+"Zaida Bayo Quevedo"	"Cuevas"	"Valladolid"	4703
+"Teófilo Moya Ramírez"	"Avilés"	"Girona"	3392
+"Guadalupe Camino Barral"	"Nieto"	"Badajoz"	1701
+"Fátima Sara Farré Tenorio"	"Álamo"	"Almería"	1007
+"Amancio Diego Moraleda Vigil"	"Roman"	"Santa Cruz de Tenerife"	5908
+"Petrona Cervera Estrada"	"Balaguer"	"Tarragona"	3885
+"Pedro Romeu Valentín"	"Jiménez"	"Badajoz"	1926
+"Reina Salgado-Tello"	"Roman"	"Ceuta"	2119
+"Domitila de Jerez"	"Pinto"	"Ceuta"	4509
+"Diego Marqués Palomares"	"Molins"	"Jaén"	3695
+"Eligia Diéguez Fiol"	"Fabregat"	"Soria"	3616
+"Osvaldo Hernandez Salamanca"	"Peinado"	"Cuenca"	5354
+"Artemio Reig-Gabaldón"	"Gallo"	"Huesca"	2011
+"Jose Antonio Salmerón Ruiz"	"Neira"	"Cáceres"	1308
+"Roxana Tapia"	"Pedrero"	"La Coruña"	3600
+"Teresa Fuentes Olivé"	"Maza"	"Málaga"	1642
+"Dionisio Mulet Merino"	"Bautista"	"Zaragoza"	1255
+"Xavier Fuentes"	"Esparza"	"León"	5958
+"Carlota Rodriguez"	"Villalba"	"Ciudad"	3826
+"Severino Benito Bellido"	"Buendía"	"Alicante"	1333
+"Goyo Conde Roig"	"Solana"	"Lugo"	4661
+"Lucio Cortés Badía"	"Anguita"	"Guipúzcoa"	3942
+"Adolfo Parejo-Plaza"	"Chico"	"Córdoba"	1131
+"Ariadna del Francisco"	"Rodriguez"	"Cádiz"	1395
+"Lorena Guzmán-Jove"	"Valle"	"Navarra"	1897
+"Espiridión Figueroa Castillo"	"Román"	"Melilla"	5022
+"Gerardo Marín Mínguez"	"Busquets"	"Ourense"	4000
+"Diego Iñiguez Aliaga"	"Clemente"	"Girona"	2094
+"Tere Goicoechea-Plaza"	"Busquets"	"Toledo"	1651
+"Leonel Calvet Perea"	"Oliver"	"Huelva"	5878
+"Marcela Mascaró"	"Prats"	"Las Palmas"	3295
+"Jovita Piquer Alvarado"	"Calleja"	"Tarragona"	2586
+"Goyo Canals Alemany"	"Cerezo"	"Albacete"	5738
+"Alfredo Román Figuerola"	"Prat"	"Teruel"	1682
+"Isa Sanmiguel"	"Castell"	"Castellón"	4655
+"Ricarda Calista Chaparro Rojas"	"Jiménez"	"Guipúzcoa"	2186
+"Carmela Bayo Fuentes"	"Porras"	"Zaragoza"	1126
+"Fernanda Checa Borrás"	"Cuevas"	"Guadalajara"	1431
+"Luisa Mayoral Cortes"	"Lucena"	"Zamora"	2095
+"Albina Ferrández Exposito"	"Palomares"	"Zaragoza"	5269
+"Lorenza Berrocal Tejero"	"Olivera"	"Valladolid"	3439
+"Nicolasa Riera Heredia"	"Amador"	"Burgos"	5823
+"Estefanía Isern Suarez"	"Marin"	"Huesca"	1689
+"Vidal Cuenca Solera"	"Villalonga"	"Ourense"	2944
+"Anastasio Pareja Tello"	"Castro"	"Salamanca"	4390
+"Félix Mayo Bustos"	"Gárate"	"Girona"	1104
+"Mayte Plana Gómez"	"Fabregat"	"Álava"	2936
+"Felisa Gomis Reyes"	"Garay"	"Cádiz"	1592
+"Flor Araujo Moll"	"Alcántara"	"Asturias"	2957
+"Renata Adriana Lillo Iborra"	"Gutierrez"	"Teruel"	4648
+"Cristian Tamayo"	"Ribas"	"Álava"	2192
+"Víctor Avilés Aroca"	"Huertas"	"Pontevedra"	3337
+"Bernarda Milla Cózar"	"Rubio"	"Vizcaya"	5496
+"Teresita Carrión Velasco"	"Salvà"	"Girona"	2756
+"Jose Antonio Duarte"	"Mir"	"Zaragoza"	4338
+"Marita Rubio Vallés"	"Esteban"	"Alicante"	3114
+"Zacarías Pinedo Amor"	"Colom"	"Cádiz"	1549
+"Caridad del Domínguez"	"Castells"	"Madrid"	3305
+"Rocío de Pizarro"	"Miranda"	"Salamanca"	1679
+"Cristóbal Alemán Valentín"	"Carranza"	"Pontevedra"	2012
+"Cándida Molina Verdugo"	"Haro"	"Córdoba"	3935
+"Arcelia Torralba Herrero"	"Alvarez"	"Valencia"	3242
+"Fito de Carrillo"	"Hernandez"	"León"	3526
+"Ildefonso Ramírez Pedraza"	"Ariza"	"La Rioja"	4929
+"Isabel Vicente Esparza"	"Lara"	"Zaragoza"	4285
+"Sigfrido Manzano Manzanares"	"Casal"	"Guipúzcoa"	5239
+"Aroa Cabo Palau"	"Rovira"	"Zamora"	5397
+"Teresita Galván"	"Díez"	"Barcelona"	2764
+"Teófilo Roma Jara"	"Toledo"	"Zaragoza"	1056
+"Régulo Raimundo Español Álvarez"	"Contreras"	"Lugo"	3608
+"Martin Bilbao-Marin"	"Taboada"	"Málaga"	1105
+"Danilo Anaya"	"Gallego"	"Jaén"	2847
+"Hortensia Montalbán Baró"	"Cisneros"	"Toledo"	5571
+"Pablo Salazar Moles"	"Barrena"	"Baleares"	4451
+"Magdalena Borrás Mateu"	"Báez"	"Pontevedra"	1046
+"Modesto de Arroyo"	"Calderón"	"Sevilla"	2803
+"Marcial Solís Pablo"	"Bravo"	"Las Palmas"	4584
+"Isidro Giménez Torrent"	"Valera"	"Santa Cruz de Tenerife"	4879
+"José Mari Aurelio Montenegro Arias"	"Puente"	"Zaragoza"	2001
+"Plácido Andrés Sacristán"	"Espada"	"Toledo"	4257
+"Maximiano Barberá Tejedor"	"Alberto"	"Cantabria"	3264
+"José Alfaro Paredes"	"Balaguer"	"Granada"	2804
+"Fermín Plana Gallart"	"Tejada"	"Girona"	1935
+"Bibiana de Luján"	"Acosta"	"Huelva"	2954
+"Marcos Lucena"	"Jódar"	"Guadalajara"	5977
+"Melania Carpio Calvo"	"Abril"	"Guadalajara"	5997
+"Salvador Cañas Amaya"	"Mariscal"	"Santa Cruz de Tenerife"	5186
+"Amanda del Vives"	"Blazquez"	"Madrid"	5539
+"Juan Pablo Ledesma Manjón"	"Mayol"	"Cantabria"	3285
+"Cecilio del Villalba"	"Pedrosa"	"Girona"	1636
+"Marc Dávila Miró"	"Folch"	"Jaén"	5904
+"Galo Palomares Martorell"	"Madrid"	"Granada"	3630
+"Valentín Sierra Sandoval"	"Palmer"	"Vizcaya"	3112
+"Anastasia Baquero Páez"	"Martí"	"Guipúzcoa"	5172
+"Mariana del Bermúdez"	"Ariza"	"Granada"	2571
+"Jordi del Diéguez"	"Bello"	"Palencia"	3953
+"Prudencia Lloret Martinez"	"Pons"	"La Rioja"	2496
+"Hilda Estrada Uribe"	"Bello"	"Cáceres"	3124
+"Prudencia Roma"	"Palacio"	"Tarragona"	5768
+"Teresita Rios"	"Jordá"	"Zamora"	1114
+"Ámbar Mesa Cornejo"	"Carranza"	"Huelva"	2055
+"Chucho Aroca Diaz"	"Arévalo"	"Murcia"	3065
+"Álvaro Alcántara Múñiz"	"Neira"	"Teruel"	2876
+"Gerardo Arribas"	"Iñiguez"	"Guipúzcoa"	2000
+"Rocío Peña Benet"	"Pellicer"	"Melilla"	2444
+"Isaías Barberá Sainz"	"Vargas"	"Castellón"	5008
+"Mónica Portillo-Mesa"	"Jiménez"	"Cáceres"	5049
+"Rosa Baeza-Gutiérrez"	"Guitart"	"Ceuta"	2479
+"Cintia Atienza"	"Guitart"	"Ciudad"	4863
+"Quirino Lillo Barrena"	"Céspedes"	"Granada"	3642
+"Anunciación Rozas Blanch"	"Español"	"Barcelona"	4643
+"Filomena Herminia Portillo Santamaría"	"Llanos"	"Ourense"	1329
+"Matilde Solera"	"Arce"	"Cáceres"	3736
+"Alex de Nogués"	"Hoyos"	"Las Palmas"	1488
+"Araceli Roxana Barreda Quiroga"	"Roldán"	"Girona"	4700
+"Marcial Borja Aznar Gargallo"	"Zapata"	"Toledo"	3064
+"Plinio Bello Barrera"	"Pavón"	"Huesca"	3518
+"Cleto Trujillo Gomis"	"Vives"	"Baleares"	5907
+"Danilo del Santana"	"Lopez"	"Ceuta"	1021
+"Odalis del Porras"	"Verdugo"	"Toledo"	4718
+"Roque Roselló Miranda"	"Falcó"	"Albacete"	1030
+"Chita Salom Valencia"	"Azcona"	"Valladolid"	3998
+"Francisco Javier Casanovas García"	"Olivares"	"Barcelona"	5929
+"Jose Angel Menendez Santana"	"Millán"	"Albacete"	3838
+"Mirta Emma Olivé Lladó"	"Cobo"	"Barcelona"	3097
+"Cayetano Plaza Cepeda"	"Bayón"	"Zaragoza"	1702
+"Zaira Barba Nadal"	"Portillo"	"Zamora"	3039
+"Selena Cal Sevillano"	"Madrid"	"Palencia"	4082
+"Isabela Peláez Vilalta"	"Arias"	"Valladolid"	3076
+"Hernando de Catalán"	"Arana"	"Melilla"	2984
+"Luis Miguel Rivero Rey"	"Conde"	"Burgos"	4926
+"Severiano Velasco Santamaría"	"Corbacho"	"Zamora"	3778
+"Flavio del Rivas"	"Amor"	"Asturias"	2169
+"Godofredo Galán Catalá"	"Galiano"	"Baleares"	3689
+"Jerónimo Abellán Ropero"	"Rosales"	"La Rioja"	3971
+"Fabricio Zabala Pedraza"	"Perelló"	"Tarragona"	5983
+"Lara Carnero Merino"	"Sierra"	"Palencia"	5898
+"Teófila Ramona Bauzà Piña"	"Cepeda"	"Ourense"	3995
+"Carlito Falcó"	"Salamanca"	"Guadalajara"	4160
+"Gerardo Cabo-Peláez"	"Mendoza"	"Salamanca"	2164
+"Máximo Ferrández Busquets"	"Carpio"	"Madrid"	1568
+"Cristian Leon-Portero"	"Zamorano"	"Palencia"	5208
+"Mario Gregorio Iriarte Pineda"	"Salvà"	"Segovia"	2782
+"Flor Delgado Canet"	"Ochoa"	"Álava"	2465
+"Severiano Miranda Montoya"	"Pardo"	"Navarra"	3601
+"Luciano José Manuel Navas Barbero"	"Zurita"	"Tarragona"	3711
+"Martin Pou Vaquero"	"Ayala"	"Las Palmas"	1632
+"Azahara del Hernández"	"Gascón"	"Vizcaya"	2667
+"Íngrid Fidela Batalla Macias"	"Blanco"	"Albacete"	2194
+"Aníbal Asensio Noriega"	"Arteaga"	"Ciudad"	4028
+"Jose Luis del Carbonell"	"Salamanca"	"La Coruña"	1928
+"Manuelita Cañete Riba"	"Colomer"	"Zamora"	1310
+"Saturnina de Amat"	"Soler"	"Álava"	3462
+"Martina Bermúdez Cortina"	"Pomares"	"Baleares"	3829
+"Eric Lino Saldaña Flores"	"Ruiz"	"Cádiz"	2726
+"Natividad Estévez"	"Mena"	"Navarra"	5894
+"Odalis Tello"	"Montenegro"	"Huelva"	1920
+"Débora Goicoechea-Aguiló"	"Rojas"	"Las Palmas"	3835
+"Ángela Fátima Berrocal Sales"	"Cabello"	"Baleares"	5148
+"Aura Solano Fabra"	"Armas"	"Soria"	1863
+"Leocadia Múgica-Palomino"	"Landa"	"Huesca"	3793
+"Jovita Huguet Bermúdez"	"Nicolau"	"Murcia"	4997
+"Virginia Valderrama"	"Toro"	"La Rioja"	2011
+"Trini Correa"	"Serra"	"Toledo"	3759
+"Pía Larrañaga Cabo"	"Blanch"	"Salamanca"	2989
+"Olivia Leon Cueto"	"Costa"	"Almería"	2203
+"Teresita del Galiano"	"Alonso"	"Cádiz"	1272
