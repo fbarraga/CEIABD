@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="column is-4 is-offset-4">
+    <h3 class="title">Alta de un Cliente</h3>
+    <div class="box">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="notification is-danger">
+                {{ messages[0] }} Vuelve a intentarlo.
+                </div>
+            {% endif %}
+        {% endwith %}
+        <form method="POST" action="/client_create">
+            <div class="field">
+                <div class="control">
+                    <input class="input is-normal" type="email" name="email" placeholder="Email" autofocus="">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="input is-normal" type="text" name="nombre" placeholder="Nombre" autofocus="">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="input is-normal" type="password" name="password1" placeholder="Contraseña">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="input is-normal" type="password" name="password2" placeholder="Vuelve a introducir la contraseña">
+                </div>
+            </div>
+
+            <button class="button is-block is-info is-large is-fullwidth">Guardar</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

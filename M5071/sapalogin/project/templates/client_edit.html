@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="column is-4 is-offset-4">
+    <h3 class="title">Datos de Cliente</h3>
+    <div class="box">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="notification is-danger">
+                {{ messages[0] }} Vuelve a intentarlo.
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <form method="POST" action="/client_edit">
+        <input class="input" type="hidden" name="id" value="{{ user.id }}" />
+
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label">Nombre</label>
+            </div>
+
+            <div class="field-body">
+                <div class="field is-narrow">
+                    <div class="control">
+                        <input class="input" type="text" name="nombre" value="{{ user.nombre }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label">Email</label>
+            </div>
+            <div class="field-body">
+                <div class="field is-narrow">
+                    <div class="control">
+                        <input class="input" type="email" name="email" value="{{ user.email }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label">Técnico asignado</label>
+            </div>
+            <div class="field-body">
+                <div class="field is-narrow">
+                    <div class="control">
+                        {{ user.parent }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="button is-block is-info is-light is-fullwidth" href="{{ url_for('main.client_edit', id=user.id) }}">Guardar</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="column is-4 is-offset-4">
+    <h3 class="title">Dades d'Usuari</h3>
+    <div class="box">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="notification is-danger">
+                {{ messages[0] }} Torna a intentar-ho.
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <form method="POST" action="/user_edit">
+        <input class="input" type="hidden" name="id" value="{{ user.id }}" />
+
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label">Nombre</label>
+            </div>
+
+            <div class="field-body">
+                <div class="field is-narrow">
+                    <div class="control">
+                        <input class="input" type="text" name="nombre" value="{{ user.nombre }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label">Email</label>
+            </div>
+            <div class="field-body">
+                <div class="field is-narrow">
+                    <div class="control">
+                        <input class="input" type="email" name="email" value="{{ user.email }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label">Rol</label>
+            </div>
+            <div class="field-body">
+                <div class="field is-narrow">
+                    {% if current_user.rol == "Administrador": %}
+                    <div class="select">
+                        <select name="rol">
+                            <option {% if user.rol == "Administrador" %} selected="true" {% endif %}>Administrador</option>
+                            <option {% if user.rol == "Técnico" %} selected="true" {% endif %}>Técnico</option>
+                            <option {% if user.rol == "Cliente" %} selected="true" {% endif %}>Cliente</option>
+                        </select>
+                    </div>
+                    {% else: %}
+                    {{ user.rol }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="button is-block is-info is-light is-fullwidth" href="{{ url_for('main.user_edit', id=user.id) }}">Editar</button>
+    </form>
+</div>
+{% endblock %}

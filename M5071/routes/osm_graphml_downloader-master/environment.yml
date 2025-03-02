@@ -1,0 +1,7 @@
+name: osm_graphml_downloader
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - click=7.0
+  - osmnx=0.11
