@@ -1,5 +1,4 @@
 import osmnx as ox
-import networkx as nx
 import taxicab as tc
 
 # Load the graph
