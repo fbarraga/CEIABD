@@ -1,11 +1,10 @@
 # Bots de Telegram
 
-- Curs: CE IA i BigData
-- Mòdul: M04 Sistemes de BigData
-- Autor: Francesc Barragán
-- Rev: 1.0 11.11.2024
-- Testejat amb Python version 3.12.3 i llibreries de Telegram-BOT v21.7
-- Creació d'un bot simple
+* CE IABD 
+* Creació d'un bot simple
+* Actualitzat per Francesc Barragan amb noves llibreries de Telegram-BOT v21.7  llibreries a Octubre 2024
+* Testejat amb Python version 3.12.3
+
 
 Telegram és una aplicació de missatgeria instantània gratuïta i feta amb programari lliure que permet enviar i rebre missatges a través d’Internet. Un dels seus objectius és proveir una major privadesa i seguretat en comparació amb altres aplicacions similars. Telegram permet crear grups, enviar imatges o vídeos i programar bots (robots) que atenen peticions dels usuaris.
 
@@ -164,7 +163,7 @@ Aquí es pot escriure en MarkDown:
 * En *cursiva*
 
 ```python
-    context.bot.send_photo(chat_id=update.effective_chat.id, photo='https://github.com/fbarraga/Python/blob/master/master/assets/telegram_campalanet.png')
+    context.bot.send_photo(chat_id=update.effective_chat.id, photo='https://github.com/fbarraga/CEIABD_M01/photo1.png')
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=open('imatge.png', 'rb'))
     context.bot.send_message(chat_id=update.effective_chat.id, text=info, parse_mode=telegram.ParseMode.MARKDOWN)
     context.bot.send_message(chat_id=update.effective_chat.id, text=" 🎗️ ")
@@ -178,11 +177,11 @@ Al nostre bot també podem demanar-li que faci altres opcions per defecte, com p
 
 ```python 
 async def poll(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Envia una enquesta predefinida"""
-    questions = ["Molt Dolent", "Dolent", "Bo", "Molt bo"]
+    """Sends a predefined poll"""
+    questions = ["Muy Malo", "Malo", "Bueno", "Muy Bueno"]
     message = await context.bot.send_poll(
         update.effective_chat.id,
-        "Quin tipus d'estudiant ets?",
+        "Que tipo de estudiante eres?",
         questions,
         is_anonymous=False,
         allows_multiple_answers=True,
@@ -222,8 +221,7 @@ Fixeu-vos que aquesta funció també escriu els valors d’update i de context. 
 
 Considereu que volem dotar el nostre bot d’una comanda /trad per traduir textos a l’anglès. Per exemple:
 
-Per a fer-ho, instal·leu el mòdul `googletrans` amb o el modul 'translator'.
-
+Per a fer-ho, instal·leu el mòdul `googletrans` amb o el modul 'translator'
 **Note** El modul googletrans funciona amb llibreria httpx 0.13 que es incompatible a dia d'avui amb la de Telegram per lo que millor utilitzar el modul translator (mirar el fitxer bot_trad.py
 
 ```python

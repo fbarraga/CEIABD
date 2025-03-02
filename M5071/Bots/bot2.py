@@ -1,7 +1,6 @@
 # Llibreries necessaries
 # pip install python-telegram-bot
 
-# Afegim funció per tornar l'hora
 
 # importa l'API de Telegram
 from telegram.ext import Application, CommandHandler,ContextTypes
@@ -10,7 +9,7 @@ import datetime
 
 # defineix una funció que saluda i que s'executarà quan el bot rebi el missatge /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Informa a l'usuari sobre el cque pot fer el bot"""
+    """Inform user about what this bot can do"""
     await update.message.reply_text(
     "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot!!! 🎉 🎊")
     await update.message.reply_text(
@@ -27,16 +26,15 @@ async def hora(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    
     # declara una constant amb el access token que llegeix de token.txt
     TOKEN = open('./token.txt').read().strip()
+    print(TOKEN)
     
     application = Application.builder().token(TOKEN).build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help))
     application.add_handler(CommandHandler("hora", hora))
-    
-    #  # En execució fins que es pren Ctrl-C
+    # Run the bot until the user presses Ctrl-C
     application.run_polling()
 
 

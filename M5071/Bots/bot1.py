@@ -7,7 +7,7 @@ from telegram import Update
 
 # defineix una funció que saluda i que s'executarà quan el bot rebi el missatge /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Informa a l'usuari sobre el cque pot fer el bot"""
+    """Inform user about what this bot can do"""
     await update.message.reply_text(
         "👏👏 Felicitats! Tot el món mundial ja pot parlar amb el bot!!! 🎉 🎊"
     )
