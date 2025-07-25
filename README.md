@@ -12,12 +12,12 @@ Aquest repositori conté presentacions, teoria, activitats  per desenvolupar amb
 
 Està estructurat seguint les parts dels diferents mòduls.
 
-* [M5071 Models d'Intel·ligència Artifical](<0 - Introducció a les Bases de Dades/README.md>)
-* [M5072 Sistemes d'aprenentatge automàtic](<1 - Llenguatge SQL DML i DDL/README.md>)
-* [M5073 Programació d'intel·ligència artifical](<2a - LLenguatge SQL DCL i extensió procedimental>)
-* [M5074 Sistemes de BigData](<3 - Bases de Dades Objecte-Relacionals>)
-* [M5075 BigData Aplicat](<4 - Bases de dades NOSQL>)
-* [C088 Projecte de Bigdata](<2b - Assegurament de la informació>)
+* [M5071 Models d'Intel·ligència Artifical](<M5071/README.md>)
+* [M5072 Sistemes d'aprenentatge automàtic](<M5072/README.md>)
+* [M5073 Programació d'intel·ligència artifical](<M5073/README.md>)
+* [M5074 Sistemes de BigData](<M5074/README.md>)
+* [M5075 BigData Aplicat](<M5075/README.md)
+* [C088 Projecte de Bigdata](C088/README.md)
 
 ## Links interessants
 
