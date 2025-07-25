@@ -2,11 +2,13 @@
 
 Hashtags: #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02 #AsixMp10 #CE IA&BD
 
+<b>Darrera revisió:</b> 01.09.2025
+
 ## Descripció
 
 En aquest repositori trobaràs els scripts de Python i Jupyter notebooks per analitzar [Google Location History](https://support.google.com/accounts/answer/4388034?hl=en) les dades recuperades de [Google Takeout](https://takeout.google.com/settings/takeout). 
 
-Pots utilitzar l'script [prepare_data.py](prepare_data.py) per llegir la informació de Takeout que es troba enzippada i reescriure-la en format CSV. Després pots utilitzar els notebooks de juypter [analyze_activities](analyze_activities.ipynb) i [analyze_places](analyze_places.ipynb) per analitzar les dades interactivament.
+Pots utilitzar l'script [preparar_dades.py](preparar_dades.py) per llegir la informació de Takeout que es troba enzippada i reescriure-la en format CSV. Després pots utilitzar els notebooks de jupyter [analitza_activitats](analitza_activitats.ipynb) i [analitza_llocs](analitza_llocs.ipynb) per analitzar les dades interactivament.
 
 ## Requeriments
 
