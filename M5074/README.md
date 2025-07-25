@@ -8,18 +8,18 @@ Aquest repositori preten recollir informació útil per impartir el mòduls  M50
 
 ## Contingut
 
-Aquest repositori conté presentacions, teoria, activitats  per desenvolupar amb diferents mòduls del curs.
+Aquest repositori conté presentacions, teoria, activitats  per desenvolupar en aquest mòdul.
 
 Està estructurat seguint les parts dels diferents mòduls.
 
-* [NF1 Introducció al BigData](<M5071/README.md>)
-* [NF2 Dades Relacionals](<M5072/README.md>)
-* [NF3 Dades no Relacionals](<M5073/README.md>)
-* [NF4 Arquitectura de dades](<M5074/README.md>)
-* [NF5 ETLs](<M5075/README.md>)
-* [NF6 Datawarehousing](C088/README.md)
-* [NF7 Formats de dades](C088/README.md)
-* [NF8 Visualització de dades](C088/README.md)
+* [NF1 Introducció al BigData](<NF1 Introducció al BigData/README.md>)
+* [NF2 Dades Relacionals](<NF2 Dades Relacionals/README.md>)
+* [NF3 Dades no Relacionals](<NF3 Dades no Relacionals/README.md>)
+* [NF4 Arquitectura de dades](<NF4 Arquitectura de dades/README.md>)
+* [NF5 ETLs](<NF5 ETLs/README.md>)
+* [NF6 Datawarehousing](<NF6 Datawarehousing/README.md>)
+* [NF7 Formats de dades](<NF7 Formats de dades/README.md>)
+* [NF8 Visualització de dades](NF8 Visualització de dades/README.md)
 
 ## Links interessants
 
