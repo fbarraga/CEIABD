@@ -1,6 +1,7 @@
 # Anàlisi de les dades de Google TakeOut
 
 Hashtags: #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02 #AsixMp10 #CE IA&BD
+
 <b>Darrera revisió:</b> 01.09.2025
 
 ## Descripció
