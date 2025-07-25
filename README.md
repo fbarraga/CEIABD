@@ -4,7 +4,7 @@ Hashtags: #FpInfor #CEIABD #M5071 #M5072 #M5073 #M5074 #M5075 #IA #BigData
 
 ## Introducció
 
-Aquest repositori preten recollir informació útil per impartir els mòduls del curs d'Especialització en BigData i Intel·ligència Artificial. Tanmateix també vol ser un espai a on qui li interessi començar en el món de les base de dades poder trobar material de formació i pràctiques.
+Aquest repositori preten recollir informació útil per impartir els mòduls del curs d'Especialització en BigData i Intel·ligència Artificial. Tanmateix també vol ser un espai a on qui li interessi començar en el món de les dades poder trobar material de formació i pràctiques.
 
 ## Contingut
 
