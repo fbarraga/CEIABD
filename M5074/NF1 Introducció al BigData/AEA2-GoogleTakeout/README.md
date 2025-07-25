@@ -20,11 +20,7 @@ Basats en el github de Stefan4472 https://github.com/Stefan4472/google-location-
 
 ## Setup
 
-Clonar aquest repositori:
-
-```shell
-git clone https://github.com/fbarraga/google-location-history-analysis.git
-```
+Descarrega els fitxers d'aquest repositori repositori:
 
 Crear un entorn virtual de python:
 
@@ -78,4 +74,4 @@ E:.
                     2024_JANUARY.json
 ```
 
-Aneu a l'enllaç que es mostra a la línia d'ordres, per exemple, 'http://localhost:8888/?token=...' i proveu els quaderns 'analyze_activities.ipynb' i 'analyze_places.ipynb' amb les vostres pròpies dades!
+Aneu a l'enllaç que es mostra a la línia d'ordres, per exemple, 'http://localhost:8888/?token=...' i proveu els quaderns 'analitza_activitats.ipynb' i 'analitza_llocs.ipynb' amb les vostres pròpies dades!
