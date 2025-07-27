@@ -2,7 +2,7 @@
 
 Hashtags: #FpInfor #Daw #Dam #Asix #DawMp02 #DamMp02 #AsixMp02 #AsixMp10 #CE IA&BD
 
-<b>Darrera revisió:</b> 01.09.2025
+**Darrera revisió:** 01.09.2025
 
 ## Descripció
 
@@ -13,10 +13,6 @@ Pots utilitzar l'script [preparar_dades.py](preparar_dades.py) per llegir la inf
 ## Requeriments
 
 Aquest projecte utilitza [Pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/), i [bokeh](https://bokeh.org) llibreries que s'han provat amb versions de Python 3.11. **La versió mínima de Python requerida es la 3.10 degut a [un bug a la llibreria Zipfile](https://bugs.python.org/issue40564) que existia abans de la versió 3.10**
-
-## Reconeixements
-
-Basats en el github de Stefan4472 https://github.com/Stefan4472/google-location-history-analysis.git
 
 ## Setup
 
@@ -49,7 +45,6 @@ Executar Jupyter Notebook:
 python -m jupyter notebook
 ```
 
-
 Estructura del fitxer zip descarregat de Google Takeout:
 
 ```bash
@@ -75,3 +70,7 @@ E:.
 ```
 
 Aneu a l'enllaç que es mostra a la línia d'ordres, per exemple, 'http://localhost:8888/?token=...' i proveu els quaderns 'analitza_activitats.ipynb' i 'analitza_llocs.ipynb' amb les vostres pròpies dades!
+
+## Reconeixements
+
+Basats en el github de Stefan4472 https://github.com/Stefan4472/google-location-history-analysis.git
