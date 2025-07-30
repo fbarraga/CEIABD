@@ -1,6 +1,6 @@
 {
    "type" : "record",
-   "namespace" : "SeveroOchoa",
+   "namespace" : "SaPalomera",
    "name" : "empleado",
    "fields" : [
       { "name" : "nombre" , "type" : "string" },
