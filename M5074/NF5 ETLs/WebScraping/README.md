@@ -391,4 +391,7 @@ Quan hagis acabat, és important tancar el navegador:
 driver.quit()
 ```
 
+## Webgrafia
 
+- https://realpython.com/modern-web-automation-with-python-and-selenium/
+  
