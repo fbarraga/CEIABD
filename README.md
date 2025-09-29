@@ -36,6 +36,9 @@ Afegir links
 Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris i mantinguda per:
 
 * Francesc Barragán (<fbarragan@sapalomera.cat>)
+* Miquel Floriach (<mfloriach@sapalomera.cat>)
+* Sergio Rovira (<srovira@sapalomera.cat>)
+* Robert Ventura(<rventura@sapalomera,cat)
 
 De l'**Institut Sa Palomera - Blanes**
 
