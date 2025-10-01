@@ -55,23 +55,19 @@ En completar aquesta activitat, els alumnes hauran:
 
 ---
 
-**Bona sort amb l'activitat! 🚀**
-
----
-
 ## Índex d'Exercicis
 
-1. [Creació de BD i càrrega inicial de dades](#exercici-1:-creació-de-la-base-de-dades-i-carrega-inicial)
-2. [Exercicis de Configuració i Baseline](#exercici-2)
-3. [Exercicis d'Indexació](#exercici-3)
-4. [Exercicis de Columnstore](#exercici-4)
-5. [Exercicis de Particionament](#exercici-5)
-6. [Exercicis d'Optimització Avançada](#exercici-6)
-7. [Projecte Final Integrat](#projecte-final) **OPCIONAL**
+1. [Creació de BD i càrrega inicial de dades](#exercici-1-creació-de-la-base-de-dades-i-càrrega-inicial)
+2. [Exercicis de Configuració i Baseline](#exercici-2-configuració-i-anàlisi-baseline)
+3. [Exercicis d'Indexació](#exercici-3-optimització-amb-índexs)
+4. [Exercicis de Columnstore](#exercici-4-columnstore-indexes)
+5. [Exercicis de Particionament](#exercici-5-particionament-de-taules)
+6. [Exercicis d'Optimització Avançada](#exercici-6-optimització-avançada)
+7. [Projecte Final](#exercici-7-projecte-final) **OPCIONAL**
 
 ---
 
-## Exercici 1: Creació de la Base de dades i càrrega inicial
+## Exercici 1 Creació de la Base de dades i càrrega inicial
 
 ### Objectius E1
 
@@ -116,7 +112,7 @@ WITH (
 
 ---
 
-## Exercici 2: Configuració i Anàlisi Baseline
+## Exercici 2 Configuració i Anàlisi Baseline
 
 ### Objectius E2
 
@@ -174,7 +170,7 @@ ORDER BY avg_fragmentation_in_percent DESC;
 
 ---
 
-## Exercici 3: Optimització amb Índexs
+## Exercici 3 Optimització amb Índexs
 
 ### Objectius E3
 
@@ -287,7 +283,7 @@ GROUP BY YEAR(DataComanda), MONTH(DataComanda), ClientID;
 
 ---
 
-## Exercici 4: Columnstore Indexes
+## Exercici 4 Columnstore Indexes
 
 Els [Columnstore Indexes](./doc03_columnstore-indexes-sqlserver.md) són índexs que emmagatzemen dades per columnes en lloc de per files. Ofereixen una compressió massiva (10-20x) i un rendiment extraordinari per a consultes analítiques, agregacions i escanejos de grans volums de dades.
 
@@ -389,7 +385,7 @@ ORDER BY TotalFacturat DESC;
 
 ---
 
-## Exercici 5: Particionament de Taules
+## Exercici 5 Particionament de Taules
 
 El [Particionament](./doc04_table-partitioning-sqlserver.md) divideix una taula gran en múltiples fragments més petits (particions) basant-se en una columna. Cada partició es gestiona independentment però es consulta com una sola taula, millorant el rendiment i la mantenibilitat de taules massives.
 
@@ -495,7 +491,7 @@ ALTER TABLE FacturesStaging SWITCH TO FacturesParticionades PARTITION X;
 
 ---
 
-## Exercici 6: Optimització Avançada
+## Exercici 6 Optimització Avançada
 
 ### Objectius E6
 
@@ -620,13 +616,13 @@ END;
 
 ---
 
-## Projecte Final Integrat
+## Exercici 7 Projecte Final
 
-### Objectiu
+### Objectiu E7
 
 Aplicar tots els coneixements en un escenari real i complet.
 
-### Escenari
+### Escenari 
 
 Una empresa de comerç electrònic amb:
 
@@ -738,3 +734,6 @@ Crear un sistema complet de:
 - Resultats aconseguits
 - Lliçons apreses
 
+
+
+[def]: #exercici-1:-creació-de-la-base-de-dades-i-carrega-inicial
