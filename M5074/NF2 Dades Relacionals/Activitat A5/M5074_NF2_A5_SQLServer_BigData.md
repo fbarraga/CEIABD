@@ -61,8 +61,8 @@ En completar aquesta activitat, els alumnes hauran:
 
 ## Índex d'Exercicis
 
-1. [Creació de BD i càrrega inicial de dades](#Exercici-1)
-2. [Exercicis de Configuració i Baseline](#Exercici-2)
+1. [Creació de BD i càrrega inicial de dades](#exercici-1:-Creació-de-la-base-de-dades-i-càrrega-inicial)
+2. [Exercicis de Configuració i Baseline](#exercici-2)
 3. [Exercicis d'Indexació](#exercici-3)
 4. [Exercicis de Columnstore](#exercici-4)
 5. [Exercicis de Particionament](#exercici-5)
