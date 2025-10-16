@@ -1,4 +1,4 @@
-# Repositori pel mòdul M5071 Sistemes de BigData
+# Repositori pel mòdul M5071 Models d'IA
 
 Hashtags: #FpInfor #CEIABD  #M5071 #Models d'IA
 
