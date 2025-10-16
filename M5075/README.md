@@ -1,6 +1,6 @@
-# Repositori pel mòdul M5074 Sistemes de BigData
+# Repositori pel mòdul M5075 BigData APlicat
 
-Hashtags: #FpInfor #CEIABD  #M5074 #BigData
+Hashtags: #FpInfor #CEIABD  #M5075 #BigData
 
 ## Introducció
 
@@ -12,14 +12,9 @@ Aquest repositori conté presentacions, teoria, activitats  per desenvolupar amb
 
 Està estructurat seguint les parts dels diferents mòduls.
 
-* [NF1 Introducció al BigData](<M5071/README.md>)
-* [NF2 Dades Relacionals](<M5072/README.md>)
-* [NF3 Dades no Relacionals](<M5073/README.md>)
-* [NF4 Arquitectura de dades](<M5074/README.md>)
-* [NF5 ETLs](<M5075/README.md)
-* [NF6 Datawarehousing](C088/README.md)
-* [NF7 Formats de dades](C088/README.md)
-* [NF8 Visualització de dades](C088/README.md)
+* [NF1Arquitectura BigData](<NF1 Arquitectura Bigdata/README.md>)
+* [NF2 Ecosistema Hadoop](<NF2 Ecosistema Hadoop/README.md>)
+* [NF3 Ecosistema Spark](<NF3 Ecosistema Spark/README.md>)
 
 ## Links interessants
 
