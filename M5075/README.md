@@ -1,4 +1,4 @@
-# Repositori pel mòdul M5075 BigData APlicat
+# Repositori pel mòdul M5075 BigData Aplicat
 
 Hashtags: #FpInfor #CEIABD  #M5075 #BigData
 
