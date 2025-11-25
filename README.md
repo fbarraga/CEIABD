@@ -9,7 +9,7 @@ Aquest repositori preten recollir informació útil per impartir els mòduls del
 ## Contingut
 
 Aquest repositori conté presentacions, teoria, activitats  per desenvolupar amb diferents mòduls del curs.
-
+ 
 Està estructurat seguint les parts dels diferents mòduls.
 
 * [M5071 Models d'Intel·ligència Artifical](<M5071/README.md>)
