@@ -3,7 +3,7 @@
 - Curs: CE IA i BigData
 - Mòdul: M04 Sistemes de BigData
 - Autor: Francesc Barragán
-- Rev: 1.0 11.11.2024
+- Rev: 1.0 11.11.2025
 - Testejat amb Python 3.12
 - Webscraping d'una pàgina simple
 
