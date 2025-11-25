@@ -85,7 +85,7 @@ En completar aquesta activitat, els alumnes hauran:
   1. [Part1_CreacioBaseDades.sql](./Part1_CreacioBaseDades.sql)
   2. [Part2A_GenerarDades.py](./Part2A_GenerarDades.py)
   3. [Part2B_GenerarDades.sql](./Part2B_GenerarDades.sql)
-  4. Part3_AnalisiRendiment.sql
+  4. Part3_AnalisiRendiment.sql(./Part3_Analisi_rendiment_inicial)
 
 * Depenen de la màquina que tingueu no agafeu la generació de més de 100000 comandes ja que us tardarà molt.
 * Utilitzeu el mateix número de ítems per Python que per T-SQL.
