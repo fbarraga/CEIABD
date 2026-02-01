@@ -1,0 +1,50 @@
+services:
+  master:
+    build:
+      context: ..
+      dockerfile: modulo2/Base/Dockerfile
+    container_name: hadoop-master-simple
+    hostname: master
+    environment:
+      - NODE_TYPE=master
+      - ENABLE_HIVE=false
+    ports:
+      - "9870:9870" # NameNode Web UI
+      - "8088:8088" # ResourceManager Web UI
+      - "9000:9000" # HDFS
+      - "19888:19888" # MapReduce Job History Server
+      - "10000:10000" # HiveServer2 Thrift (Beeline)
+      - "10002:10002" # HiveServer2 Web UI
+      - "9083:9083" # Hive Metastore
+      - "8080:8080" # Spark Master UI
+      - "7077:7077" # Spark Master
+      - "4040:4040" # Spark Application UI
+      - "4041:4041" # Spark Application UI
+      - "4042:4042" # Spark Application UI
+      - "18080:18080" # Spark History Server
+      - "8888:8888" # Jupyter Notebook
+    networks:
+      - hadoop-net
+    volumes:
+      - master-data:/tmp/hadoop-hadoop
+      - ./ejercicios:/home/hadoop/ejercicios
+      - ./data:/home/hadoop/data
+      - ./notebooks:/home/hadoop/notebooks
+    # Optimización para máquinas menos potentes
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.5'
+        reservations:
+          memory: 1G
+          cpus: '0.5'
+
+networks:
+  hadoop-net:
+    driver: bridge
+
+volumes:
+  master-data:
+
+

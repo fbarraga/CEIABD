@@ -1,0 +1,60 @@
+<configuration>
+    <property>
+        <name>yarn.app.mapreduce.am.env</name>
+        <value>HADOOP_MAPRED_HOME=/opt/hadoop</value>
+    </property>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+
+    <!-- Optimización para máquinas menos potentes: reducir memoria de MapReduce -->
+    <property>
+        <name>mapreduce.map.memory.mb</name>
+        <value>256</value>
+        <description>Memoria para cada tarea map (256MB en lugar de 1024MB por defecto)</description>
+    </property>
+
+    <property>
+        <name>mapreduce.reduce.memory.mb</name>
+        <value>256</value>
+        <description>Memoria para cada tarea reduce (256MB en lugar de 1024MB por defecto)</description>
+    </property>
+
+    <property>
+        <name>mapreduce.map.java.opts</name>
+        <value>-Xmx204m</value>
+        <description>Heap size para JVM de map tasks (80% de 256MB)</description>
+    </property>
+
+    <property>
+        <name>mapreduce.reduce.java.opts</name>
+        <value>-Xmx204m</value>
+        <description>Heap size para JVM de reduce tasks (80% de 256MB)</description>
+    </property>
+
+    <property>
+        <name>yarn.app.mapreduce.am.resource.mb</name>
+        <value>512</value>
+        <description>Memoria para ApplicationMaster (512MB)</description>
+    </property>
+
+    <property>
+        <name>yarn.app.mapreduce.am.command-opts</name>
+        <value>-Xmx409m</value>
+        <description>Heap size para ApplicationMaster JVM (80% de 512MB)</description>
+    </property>
+
+    <!-- Reducir número de map tasks paralelas -->
+    <property>
+        <name>mapreduce.job.maps</name>
+        <value>2</value>
+        <description>Número máximo de map tasks por defecto</description>
+    </property>
+
+    <property>
+        <name>mapreduce.job.reduces</name>
+        <value>1</value>
+        <description>Número de reduce tasks por defecto</description>
+    </property>
+</configuration>

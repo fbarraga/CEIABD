@@ -1,0 +1,64 @@
+services:
+  master:
+    build:
+      context: ..
+      dockerfile: modulo1/Base/Dockerfile
+    container_name: hadoop-master
+    hostname: master
+    environment:
+      - NODE_TYPE=master
+      - ENABLE_HIVE=false
+    ports:
+      - "9870:9870" # NameNode Web UI
+      - "8088:8088" # ResourceManager Web UI
+      - "9000:9000" # HDFS
+      - "19888:19888" # MapReduce Job History Server
+      - "10000:10000" # HiveServer2 Thrift (Beeline)
+      - "10002:10002" # HiveServer2 Web UI
+      - "9083:9083" # Hive Metastore
+    networks:
+      - hadoop-net
+    volumes:
+      - master-data:/tmp/hadoop-hadoop
+
+  slave1:
+    build:
+      context: ..
+      dockerfile: modulo1/Base/Dockerfile
+    container_name: hadoop-slave1
+    hostname: slave1
+    environment:
+      - NODE_TYPE=slave
+    depends_on:
+      - master
+    ports:
+      - "8042:8042"
+      - "9864:9864"
+    networks:
+      - hadoop-net
+    volumes:
+      - slave1-data:/tmp/hadoop-hadoop
+
+  slave2:
+    build:
+      context: ..
+      dockerfile: modulo1/Base/Dockerfile
+    container_name: hadoop-slave2
+    hostname: slave2
+    environment:
+      - NODE_TYPE=slave
+    depends_on:
+      - master
+    networks:
+      - hadoop-net
+    volumes:
+      - slave2-data:/tmp/hadoop-hadoop
+
+networks:
+  hadoop-net:
+    driver: bridge
+
+volumes:
+  master-data:
+  slave1-data:
+  slave2-data:

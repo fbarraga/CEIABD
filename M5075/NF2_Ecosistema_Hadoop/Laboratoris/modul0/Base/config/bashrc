@@ -1,0 +1,16 @@
+##### CONFIGURACIÓN JAVA
+export JAVA_HOME=/opt/java/openjdk
+export PATH=$PATH:$JAVA_HOME/bin
+
+##### CONFIGURACIÓN HADOOP
+export HADOOP_HOME=/opt/hadoop
+export HADOOP_CLASSPATH=$(${HADOOP_HOME}/bin/hadoop classpath)
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
+export PATH=$PATH:$HADOOP_HOME/sbin
+
+export HIVE_HOME=/opt/hive
+export PATH=$PATH:$HIVE_HOME/bin
+
+##### No está instalado JPS, lo sustituimos
+alias jps="ps -fe | grep java | sed -E -e 's/(namenode.SecondaryNameNode)/\x1b[1;33m\1\x1b[0m/g'  -e 's/(namenode.NameNode)/\x1b[1;32m\1\x1b[0m/g'  -e 's/(ResourceManager)/\x1b[1;34m\1\x1b[0m/g'"

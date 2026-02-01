@@ -1,0 +1,97 @@
+🔑 1️⃣ Comprova si ja tens una clau SSH
+ls ~/.ssh
+
+
+Si veus fitxers com:
+
+id_ed25519 i id_ed25519.pub
+o
+
+id_rsa i id_rsa.pub
+
+👉 Ja tens clau, salta al pas 3️⃣
+
+🛠️ 2️⃣ Crear una clau SSH (si no en tens)
+
+Recomanat avui dia: ed25519
+
+ssh-keygen -t ed25519 -C "el-teu-email@exemple.com"
+
+
+Prem Enter a tot
+
+Pots posar passphrase o no (opcional)
+
+Això crea:
+
+clau privada → ~/.ssh/id_ed25519
+
+clau pública → ~/.ssh/id_ed25519.pub
+
+📋 3️⃣ Copia la clau pública
+cat ~/.ssh/id_ed25519.pub
+
+
+Copia tot el contingut (comença per ssh-ed25519 ...)
+
+🌐 4️⃣ Afegeix-la a GitHub
+
+Ves a GitHub → Settings
+
+SSH and GPG keys
+
+New SSH key
+
+Title: Portàtil, PC classe, el que vulguis
+
+Key type: Authentication Key
+
+Enganxa la clau
+
+Save
+
+✅ 5️⃣ Prova que funciona
+ssh -T git@github.com
+
+
+La primera vegada:
+
+Are you sure you want to continue connecting? yes
+
+
+Resposta correcta:
+
+Hi josepgarcia! You've successfully authenticated, but GitHub does not provide shell access.
+
+
+🎉 Això vol dir que està bé.
+
+📦 6️⃣ Clona el repo amb SSH
+git clone git@github.com:josepgarcia/BigDataAplicado-2526.git
+
+
+➡️ No et demanarà res. Mai.
+
+🧠 Tip ràpid (molt recomanat)
+
+Si treballes amb molts repos:
+
+git config --global core.sshCommand "ssh -i ~/.ssh/id_ed25519"
+
+🧩 Problemes típics (per si falla)
+
+❌ Permission denied (publickey) → la clau no està a GitHub
+
+❌ clau equivocada → tens més d’una clau a ~/.ssh
+
+❌ xarxa de centre/empresa → pot bloquejar SSH (port 22)
+
+En aquest últim cas, hi ha SSH per port 443 (GitHub ho permet).
+
+Si vols, digue’m:
+
+🐧 Linux / 🪟 Windows / 🍎 macOS
+
+si és xarxa de centre educatiu o empresa
+
+i t’ho ajusto exactament al teu entorn 👍

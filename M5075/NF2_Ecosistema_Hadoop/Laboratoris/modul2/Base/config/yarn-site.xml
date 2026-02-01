@@ -1,0 +1,72 @@
+<configuration>
+    <property>
+        <name>yarn.resourcemanager.hostname</name>
+        <value>master</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.aux-services.mapreduce_shuffle.class</name>
+        <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+    </property>
+
+    <property>
+        <name>yarn.nodemanager.env-whitelist</name>
+        <value>JAVA_HOME,HADOOP_COMMON_HOME,HADOOP_HDFS_HOME,HADOOP_MAPRED_HOME,HADOOP_YARN_HOME,HADOOP_HOME,PATH,LANG,TZ,HADOOP_CLASSPATH,HADOOP_LIBEXEC_DIR</value>
+    </property>
+
+    <property>
+        <name>mapreduce.map.env</name>
+        <value>HADOOP_CLASSPATH=$HADOOP_CLASSPATH</value>
+    </property>
+
+    <property>
+        <name>mapreduce.reduce.env</name>
+        <value>HADOOP_CLASSPATH=$HADOOP_CLASSPATH</value>
+    </property>
+
+    <!-- Optimización para máquinas menos potentes: reducir memoria disponible -->
+    <property>
+        <name>yarn.nodemanager.resource.memory-mb</name>
+        <value>1024</value>
+        <description>Memoria total disponible para contenedores (1GB en lugar de 8GB por defecto)</description>
+    </property>
+
+    <property>
+        <name>yarn.scheduler.minimum-allocation-mb</name>
+        <value>128</value>
+        <description>Memoria mínima por contenedor (128MB)</description>
+    </property>
+
+    <property>
+        <name>yarn.scheduler.maximum-allocation-mb</name>
+        <value>512</value>
+        <description>Memoria máxima por contenedor (512MB)</description>
+    </property>
+
+    <!-- Reducir CPUs disponibles -->
+    <property>
+        <name>yarn.nodemanager.resource.cpu-vcores</name>
+        <value>1</value>
+        <description>Número de vcores disponibles (1 en lugar de número de cores físicos)</description>
+    </property>
+
+    <property>
+        <name>yarn.scheduler.minimum-allocation-vcores</name>
+        <value>1</value>
+    </property>
+
+    <property>
+        <name>yarn.scheduler.maximum-allocation-vcores</name>
+        <value>1</value>
+    </property>
+
+    <!-- Optimización de tiempo de vida de contenedores -->
+    <property>
+        <name>yarn.nodemanager.container-monitor.interval-ms</name>
+        <value>3000</value>
+        <description>Intervalo de monitoreo más largo para reducir overhead</description>
+    </property>
+</configuration>

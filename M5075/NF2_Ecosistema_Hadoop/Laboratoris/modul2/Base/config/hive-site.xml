@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+   <property>
+    <name>system:java.io.tmpdir</name>
+    <value>/tmp/hive/java</value>
+</property>
+<property>
+    <name>system:user.name</name>
+    <value>${user.name}</value>
+</property>
+
+<!-- Optimización para máquinas menos potentes: reducir recursos de Hive -->
+<property>
+    <name>hive.exec.reducers.bytes.per.reducer</name>
+    <value>67108864</value>
+    <description>64MB por reducer (por defecto 256MB) - más reducers pero con menos memoria cada uno</description>
+</property>
+
+<property>
+    <name>hive.exec.reducers.max</name>
+    <value>2</value>
+    <description>Máximo de 2 reducers (por defecto 1009)</description>
+</property>
+
+<property>
+    <name>hive.auto.convert.join</name>
+    <value>true</value>
+    <description>Habilitar auto-conversión de joins para optimizar</description>
+</property>
+
+<property>
+    <name>hive.auto.convert.join.noconditionaltask.size</name>
+    <value>10000000</value>
+    <description>10MB para auto-conversión (por defecto 20MB)</description>
+</property>
+
+<property>
+    <name>hive.vectorized.execution.enabled</name>
+    <value>true</value>
+    <description>Habilitar ejecución vectorizada para mejor rendimiento</description>
+</property>
+
+<property>
+    <name>hive.vectorized.execution.reduce.enabled</name>
+    <value>true</value>
+    <description>Habilitar ejecución vectorizada en reduce</description>
+</property>
+
+<property>
+    <name>hive.exec.parallel</name>
+    <value>false</value>
+    <description>Deshabilitar paralelismo para reducir uso de recursos</description>
+</property>
+
+<property>
+    <name>hive.exec.parallel.thread.number</name>
+    <value>1</value>
+    <description>Número de threads paralelos (1 para bajo consumo)</description>
+</property>
+</configuration>

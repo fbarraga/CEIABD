@@ -1,0 +1,80 @@
+# Logs and databases #
+
+######################
+*.DS_Store
+*.log
+*.sql
+*.sqlite
+.DS_Store?
+Icon?
+Thumbs.db
+ehthumbs.db
+
+# OS generated files #
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Xcode
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# IDE
+*.idea
+*.iml
+
+# Generated files
+*.[oa]
+*.pyc
+/web-app/WEB-INF
+build/
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# automatic backup files
+*(Autosaved).rtfd/
+*.swp
+*~
+*~.nib
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+Backup[ ]of[ ]*.pages/
+
+# astro
+astro_tmp_pages_*
+
+# build output
+.astro/
+dist/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+**/downloads/
+
+# Ignorar cuadernos
+modulo2/notebooks/*.ipynb
+!modulo2/notebooks/ejemplo.ipynb
+modulo2/data/*
+!modulo2/data/sample.csv
