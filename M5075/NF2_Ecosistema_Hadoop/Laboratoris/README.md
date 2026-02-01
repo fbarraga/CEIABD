@@ -59,9 +59,13 @@ cd ./CEIABD/M5075/NF2_Ecosistema_Hadoop/Laboratoris
 chmod +x ./migrate-downloads.sh
 ./migrate-downloads.sh
 
+chmod +x ./modul0/Base/download-cache.sh
+chmod +x ./modul1/Base/download-cache.sh
+chmod +x ./modul2/Base/download-cache.sh
+
 # Triar un mòdul i seguir el seu README
 cd modul2  # o modul0, modulo1
-make download-cache  # Descarrega a /downloads (compartit per tots els mòduls)
+make download-cache  # Descarrega a /downloads (compartit per tots els mòduls) (s'haura de donar permisos)
 make build
 make up
 ```

@@ -54,6 +54,22 @@ services:
     volumes:
       - slave2-data:/tmp/hadoop-hadoop
 
+  slave3:
+    build:
+      context: ..
+      dockerfile: modul1/Base/Dockerfile
+    container_name: hadoop-slave3
+    hostname: slave3
+    environment:
+      - NODE_TYPE=slave
+    depends_on:
+      - master
+    networks:
+      - hadoop-net
+    volumes:
+      - slave3-data:/tmp/hadoop-hadoop
+
+
 networks:
   hadoop-net:
     driver: bridge
@@ -62,3 +78,4 @@ volumes:
   master-data:
   slave1-data:
   slave2-data:
+  slave3-data:

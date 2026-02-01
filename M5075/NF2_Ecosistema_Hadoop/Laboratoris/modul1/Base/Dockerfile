@@ -120,7 +120,7 @@ RUN echo "Host *" >> /home/hadoop/.ssh/config && \
     chmod 600 /home/hadoop/.ssh/config
 
 # Copy the start script
-COPY modulo1/Base/start-hadoop.sh /start-hadoop.sh
+COPY modul1/Base/start-hadoop.sh /start-hadoop.sh
 RUN chmod +x /start-hadoop.sh && \
     chown hadoop:hadoop /start-hadoop.sh
 RUN dos2unix /start-hadoop.sh
