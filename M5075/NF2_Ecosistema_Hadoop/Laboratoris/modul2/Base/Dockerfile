@@ -109,31 +109,31 @@ RUN pip3 install --no-cache-dir --break-system-packages \
 
 
 # Configuración Hadoop
-COPY modulo2/Base/config/core-site.xml $HADOOP_HOME/etc/hadoop/
-COPY modulo2/Base/config/hadoop-env.sh $HADOOP_HOME/etc/hadoop/
-COPY modulo2/Base/config/hdfs-site.xml $HADOOP_HOME/etc/hadoop/
+COPY modul2/Base/config/core-site.xml $HADOOP_HOME/etc/hadoop/
+COPY modul2/Base/config/hadoop-env.sh $HADOOP_HOME/etc/hadoop/
+COPY modul2/Base/config/hdfs-site.xml $HADOOP_HOME/etc/hadoop/
 
 ## Nombres de los nodos
-COPY modulo2/Base/config/workers $HADOOP_HOME/etc/hadoop/
+COPY modul2/Base/config/workers $HADOOP_HOME/etc/hadoop/
 
 # Añdir líneas al bashrc del contenedor
-COPY modulo2/Base/config/bashrc /tmp/bashrc
+COPY modul2/Base/config/bashrc /tmp/bashrc
 RUN cat /tmp/bashrc >> /home/hadoop/.bashrc && \
     rm /tmp/bashrc && \
     chown hadoop:hadoop /home/hadoop/.bashrc
 
 # Coniguración YARN
-COPY modulo2/Base/config/mapred-site.xml $HADOOP_HOME/etc/hadoop/
-COPY modulo2/Base/config/yarn-site.xml $HADOOP_HOME/etc/hadoop/
+COPY modul2/Base/config/mapred-site.xml $HADOOP_HOME/etc/hadoop/
+COPY modul2/Base/config/yarn-site.xml $HADOOP_HOME/etc/hadoop/
 
 # Configuración Hive
-COPY modulo2/Base/config/hive-site.xml $HIVE_HOME/conf/
-COPY modulo2/Base/config/hive-env.sh $HIVE_HOME/conf/
+COPY modul2/Base/config/hive-site.xml $HIVE_HOME/conf/
+COPY modul2/Base/config/hive-env.sh $HIVE_HOME/conf/
 
 # Configuración Spark
-COPY modulo2/Base/config/spark-defaults.conf $SPARK_HOME/conf/
-COPY modulo2/Base/config/spark-env.sh $SPARK_HOME/conf/
-COPY modulo2/Base/config/log4j2.properties $SPARK_HOME/conf/
+COPY modul2/Base/config/spark-defaults.conf $SPARK_HOME/conf/
+COPY modul2/Base/config/spark-env.sh $SPARK_HOME/conf/
+COPY modul2/Base/config/log4j2.properties $SPARK_HOME/conf/
 
 # Normalizar finales de línea de los ficheros copiados (evita problemas CRLF)
 RUN dos2unix \
@@ -166,7 +166,7 @@ RUN echo "Host *" >> /home/hadoop/.ssh/config && \
     chmod 600 /home/hadoop/.ssh/config
 
 # Copy the start script
-COPY modulo2/Base/start-hadoop.sh /start-hadoop.sh
+COPY modul2/Base/start-hadoop.sh /start-hadoop.sh
 RUN chmod +x /start-hadoop.sh && \
     chown hadoop:hadoop /start-hadoop.sh
 RUN dos2unix /start-hadoop.sh

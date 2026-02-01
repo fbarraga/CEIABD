@@ -74,26 +74,26 @@ RUN if [ -f /tmp/downloads/apache-hive-${HIVE_VERSION}-bin.tar.gz ]; then \
 
 
 # Configuración Hadoop
-COPY modulo1/Base/config/core-site.xml $HADOOP_HOME/etc/hadoop/
-COPY modulo1/Base/config/hadoop-env.sh $HADOOP_HOME/etc/hadoop/
-COPY modulo1/Base/config/hdfs-site.xml $HADOOP_HOME/etc/hadoop/
+COPY modul1/Base/config/core-site.xml $HADOOP_HOME/etc/hadoop/
+COPY modul1/Base/config/hadoop-env.sh $HADOOP_HOME/etc/hadoop/
+COPY modul1/Base/config/hdfs-site.xml $HADOOP_HOME/etc/hadoop/
 
 ## Nombres de los nodos
-COPY modulo1/Base/config/workers $HADOOP_HOME/etc/hadoop/
+COPY modul1/Base/config/workers $HADOOP_HOME/etc/hadoop/
 
 # Añdir líneas al bashrc del contenedor
-COPY modulo1/Base/config/bashrc /tmp/bashrc
+COPY modul1/Base/config/bashrc /tmp/bashrc
 RUN cat /tmp/bashrc >> /home/hadoop/.bashrc && \
     rm /tmp/bashrc && \
     chown hadoop:hadoop /home/hadoop/.bashrc
 
 # Coniguración YARN
-COPY modulo1/Base/config/mapred-site.xml $HADOOP_HOME/etc/hadoop/
-COPY modulo1/Base/config/yarn-site.xml $HADOOP_HOME/etc/hadoop/
+COPY modul1/Base/config/mapred-site.xml $HADOOP_HOME/etc/hadoop/
+COPY modul1/Base/config/yarn-site.xml $HADOOP_HOME/etc/hadoop/
 
 # Configuración Hive
-COPY modulo1/Base/config/hive-site.xml $HIVE_HOME/conf/
-COPY modulo1/Base/config/hive-env.sh $HIVE_HOME/conf/
+COPY modul1/Base/config/hive-site.xml $HIVE_HOME/conf/
+COPY modul1/Base/config/hive-env.sh $HIVE_HOME/conf/
 
 # Normalizar finales de línea de los ficheros copiados (evita problemas CRLF)
 RUN dos2unix \

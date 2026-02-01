@@ -183,18 +183,18 @@ make shell-*       # Accedir a la shell d'un contenidor
 ```
 BigDataAplicadoLab-2526/
 ├── downloads/            # Memòria cau centralitzada de descàrregues (compartida per tots els mòduls)
-├── modulo1/              # Hadoop multi-node (3 nodes)
-│   ├── README.md
-│   ├── Makefile
-│   ├── docker-compose.yml
-│   └── Base/
-├── modulo1simple/        # Hadoop single-node
+├── modulo0/        # Hadoop single-node
 │   ├── README.md
 │   ├── Makefile
 │   ├── docker-compose.yml
 │   ├── Base/
 │   └── ejercicios/       # Scripts i dades d'exemple
-├── modulo2/              # Hadoop & Spark Single Node (Optimitzat)
+├── modul1/              # Hadoop multi-node (3 nodes)
+│   ├── README.md
+│   ├── Makefile
+│   ├── docker-compose.yml
+│   └── Base/
+├── modul2/              # Hadoop & Spark Single Node (Optimitzat)
 │   ├── README.md
 │   ├── Makefile
 │   ├── docker-compose.yml
