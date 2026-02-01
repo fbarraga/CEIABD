@@ -73,8 +73,8 @@ yarn-error.log*
 .DS_Store
 **/downloads/
 
-# Ignorar cuadernos
-modulo2/notebooks/*.ipynb
-!modulo2/notebooks/ejemplo.ipynb
-modulo2/data/*
-!modulo2/data/sample.csv
+# Ignorar quaderns
+modul2/notebooks/*.ipynb
+!modul2/notebooks/exemple.ipynb
+modul2/data/*
+!modul2/data/sample.csv

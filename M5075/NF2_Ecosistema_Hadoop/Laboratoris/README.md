@@ -53,9 +53,10 @@ Entorn optimitzat amb Hadoop i Apache Spark en un sol node.
 ```bash
 # Clonar el repositori
 git clone https://github.com/fbarraga/CEIABD.git
-cd BigDataAplicadoLab-2526
+cd ./CEIABD/M5075/NF2_Ecosistema_Hadoop/Laboratoris
 
 # Si tens descàrregues prèvies en carpetes locals, migrar-les al sistema centralitzat
+chmod +x ./migrate-downloads.sh
 ./migrate-downloads.sh
 
 # Triar un mòdul i seguir el seu README
