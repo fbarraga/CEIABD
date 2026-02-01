@@ -163,6 +163,3 @@ modulo1simple/
     └── test_bash.sh                # Test des del contenidor
 ```
 
-## Autor
-
-Josep Garcia

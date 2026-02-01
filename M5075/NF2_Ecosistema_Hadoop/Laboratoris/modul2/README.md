@@ -243,6 +243,3 @@ modulo2/
 └── notebooks/                      # Persistència de Jupyter Notebooks
 ```
 
-## Autor
-
-Josep Garcia

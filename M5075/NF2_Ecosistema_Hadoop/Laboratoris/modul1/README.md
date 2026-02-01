@@ -81,7 +81,7 @@ make shell-master
 hdfs dfs -ls /
 
 # Crear directori
-hdfs dfs -mkdir /user/hadoop/dades
+hdfs dfs -mkdir -p /user/hadoop/dades
 
 # Pujar fitxer (es replicarà en 3 nodes)
 echo "test data" > /tmp/test.txt
@@ -210,9 +210,20 @@ Les comandes HDFS s'han d'executar com a usuari `hadoop`. Si fas servir `docker 
 
 ```bash
 docker exec -u hadoop hadoop-master hdfs dfs -ls /
+
+### Error de hive
+
+# Esborra la base de dades Derby existent
+rm -rf ~/metastore_db
+
+# Ara inicialitza de nou
+schematool -dbType derby -initSchema
+
+# Arrancar el metastore
+hive --service metastore &
 ```
 
-## Diferències amb `modulo1simple`
+## Diferències amb `modul0`
 
 - **Nodes**: 3 nodes (master + 2 slaves) vs 1 node
 - **Replicació**: Factor 3 vs Factor 1
@@ -223,7 +234,7 @@ docker exec -u hadoop hadoop-master hdfs dfs -ls /
 ## Estructura del Projecte
 
 ```
-modulo1/
+modul1/
 ├── Makefile                        # Comandes disponibles
 ├── docker-compose.yml              # Configuració de serveis
 └── Base/
@@ -240,7 +251,3 @@ modulo1/
     │   └── ...
     └── (descàrregues centralitzades a /downloads a l'arrel del projecte)
 ```
-
-## Autor
-
-Josep Garcia

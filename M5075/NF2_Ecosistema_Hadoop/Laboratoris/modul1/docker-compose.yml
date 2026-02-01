@@ -20,6 +20,8 @@ services:
       - hadoop-net
     volumes:
       - master-data:/tmp/hadoop-hadoop
+      # Camí relatiu (funciona si executes des del directori del projecte)
+      - ./exercicis:/home/hadoop/exercicis
 
   slave1:
     build:
