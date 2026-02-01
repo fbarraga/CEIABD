@@ -1,30 +1,30 @@
 .PHONY: help download-cache build up clean deep-clean shell-master shell-slave1 shell-slave2
 
 help:
-	@echo "Información de todas las opciones"
+	@echo "Informació de totes les opcions"
 
-# Descargar Hadoop y Hive al caché local (acelera reconstrucciones)
+# Descarregar Hadoop i Hive a la memòria cau local (accelera reconstruccions)
 download-cache:
-	@echo "📦 Descargando archivos al caché local..."
+	@echo "📦 Descarregant fitxers a la memòria cau local..."
 	@cd Base && ./download-cache.sh
 
 # Variables
-# Autodetección de Docker Compose (V2 "docker compose" o V1 "docker-compose")
+# Autodetecció de Docker Compose (V2 "docker compose" o V1 "docker-compose")
 DOCKER_COMPOSE := $(shell \
 	if docker compose version >/dev/null 2>&1; then echo "docker compose"; \
 	elif command -v docker-compose >/dev/null 2>&1; then echo "docker-compose"; \
 	else echo "docker compose"; fi)
 
-# Construir las imágenes
+# Construir les imatges
 build:
-	@echo "🔨 Construyendo imágenes Docker..."
+	@echo "🔨 Construint imatges Docker..."
 	$(DOCKER_COMPOSE) build
 
-# Levantar el clúster
+# Aixecar el clúster
 up:
-	@echo "🚀 Levantando clúster Hadoop (2 nodos)..."
+	@echo "🚀 Aixecant clúster Hadoop (2 nodes)..."
 	$(DOCKER_COMPOSE) up -d
-	@echo "⏳ Esperando 20 segundos a que los servicios estén listos..."
+	@echo "⏳ Esperant 20 segons perquè els serveis estiguin llestos..."
 	@for i in $$(seq 1 20); do \
 		printf "\r["; \
 		for j in $$(seq 1 20); do \
@@ -34,48 +34,48 @@ up:
 		sleep 1; \
 	done; \
 	echo ""
-	@echo "✅ Clúster levantado!"
+	@echo "✅ Clúster aixecat!"
 	@echo "📊 NameNode UI: http://localhost:9870"
 	@echo "📊 ResourceManager UI: http://localhost:8088"
 
 clean:
-	@echo "🧹 Limpiando contenedores, volúmenes y red del proyecto..."
+	@echo "🧹 Netejant contenidors, volums i xarxa del projecte..."
 	$(DOCKER_COMPOSE) down -v
-	@echo "✅ Limpieza completada!"
-	@echo "💡 Para eliminar también las imágenes usa: make deep-clean"
+	@echo "✅ Neteja completada!"
+	@echo "💡 Per eliminar també les imatges utilitza: make deep-clean"
 
 
-# Limpieza profunda: elimina ABSOLUTAMENTE TODO (contenedores, volúmenes, imágenes, red y caché)
+# Neteja profunda: elimina ABSOLUTAMENT TOT (contenidors, volums, imatges, xarxa i memòria cau)
 deep-clean:
-	@echo "🔥 LIMPIEZA PROFUNDA - Eliminando recursos del proyecto..."
-	@echo "⚠️  Esto eliminará:"
-	@echo "   - Contenedores del clúster Hadoop (master, slave1)"
-	@echo "   - Volúmenes de datos del proyecto"
-	@echo "   - Imágenes Docker del proyecto (modulo1-*)"
-	@echo "   - Red del clúster"
-	@echo "   - Caché de build del proyecto"
+	@echo "🔥 NETEJA PROFUNDA - Eliminant recursos del projecte..."
+	@echo "⚠️  Això eliminarà:"
+	@echo "   - Contenidors del clúster Hadoop (master, slave1)"
+	@echo "   - Volums de dades del projecte"
+	@echo "   - Imatges Docker del projecte (modulo1-*)"
+	@echo "   - Xarxa del clúster"
+	@echo "   - Memòria cau de build del projecte"
 	@echo ""
-	@read -p "¿Estás seguro? (s/N): " confirm && [ "$$confirm" = "s" ] || [ "$$confirm" = "S" ] || (echo "Operación cancelada" && exit 1)
+	@read -p "Estàs segur? (s/N): " confirm && [ "$$confirm" = "s" ] || [ "$$confirm" = "S" ] || (echo "Operació cancel·lada" && exit 1)
 	@echo ""
-	@echo "🗑️  Deteniendo y eliminando contenedores y volúmenes del proyecto..."
+	@echo "🗑️  Aturant i eliminant contenidors i volums del projecte..."
 	@$(DOCKER_COMPOSE) down -v 2>/dev/null || true
-	@echo "🗑️  Eliminando imágenes del proyecto..."
+	@echo "🗑️  Eliminant imatges del projecte..."
 	@docker rmi modulo1-master modulo1-slave1 2>/dev/null || true
-	@echo "🗑️  Eliminando volúmenes del proyecto..."
+	@echo "🗑️  Eliminant volums del projecte..."
 	@docker volume rm modulo1_master-data modulo1_slave1-data 2>/dev/null || true
-	@echo "🗑️  Eliminando red del proyecto..."
+	@echo "🗑️  Eliminant xarxa del projecte..."
 	@docker network rm modulo1_hadoop-net 2>/dev/null || true
-	@echo "🗑️  Limpiando caché de build (solo capas no utilizadas)..."
+	@echo "🗑️  Netejant memòria cau de build (només capes no utilitzades)..."
 	@docker build
 
-# Acceder al shell del master
+# Accedir a la shell del master
 shell-master:
 	docker exec -it -u hadoop hadoop-master bash
 
-# Acceder al shell de slave1
+# Accedir a la shell de slave1
 shell-slave1:
 	docker exec -it -u hadoop hadoop-slave1 bash
 
-# Acceder al shell de slave2
+# Accedir a la shell de slave2
 shell-slave2:
 	docker exec -it -u hadoop hadoop-slave2 bash

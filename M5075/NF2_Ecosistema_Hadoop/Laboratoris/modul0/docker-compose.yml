@@ -2,7 +2,7 @@ services:
   master:
     build:
       context: ..
-      dockerfile: modulo1simple/Base/Dockerfile
+      dockerfile: modul0/Base/Dockerfile
     container_name: hadoop-master-simple
     hostname: master
     environment:
@@ -20,7 +20,7 @@ services:
       - hadoop-net
     volumes:
       - master-data:/tmp/hadoop-hadoop
-      - ./ejercicios:/home/hadoop/ejercicios
+      - ./exercicis:/home/hadoop/exercicis
 
 networks:
   hadoop-net:

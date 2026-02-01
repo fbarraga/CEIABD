@@ -60,7 +60,7 @@ chmod +x ./migrate-downloads.sh
 ./migrate-downloads.sh
 
 # Triar un mòdul i seguir el seu README
-cd modulo2  # o modulo1, modulo1simple
+cd modul2  # o modul0, modulo1
 make download-cache  # Descarrega a /downloads (compartit per tots els mòduls)
 make build
 make up
