@@ -135,14 +135,30 @@ sudo apt install make wget git
 
 # Clonar el repositori
 cd ~
+# Clonar el repositori
 git clone https://github.com/fbarraga/CEIABD.git
-cd BigDataAplicadoLab-2526
+cd ./CEIABD/M5075/NF2_Ecosistema_Hadoop/Laboratoris
+
+# Si tens descàrregues prèvies en carpetes locals, migrar-les al sistema centralitzat
+chmod +x ./migrate-downloads.sh
+./migrate-downloads.sh
+
+chmod +x ./modul0/Base/download-cache.sh
+chmod +x ./modul1/Base/download-cache.sh
+chmod +x ./modul2/Base/download-cache.sh
+
+# Triar un mòdul i seguir el seu README
+cd modul2  # o modul0, modulo1
+make download-cache  # Descarrega a /downloads (compartit per tots els mòduls) (s'haura de donar permisos)
+make build
+make up
+
 ```
 
 #### 4. Executar comandes normalment
 
 ```bash
-cd modulo1simple  # o el mòdul que prefereixis
+cd modul1  # o el mòdul que prefereixis
 make download-cache
 make build
 make up
@@ -185,7 +201,7 @@ make shell-*       # Accedir a la shell d'un contenidor
 ## 📂 Estructura del Repositori
 
 ```
-BigDataAplicadoLab-2526/
+Laboratoris/
 ├── downloads/            # Memòria cau centralitzada de descàrregues (compartida per tots els mòduls)
 ├── modulo0/        # Hadoop single-node
 │   ├── README.md
