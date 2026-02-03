@@ -2,13 +2,13 @@
 
 ## Descripció
 
-Aquest mòdul proporciona un clúster Hadoop complet amb 3 nodes (1 master + 2 slaves) per simular un entorn distribuït real.
+Aquest mòdul proporciona un clúster Hadoop complet amb 3 nodes (1 master + 3 slaves) per simular un entorn distribuït real.
 
 ## Característiques
 
 - Hadoop 3.4.1 amb HDFS i YARN
 - Hive 2.3.9 per a consultes SQL sobre HDFS
-- Clúster de 3 nodes (master + 2 slaves)
+- Clúster de 3 nodes (master + 3 slaves)
 - HDFS amb replicació factor 3
 - Tolerància a fallades i distribució de dades
 - Ideal per aprendre sobre arquitectures distribuïdes
@@ -225,7 +225,7 @@ hive --service metastore &
 
 ## Diferències amb `modul0`
 
-- **Nodes**: 3 nodes (master + 2 slaves) vs 1 node
+- **Nodes**: 4 nodes (master + 3 slaves) vs 1 node
 - **Replicació**: Factor 3 vs Factor 1
 - **Recursos**: Major consum de CPU i memòria
 - **Ús**: Simulació de clúster real vs Desenvolupament i proves ràpides

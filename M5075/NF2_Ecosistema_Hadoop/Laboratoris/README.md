@@ -7,25 +7,9 @@ Repositori de laboratoris per al curs de Big Data Aplicat. Inclou entorns Docker
 * Autor: Francesc Barragán
 * Institut Sa Palomera
 
-
-## Agraiments
-
-Basat en el repositori de Josep Garcia (https://github.com/josepgarcia/BigDataAplicadoLab-2526.git)[https://github.com/josepgarcia/BigDataAplicadoLab-2526.git]
-
 ## 📚 Mòduls Disponibles
 
-### [Mòdul 1 - Hadoop Multi-Node](modul1/README.md)
-
-Clúster Hadoop amb 3 nodes (1 master + 2 slaves) per simular un entorn distribuït real.
-
-- Hadoop 3.4.1 amb HDFS i YARN
-- Hive 2.3.9 per a consultes SQL
-- Replicació factor 3
-- Ideal per aprendre sobre distribució de dades i tolerància a fallades
-
-**[📖 Veure documentació completa →](modul1/README.md)**
-
-### [Mòdul 1 Simple - Hadoop Single Node](modul0/README.md)
+### [Mòdul 0 - Hadoop Single Node](modul0/README.md)
 
 Versió simplificada de Hadoop en un sol node per a desenvolupament i proves ràpides.
 
@@ -35,6 +19,17 @@ Versió simplificada de Hadoop en un sol node per a desenvolupament i proves rà
 - Menor consum de recursos
 
 **[📖 Veure documentació completa →](modul0/README.md)**
+
+### [Mòdul 1 - Hadoop Multi-Node](modul1/README.md)
+
+Clúster Hadoop amb 3 nodes (1 master + 3 slaves) per simular un entorn distribuït real.
+
+- Hadoop 3.4.1 amb HDFS i YARN
+- Hive 2.3.9 per a consultes SQL
+- Replicació factor 3
+- Ideal per aprendre sobre distribució de dades i tolerància a fallades
+
+**[📖 Veure documentació completa →](modul1/README.md)**
 
 ### [Mòdul 2 - Hadoop & Spark Single Node](modul2/README.md)
 
@@ -203,23 +198,24 @@ make shell-*       # Accedir a la shell d'un contenidor
 ```
 Laboratoris/
 ├── downloads/            # Memòria cau centralitzada de descàrregues (compartida per tots els mòduls)
-├── modulo0/        # Hadoop single-node
+├── modul0/        # Hadoop single-node
 │   ├── README.md
 │   ├── Makefile
 │   ├── docker-compose.yml
 │   ├── Base/
-│   └── ejercicios/       # Scripts i dades d'exemple
+│   └── exercicis/       # Scripts i dades d'exemple
 ├── modul1/              # Hadoop multi-node (3 nodes)
 │   ├── README.md
 │   ├── Makefile
 │   ├── docker-compose.yml
 │   └── Base/
+│   └── exercicis/       # Scripts i dades d'exemple
 ├── modul2/              # Hadoop & Spark Single Node (Optimitzat)
 │   ├── README.md
 │   ├── Makefile
 │   ├── docker-compose.yml
 │   ├── Base/
-│   ├── ejercicios/
+│   ├── exercicis/
 │   ├── data/
 │   └── notebooks/
 ├── migrate-downloads.sh   # Script de migració al sistema centralitzat
@@ -233,6 +229,10 @@ Laboratoris/
 - [Documentació Docker](https://docs.docker.com/)
 - [Documentació WSL2](https://learn.microsoft.com/en-us/windows/wsl/)
 
+
+## Agraïments
+
+Basat en el repositori de [Josep Garcia](https://github.com/josepgarcia/BigDataAplicadoLab-2526.git)
 
 ## 📄 Llicència
 
