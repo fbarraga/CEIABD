@@ -10,7 +10,7 @@ Repositori de laboratoris per al curs de Big Data Aplicat. Inclou entorns Docker
 
 ## Agraiments
 
-Basat en el repositori de Josep Garcia (https://github.com/josepgarcia/BigDataAplicadoLab-2526.git)[https://github.com/josepgarcia/BigDataAplicadoLab-2526.git]
+Basat en el repositori de [Josep Garcia](https://github.com/josepgarcia/BigDataAplicadoLab-2526.git)
 
 ## 📚 Mòduls Disponibles
 
