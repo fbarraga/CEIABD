@@ -7,13 +7,7 @@ Repositori de laboratoris per al curs de Big Data Aplicat. Inclou entorns Docker
 * Autor: Francesc Barragán
 * Institut Sa Palomera
 
-
-## Agraiments
-
-Basat en el repositori de [Josep Garcia](https://github.com/josepgarcia/BigDataAplicadoLab-2526.git)
-
 ## 📚 Mòduls Disponibles
-
 
 ### [Mòdul 0 - Hadoop Single Node](modul0/README.md)
 
@@ -218,6 +212,10 @@ BigDataAplicadoLab-2526/
 - [Documentació Docker](https://docs.docker.com/)
 - [Documentació WSL2](https://learn.microsoft.com/en-us/windows/wsl/)
 
+
+## Agraïments
+
+Basat en el repositori de [Josep Garcia](https://github.com/josepgarcia/BigDataAplicadoLab-2526.git)
 
 ## 📄 Llicència
 
