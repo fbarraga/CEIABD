@@ -180,25 +180,26 @@ make shell-*       # Accedir a la shell d'un contenidor
 ## 📂 Estructura del Repositori
 
 ```
-BigDataAplicadoLab-2526/
+Laboratoris/
 ├── downloads/            # Memòria cau centralitzada de descàrregues (compartida per tots els mòduls)
-├── modulo0/        # Hadoop single-node
+├── modul0/        # Hadoop single-node
 │   ├── README.md
 │   ├── Makefile
 │   ├── docker-compose.yml
 │   ├── Base/
-│   └── ejercicios/       # Scripts i dades d'exemple
+│   └── exercicis/       # Scripts i dades d'exemple
 ├── modul1/              # Hadoop multi-node (3 nodes)
 │   ├── README.md
 │   ├── Makefile
 │   ├── docker-compose.yml
 │   └── Base/
+│   └── exercicis/       # Scripts i dades d'exemple
 ├── modul2/              # Hadoop & Spark Single Node (Optimitzat)
 │   ├── README.md
 │   ├── Makefile
 │   ├── docker-compose.yml
 │   ├── Base/
-│   ├── ejercicios/
+│   ├── exercicis/
 │   ├── data/
 │   └── notebooks/
 ├── migrate-downloads.sh   # Script de migració al sistema centralitzat
