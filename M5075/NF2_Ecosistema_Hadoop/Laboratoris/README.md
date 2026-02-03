@@ -16,7 +16,7 @@ Basat en el repositori de [Josep Garcia](https://github.com/josepgarcia/BigDataA
 
 ### [Mòdul 1 - Hadoop Multi-Node](modul1/README.md)
 
-Clúster Hadoop amb 3 nodes (1 master + 2 slaves) per simular un entorn distribuït real.
+Clúster Hadoop amb 3 nodes (1 master + 3 slaves) per simular un entorn distribuït real.
 
 - Hadoop 3.4.1 amb HDFS i YARN
 - Hive 2.3.9 per a consultes SQL
