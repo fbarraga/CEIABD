@@ -14,6 +14,18 @@ Basat en el repositori de [Josep Garcia](https://github.com/josepgarcia/BigDataA
 
 ## 📚 Mòduls Disponibles
 
+
+### [Mòdul 0 - Hadoop Single Node](modul0/README.md)
+
+Versió simplificada de Hadoop en un sol node per a desenvolupament i proves ràpides.
+
+- Hadoop 3.4.1 en mode pseudo-distribuït
+- HDFS amb replicació factor 1
+- Carpeta compartida amb exemples MapReduce
+- Menor consum de recursos
+
+**[📖 Veure documentació completa →](modul0/README.md)**
+
 ### [Mòdul 1 - Hadoop Multi-Node](modul1/README.md)
 
 Clúster Hadoop amb 3 nodes (1 master + 3 slaves) per simular un entorn distribuït real.
@@ -24,17 +36,6 @@ Clúster Hadoop amb 3 nodes (1 master + 3 slaves) per simular un entorn distribu
 - Ideal per aprendre sobre distribució de dades i tolerància a fallades
 
 **[📖 Veure documentació completa →](modul1/README.md)**
-
-### [Mòdul 1 Simple - Hadoop Single Node](modul0/README.md)
-
-Versió simplificada de Hadoop en un sol node per a desenvolupament i proves ràpides.
-
-- Hadoop 3.4.1 en mode pseudo-distribuït
-- HDFS amb replicació factor 1
-- Carpeta compartida amb exemples MapReduce
-- Menor consum de recursos
-
-**[📖 Veure documentació completa →](modul0/README.md)**
 
 ### [Mòdul 2 - Hadoop & Spark Single Node](modul2/README.md)
 
