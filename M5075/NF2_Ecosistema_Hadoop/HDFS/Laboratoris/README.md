@@ -22,7 +22,7 @@ Versió simplificada de Hadoop en un sol node per a desenvolupament i proves rà
 
 ### [Mòdul 1 - Hadoop Multi-Node](modul1/README.md)
 
-Clúster Hadoop amb 3 nodes (1 master + 3 slaves) per simular un entorn distribuït real.
+Clúster Hadoop amb 4 nodes (1 master + 3 slaves) per simular un entorn distribuït real.
 
 - Hadoop 3.4.1 amb HDFS i YARN
 - Hive 2.3.9 per a consultes SQL
@@ -58,7 +58,8 @@ chmod +x ./modul0/Base/download-cache.sh
 chmod +x ./modul1/Base/download-cache.sh
 chmod +x ./modul2/Base/download-cache.sh
 
-# Triar un mòdul i seguir el seu README
+# Triar un mòdul 0,1,2 i seguir el seu README
+# Per exemple:
 cd modul2  # o modul0, modulo1
 make download-cache  # Descarrega a /downloads (compartit per tots els mòduls) (s'haura de donar permisos)
 make build
@@ -132,7 +133,7 @@ sudo apt install make wget git
 cd ~
 # Clonar el repositori
 git clone https://github.com/fbarraga/CEIABD.git
-cd ./CEIABD/M5075/NF2_Ecosistema_Hadoop/Laboratoris
+cd ./CEIABD/M5075/NF2_Ecosistema_Hadoop/HDFS/Laboratoris
 
 # Si tens descàrregues prèvies en carpetes locals, migrar-les al sistema centralitzat
 chmod +x ./migrate-downloads.sh

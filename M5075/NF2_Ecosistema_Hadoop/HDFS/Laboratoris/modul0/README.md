@@ -51,9 +51,9 @@ make test          # Executar test MapReduce (word count)
 - **NameNode UI**: http://localhost:9870
 - **ResourceManager UI**: http://localhost:8088
 
-## Carpeta Compartida `ejercicios/`
+## Carpeta Compartida `exercicis/`
 
-La carpeta `ejercicios/` està muntada al contenidor a `/home/hadoop/ejercicios`, permetent compartir fitxers entre el host i el contenidor.
+La carpeta `exercicis/` està muntada al contenidor a `/home/hadoop/exercicis`, permetent compartir fitxers entre el host i el contenidor.
 
 Contingut inclòs:
 - `mapper.py` - Script mapper per a MapReduce
@@ -99,7 +99,7 @@ hdfs dfs -ls /
 hdfs dfs -mkdir /user/hadoop/dades
 
 # Pujar fitxer
-hdfs dfs -put /home/hadoop/ejercicios/quijote.txt /user/hadoop/dades/
+hdfs dfs -put /home/hadoop/exercicis/quijote.txt /user/hadoop/dades/
 
 # Veure contingut
 hdfs dfs -cat /user/hadoop/dades/quijote.txt | head -n 10
@@ -146,7 +146,7 @@ make up
 ## Estructura del Projecte
 
 ```
-modulo1simple/
+modul0/
 ├── Makefile                        # Comandes disponibles
 ├── docker-compose.yml              # Configuració del servei
 ├── Base/
@@ -155,7 +155,7 @@ modulo1simple/
 │   ├── start-hadoop.sh             # Script d'inici
 │   ├── config/                     # Configuracions Hadoop
 │   └── (descàrregues centralitzades a /downloads a l'arrel del projecte)
-└── ejercicios/                     # Carpeta compartida
+└── exercicis/                     # Carpeta compartida
     ├── mapper.py                   # Mapper MapReduce
     ├── reducer.py                  # Reducer MapReduce
     ├── quijote.txt                 # Dades d'exemple

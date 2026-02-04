@@ -8,7 +8,7 @@ Aquest mòdul proporciona un clúster Hadoop complet amb 3 nodes (1 master + 3 s
 
 - Hadoop 3.4.1 amb HDFS i YARN
 - Hive 2.3.9 per a consultes SQL sobre HDFS
-- Clúster de 3 nodes (master + 3 slaves)
+- Clúster de 4 nodes (master + 3 slaves)
 - HDFS amb replicació factor 3
 - Tolerància a fallades i distribució de dades
 - Ideal per aprendre sobre arquitectures distribuïdes

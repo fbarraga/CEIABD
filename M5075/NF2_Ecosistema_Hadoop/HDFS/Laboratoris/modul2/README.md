@@ -214,9 +214,9 @@ Aquest mòdul està optimitzat per funcionar en màquines amb recursos limitats.
 - **Worker Memory**: 1GB
 - **Daemon Memory**: 512MB
 
-## Diferències amb `modulo1`
+## Diferències amb `modul1`
 
-- **Nodes**: 1 node (master) vs 3 nodes (master + 2 slaves)
+- **Nodes**: 1 node (master) vs 4 nodes (master + 2 slaves)
 - **Replicació**: Factor 1 vs Factor 3
 - **Recursos**: Menor consum de CPU i memòria (optimitzat per a màquines menys potents)
 - **Ús**: Desenvolupament i proves vs Simulació de clúster
@@ -224,7 +224,7 @@ Aquest mòdul està optimitzat per funcionar en màquines amb recursos limitats.
 ## Estructura del Projecte
 
 ```
-modulo2/
+modul2/
 ├── Makefile                        # Comandes disponibles
 ├── docker-compose.yml              # Configuració del servei
 ├── Base/
@@ -233,7 +233,7 @@ modulo2/
 │   ├── start-hadoop.sh             # Script d'inici
 │   ├── config/                     # Configuracions Hadoop i Spark
 │   └── (descàrregues centralitzades a /downloads a l'arrel del projecte)
-├── ejercicios/                     # Carpeta compartida
+├── exercicis/                     # Carpeta compartida
 │   ├── mapper.py                   # Mapper MapReduce
 │   ├── reducer.py                  # Reducer MapReduce
 │   ├── quijote.txt                 # Dades d'exemple
