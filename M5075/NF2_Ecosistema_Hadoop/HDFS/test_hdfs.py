@@ -1,4 +1,4 @@
-from hdfs import InsecureClient
+from M5075.NF2_Ecosistema_Hadoop.HDFS.test_hdfs import InsecureClient
 
 # Datos de conexión
 HDFS_HOSTNAME = 'localhost'
