@@ -1,0 +1,129 @@
+
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    environment:
+      - CLUSTER_NAME=hadoop_cluster
+    ports:
+      - 9870:9870
+    volumes:
+      - namenode_data:/hadoop/dfs/name
+    networks:
+      - hadoop_network
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode
+    depends_on:
+      - namenode
+    environment:
+      - CLUSTER_NAME=hadoop_cluster
+      - NAMENODE_URI=hdfs://namenode:8020
+    ports:
+      - 9864:9864
+    volumes:
+      - datanode_data:/hadoop/dfs/data
+    networks:
+      - hadoop_network
+
+  nodemanager:
+    image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
+    container_name: nodemanager
+    depends_on:
+      - resourcemanager
+    environment:
+      - CLUSTER_NAME=hadoop_cluster
+    ports:
+      - "8042:8042"
+    networks:
+      - hadoop_network
+
+  resourcemanager:
+    image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
+    container_name: resourcemanager
+    environment:
+      - CLUSTER_NAME=hadoop_cluster
+    ports:
+      - 8088:8088
+    networks:
+      - hadoop_network
+
+  spark-master:
+    image: bitnami/spark
+    container_name: spark-master
+    command: ["/bin/bash", "-c", "pip install pyspark && /opt/bitnami/scripts/spark/run.sh"]
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    environment:
+      - INIT_DAEMON_STEP=setup_spark
+      - "SPARK_MASTER_WEBUI_PORT=8080"
+      - "SPARK_MASTER_PORT=7077"
+    volumes:
+      - ./mysql-connector-j-8.3.0.jar:/opt/spark/jars/mysql-connector-j-8.3.0.jar
+    depends_on:
+      - namenode
+    networks:
+      - hadoop_network
+
+  spark-worker:
+    image: bitnami/spark
+    container_name: spark-worker
+    command: ["/bin/bash", "-c", "pip install pyspark && /opt/bitnami/scripts/spark/run.sh"]
+    environment:
+      - INIT_DAEMON_STEP=setup_spark
+      - "SPARK_WORKER_CORES=2"
+      - "SPARK_WORKER_MEMORY=16G"
+      - "SPARK_WORKER_PORT=8881"
+      - "SPARK_WORKER_WEBUI_PORT=8081"
+      - "SPARK_MASTER=spark://spark-master:7077"
+    volumes:
+      - ./mysql-connector-j-8.3.0.jar:/opt/spark/jars/mysql-connector-j-8.3.0.jar
+    depends_on:
+      - spark-master
+    ports:
+      - "8081:8081"
+    networks:
+      - hadoop_network
+
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: iabd
+      MYSQL_DATABASE: iabd
+      MYSQL_USER: usuaripla
+      MYSQL_PASSWORD: usuaripla
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - hadoop_network
+
+  jupyter:
+    image: jupyter/pyspark-notebook
+    container_name: jupyter
+    ports:
+      - "8888:8888"
+    environment:
+      - PYSPARK_PYTHON=python3
+      - SPARK_MASTER=spark://spark-master:7077
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./mysql-connector-j-8.3.0.jar:/usr/local/spark/jars/mysql-connector-j-8.3.0.jar
+    depends_on:
+      - spark-master
+      - mysql
+    networks:
+      - hadoop_network
+
+volumes:
+  namenode_data:
+  datanode_data:
+  mysql_data:
+
+networks:
+  hadoop_network:
+    name: docker-hadoop-spark_hadoop_network

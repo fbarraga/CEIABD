@@ -11,7 +11,7 @@ Aquest mòdul proporciona un entorn Hadoop i Spark simplificat d'un sol node (ps
 - HDFS amb replicació factor 1
 - YARN per a execució de treballs MapReduce
 - Jupyter Notebook amb PySpark preconfigurat
-- Carpeta compartida `ejercicios/` per a scripts i dades
+- Carpeta compartida `exercicis/` per a scripts i dades
 - Persistència de dades a `data/` i notebooks a `notebooks/`
 - Scripts de prova MapReduce inclosos
 
@@ -60,7 +60,7 @@ make test          # Executar test MapReduce (word count)
 
 ## Carpeta Compartida `ejercicios/`
 
-La carpeta `ejercicios/` està muntada al contenidor a `/home/hadoop/ejercicios`, permetent compartir fitxers entre el host i el contenidor.
+La carpeta `exercicis/` està muntada al contenidor a `/home/hadoop/exercicis`, permetent compartir fitxers entre el host i el contenidor.
 
 Contingut inclòs:
 - `mapper.py` - Script mapper per a MapReduce
@@ -89,7 +89,7 @@ Aquesta comanda executa `test_docker.sh`, que:
 make shell-master
 
 # Executar el test
-cd ejercicios
+cd exercicis
 bash test_bash.sh
 ```
 
@@ -106,7 +106,7 @@ hdfs dfs -ls /
 hdfs dfs -mkdir /user/hadoop/dades
 
 # Pujar fitxer
-hdfs dfs -put /home/hadoop/ejercicios/quijote.txt /user/hadoop/dades/
+hdfs dfs -put /home/hadoop/exercicis/quijote.txt /user/hadoop/dades/
 
 # Veure contingut
 hdfs dfs -cat /user/hadoop/dades/quijote.txt | head -n 10
